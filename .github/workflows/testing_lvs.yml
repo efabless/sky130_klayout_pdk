@@ -1,0 +1,187 @@
+# Copyright 2022 Mabrains
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+# 
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+name: Regression testing non fixed devices and other fixed devices than RF MOSFET
+concurrency:
+  group: ${{ github.repository }}-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+env:
+  DOCKER_BUILDKIT: 1
+
+jobs:
+  build-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      main_files: ${{ steps.set-matrix.outputs.main_files }}
+    steps:
+      - uses: actions/checkout@v3
+      - id: set-matrix
+        run: |
+          cd sky130_tech/tech/sky130/lvs/testing
+          main_files=`echo '[' ; find testcases/pass_cases/ ! -iname '*.cdl' -a ! -iname '*sky130_fd_pr__rf_*fet*'  | tr '\n' ','|sed -e 's/^/\"/'|sed -e 's/,$/\"]/'|sed -e 's/,/\", \"/g'`
+          main_files="${main_files//'testcases/pass_cases/'/}"; main_files="${main_files//'"", '/}"; main_files="${main_files//'.gds'/}";
+          main_files=`echo $main_files | jq -c .`
+          echo $main_files
+          #echo "::set-output name=main_files::$main_files"
+          echo "main_files=$main_files" >>$GITHUB_OUTPUT
+  Main:
+    needs: build-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        type: [lvs]
+        test: [main]
+        list: ${{ fromJson(needs.build-matrix.outputs.main_files) }}
+    name: ${{ matrix.type }} | ${{ matrix.test }} ${{ matrix.list }}
+    env:
+      IMAGE: ghcr.io/mabrains/sky130_klayout_pdk/test
+      PDK_ROOT: /wrk/sky130_tech/tech/sky130
+      PDK: lvs
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build container image
+        run: |
+          docker build -t "$IMAGE" -f- sky130_tech/tech/sky130 <<EOF
+          FROM gcr.io/hdl-containers/klayout
+
+          RUN apt-get update -qq \
+           && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-install-recommends \
+              make \
+              procps \
+              python3-pip \
+           && apt-get autoclean && apt-get clean && apt-get -y autoremove \
+           && rm -rf /var/lib/apt/lists/*
+
+          RUN --mount=type=bind,target=/tmp/ctx pip3 install -r /tmp/ctx/requirements.txt
+          EOF
+      - name: Testing ${{ matrix.test }} ${{ matrix.type }} for ${{ matrix.list }}
+        run: >
+          docker run --rm
+          -v $(pwd):/wrk -w /wrk/sky130_tech/tech/sky130/lvs/testing
+          -e PDK_ROOT=/wrk/sky130_tech/tech/sky130
+          -e PDK=lvs
+          "$IMAGE"
+          make test_${{ matrix.type }}_${{ matrix.test }}_gha_${{ matrix.list }}
+  Connectivity:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        type: [lvs]
+        test: [li, m1, m2, m3, m4, m5]
+    name: ${{ matrix.type }} | ${{ matrix.test }}
+    env:
+      IMAGE: ghcr.io/mabrains/sky130_klayout_pdk/test
+      PDK_ROOT: /wrk/sky130_tech/tech/sky130
+      PDK: lvs
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build container image
+        run: |
+          docker build -t "$IMAGE" -f- sky130_tech/tech/sky130 <<EOF
+          FROM gcr.io/hdl-containers/klayout
+
+          RUN apt-get update -qq \
+           && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-install-recommends \
+              make \
+              procps \
+              python3-pip \
+           && apt-get autoclean && apt-get clean && apt-get -y autoremove \
+           && rm -rf /var/lib/apt/lists/*
+
+          RUN --mount=type=bind,target=/tmp/ctx pip3 install -r /tmp/ctx/requirements.txt
+          EOF
+      - name: Testing ${{ matrix.test }} ${{ matrix.type }}
+        run: >
+          docker run --rm
+          -v $(pwd):/wrk -w /wrk/sky130_tech/tech/sky130/lvs/testing
+          -e PDK_ROOT=/wrk/sky130_tech/tech/sky130
+          -e PDK=lvs
+          "$IMAGE"
+          make test_conn_${{ matrix.test }}
+  Collision:
+    runs-on: ubuntu-latest
+    name: LVS | Collision
+    env:
+      IMAGE: ghcr.io/mabrains/sky130_klayout_pdk/test
+      PDK_ROOT: /wrk/sky130_tech/tech/sky130
+      PDK: lvs
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build container image
+        run: |
+          docker build -t "$IMAGE" -f- sky130_tech/tech/sky130 <<EOF
+          FROM gcr.io/hdl-containers/klayout
+
+          RUN apt-get update -qq \
+           && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-install-recommends \
+              make \
+              procps \
+              python3-pip \
+           && apt-get autoclean && apt-get clean && apt-get -y autoremove \
+           && rm -rf /var/lib/apt/lists/*
+
+          RUN --mount=type=bind,target=/tmp/ctx pip3 install -r /tmp/ctx/requirements.txt
+          EOF
+      - name: Testing ${{ matrix.test }} ${{ matrix.type }}
+        run: >
+          docker run --rm
+          -v $(pwd):/wrk -w /wrk/sky130_tech/tech/sky130/lvs/testing
+          -e PDK_ROOT=/wrk/sky130_tech/tech/sky130
+          -e PDK=lvs
+          "$IMAGE"
+          make test_lvs_collision
+  Standard-Cells:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        type: [lvs]
+        test: [hd, hdll, hs, hvl, lp, ls, ms]
+    name: LVS | Standard-Cells
+    env:
+      IMAGE: ghcr.io/mabrains/sky130_klayout_pdk/test
+      PDK_ROOT: /wrk/sky130_tech/tech/sky130
+      PDK: lvs
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build container image
+        run: |
+          docker build -t "$IMAGE" -f- sky130_tech/tech/sky130 <<EOF
+          FROM gcr.io/hdl-containers/klayout
+
+          RUN apt-get update -qq \
+           && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-install-recommends \
+              make \
+              procps \
+              python3-pip \
+           && apt-get autoclean && apt-get clean && apt-get -y autoremove \
+           && rm -rf /var/lib/apt/lists/*
+
+          RUN --mount=type=bind,target=/tmp/ctx pip3 install -r /tmp/ctx/requirements.txt
+          EOF
+      - name: Testing ${{ matrix.test }} for ${{ matrix.type }}_sc
+        run: >
+          docker run --rm
+          -v $(pwd):/wrk -w /wrk/sky130_tech/tech/sky130/lvs/testing
+          -e PDK_ROOT=/wrk/sky130_tech/tech/sky130
+          -e PDK=lvs
+          "$IMAGE"
+          make test_${{ matrix.type }}_${{ matrix.test }}_sc

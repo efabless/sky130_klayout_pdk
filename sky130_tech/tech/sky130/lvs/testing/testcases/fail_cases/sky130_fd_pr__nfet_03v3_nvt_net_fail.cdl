@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__nfet_03v3_nvt SUBSTRATE
++ SOURCE000_net_fail GATE000_net_fail DRAIN000_net_fail
++ SOURCE001_net_fail GATE001_net_fail DRAIN001_net_fail
++ SOURCE002_net_fail GATE002_net_fail DRAIN002_net_fail
++ SOURCE003_net_fail GATE003_net_fail DRAIN003_net_fail
++ SOURCE004_net_fail GATE004_net_fail DRAIN004_net_fail
++ SOURCE005_net_fail GATE005_net_fail DRAIN005_net_fail
++ SOURCE006_net_fail GATE006_net_fail DRAIN006_net_fail
++ SOURCE007_net_fail GATE007_net_fail DRAIN007_net_fail
++ SOURCE008_net_fail GATE008_net_fail DRAIN008_net_fail
++ SOURCE009_net_fail GATE009_net_fail DRAIN009_net_fail
++ SOURCE010_net_fail GATE010_net_fail DRAIN010_net_fail
++ SOURCE011_net_fail GATE011_net_fail DRAIN011_net_fail
++ SOURCE012_net_fail GATE012_net_fail DRAIN012_net_fail
++ SOURCE013_net_fail GATE013_net_fail DRAIN013_net_fail
++ SOURCE014_net_fail GATE014_net_fail DRAIN014_net_fail
++ SOURCE015_net_fail GATE015_net_fail DRAIN015_net_fail
++ SOURCE016_net_fail GATE016_net_fail DRAIN016_net_fail
++ SOURCE017_net_fail GATE017_net_fail DRAIN017_net_fail
++ SOURCE018_net_fail GATE018_net_fail DRAIN018_net_fail
++ SOURCE019_net_fail GATE019_net_fail DRAIN019_net_fail
++ SOURCE020_net_fail GATE020_net_fail DRAIN020_net_fail
++ SOURCE021_net_fail GATE021_net_fail DRAIN021_net_fail
++ SOURCE022_net_fail GATE022_net_fail DRAIN022_net_fail
++ SOURCE023_net_fail GATE023_net_fail DRAIN023_net_fail
++ SOURCE024_net_fail GATE024_net_fail DRAIN024_net_fail
++ SOURCE025_net_fail GATE025_net_fail DRAIN025_net_fail
++ SOURCE026_net_fail GATE026_net_fail DRAIN026_net_fail
++ SOURCE027_net_fail GATE027_net_fail DRAIN027_net_fail
++ SOURCE028_net_fail GATE028_net_fail DRAIN028_net_fail
++ SOURCE029_net_fail GATE029_net_fail DRAIN029_net_fail
++ SOURCE030_net_fail GATE030_net_fail DRAIN030_net_fail
++ SOURCE031_net_fail GATE031_net_fail DRAIN031_net_fail
++ SOURCE032_net_fail GATE032_net_fail DRAIN032_net_fail
++ SOURCE033_net_fail GATE033_net_fail DRAIN033_net_fail
++ SOURCE034_net_fail GATE034_net_fail DRAIN034_net_fail
++ SOURCE035_net_fail GATE035_net_fail DRAIN035_net_fail
++ SOURCE036_net_fail GATE036_net_fail DRAIN036_net_fail
++ SOURCE037_net_fail GATE037_net_fail DRAIN037_net_fail
++ SOURCE038_net_fail GATE038_net_fail DRAIN038_net_fail
++ SOURCE039_net_fail GATE039_net_fail DRAIN039_net_fail
++ SOURCE040_net_fail GATE040_net_fail DRAIN040_net_fail
++ SOURCE041_net_fail GATE041_net_fail DRAIN041_net_fail
++ SOURCE042_net_fail GATE042_net_fail DRAIN042_net_fail
++ SOURCE043_net_fail GATE043_net_fail DRAIN043_net_fail
++ SOURCE044_net_fail GATE044_net_fail DRAIN044_net_fail
++ SOURCE045_net_fail GATE045_net_fail DRAIN045_net_fail
++ SOURCE046_net_fail GATE046_net_fail DRAIN046_net_fail
++ SOURCE047_net_fail GATE047_net_fail DRAIN047_net_fail
++ SOURCE048_net_fail GATE048_net_fail DRAIN048_net_fail
++ SOURCE049_net_fail GATE049_net_fail DRAIN049_net_fail
++ SOURCE050_net_fail GATE050_net_fail DRAIN050_net_fail
++ SOURCE051_net_fail GATE051_net_fail DRAIN051_net_fail
++ SOURCE052_net_fail GATE052_net_fail DRAIN052_net_fail
++ SOURCE053_net_fail GATE053_net_fail DRAIN053_net_fail
++ SOURCE054_net_fail GATE054_net_fail DRAIN054_net_fail
++ SOURCE055_net_fail GATE055_net_fail DRAIN055_net_fail
++ SOURCE056_net_fail GATE056_net_fail DRAIN056_net_fail
++ SOURCE057_net_fail GATE057_net_fail DRAIN057_net_fail
++ SOURCE058_net_fail GATE058_net_fail DRAIN058_net_fail
++ SOURCE059_net_fail GATE059_net_fail DRAIN059_net_fail
++ SOURCE060_net_fail GATE060_net_fail DRAIN060_net_fail
++ SOURCE061_net_fail GATE061_net_fail DRAIN061_net_fail
++ SOURCE062_net_fail GATE062_net_fail DRAIN062_net_fail
++ SOURCE063_net_fail GATE063_net_fail DRAIN063_net_fail
+
+M000_net_fail SOURCE000_net_fail GATE000_net_fail DRAIN000_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=0.51849u l=0.18517499999999998u nf=1 m=1 ad=0.1503621p as=0.1503621p pd=1.7529899999999998u ps=1.7529899999999998u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M001_net_fail SOURCE001_net_fail GATE001_net_fail DRAIN001_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=0.18517499999999998u nf=1 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=5.90091u ps=5.90091u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M002_net_fail SOURCE002_net_fail GATE002_net_fail DRAIN002_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=0.18517499999999998u nf=1 m=1 ad=1.3532589p as=1.3532589p pd=10.04883u ps=10.04883u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M003_net_fail SOURCE003_net_fail GATE003_net_fail DRAIN003_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=0.18517499999999998u nf=1 m=1 ad=1.9547072999999997p as=1.9547072999999997p pd=14.19675u ps=14.19675u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M004_net_fail SOURCE004_net_fail GATE004_net_fail DRAIN004_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=0.51849u l=2.654175u nf=1 m=1 ad=0.1503621p as=0.1503621p pd=1.7529899999999998u ps=1.7529899999999998u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M005_net_fail SOURCE005_net_fail GATE005_net_fail DRAIN005_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=2.654175u nf=1 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=5.90091u ps=5.90091u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M006_net_fail SOURCE006_net_fail GATE006_net_fail DRAIN006_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=2.654175u nf=1 m=1 ad=1.3532589p as=1.3532589p pd=10.04883u ps=10.04883u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M007_net_fail SOURCE007_net_fail GATE007_net_fail DRAIN007_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=2.654175u nf=1 m=1 ad=1.9547072999999997p as=1.9547072999999997p pd=14.19675u ps=14.19675u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M008_net_fail SOURCE008_net_fail GATE008_net_fail DRAIN008_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=0.51849u l=5.123175u nf=1 m=1 ad=0.1503621p as=0.1503621p pd=1.7529899999999998u ps=1.7529899999999998u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M009_net_fail SOURCE009_net_fail GATE009_net_fail DRAIN009_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=5.123175u nf=1 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=5.90091u ps=5.90091u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M010_net_fail SOURCE010_net_fail GATE010_net_fail DRAIN010_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=5.123175u nf=1 m=1 ad=1.3532589p as=1.3532589p pd=10.04883u ps=10.04883u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M011_net_fail SOURCE011_net_fail GATE011_net_fail DRAIN011_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=5.123175u nf=1 m=1 ad=1.9547072999999997p as=1.9547072999999997p pd=14.19675u ps=14.19675u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M012_net_fail SOURCE012_net_fail GATE012_net_fail DRAIN012_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=0.51849u l=7.592175u nf=1 m=1 ad=0.1503621p as=0.1503621p pd=1.7529899999999998u ps=1.7529899999999998u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M013_net_fail SOURCE013_net_fail GATE013_net_fail DRAIN013_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=7.592175u nf=1 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=5.90091u ps=5.90091u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M014_net_fail SOURCE014_net_fail GATE014_net_fail DRAIN014_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=7.592175u nf=1 m=1 ad=1.3532589p as=1.3532589p pd=10.04883u ps=10.04883u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M015_net_fail SOURCE015_net_fail GATE015_net_fail DRAIN015_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=7.592175u nf=1 m=1 ad=1.9547072999999997p as=1.9547072999999997p pd=14.19675u ps=14.19675u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M016_net_fail SOURCE016_net_fail GATE016_net_fail DRAIN016_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=0.18517499999999998u nf=5 m=1 ad=0.09024194999999999p as=0.09024194999999999p pd=2.7702180000000003u ps=2.7702180000000003u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M017_net_fail SOURCE017_net_fail GATE017_net_fail DRAIN017_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=12.96225u l=0.18517499999999998u nf=5 m=1 ad=0.4510863p as=0.4510863p pd=5.25897u ps=5.25897u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M018_net_fail SOURCE018_net_fail GATE018_net_fail DRAIN018_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=0.18517499999999998u nf=5 m=1 ad=0.8119306499999999p as=0.8119306499999999p pd=7.7477219999999996u ps=7.7477219999999996u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M019_net_fail SOURCE019_net_fail GATE019_net_fail DRAIN019_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=0.18517499999999998u nf=5 m=1 ad=1.172775p as=1.172775p pd=10.236474u ps=10.236474u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M020_net_fail SOURCE020_net_fail GATE020_net_fail DRAIN020_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=2.654175u nf=5 m=1 ad=0.09024194999999999p as=0.09024194999999999p pd=2.7702180000000003u ps=2.7702180000000003u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M021_net_fail SOURCE021_net_fail GATE021_net_fail DRAIN021_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=12.96225u l=2.654175u nf=5 m=1 ad=0.4510863p as=0.4510863p pd=5.25897u ps=5.25897u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M022_net_fail SOURCE022_net_fail GATE022_net_fail DRAIN022_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=2.654175u nf=5 m=1 ad=0.8119306499999999p as=0.8119306499999999p pd=7.7477219999999996u ps=7.7477219999999996u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M023_net_fail SOURCE023_net_fail GATE023_net_fail DRAIN023_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=2.654175u nf=5 m=1 ad=1.172775p as=1.172775p pd=10.236474u ps=10.236474u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M024_net_fail SOURCE024_net_fail GATE024_net_fail DRAIN024_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=5.123175u nf=5 m=1 ad=0.09024194999999999p as=0.09024194999999999p pd=2.7702180000000003u ps=2.7702180000000003u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M025_net_fail SOURCE025_net_fail GATE025_net_fail DRAIN025_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=12.96225u l=5.123175u nf=5 m=1 ad=0.4510863p as=0.4510863p pd=5.25897u ps=5.25897u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M026_net_fail SOURCE026_net_fail GATE026_net_fail DRAIN026_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=5.123175u nf=5 m=1 ad=0.8119306499999999p as=0.8119306499999999p pd=7.7477219999999996u ps=7.7477219999999996u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M027_net_fail SOURCE027_net_fail GATE027_net_fail DRAIN027_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=5.123175u nf=5 m=1 ad=1.172775p as=1.172775p pd=10.236474u ps=10.236474u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M028_net_fail SOURCE028_net_fail GATE028_net_fail DRAIN028_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=2.59245u l=7.592175u nf=5 m=1 ad=0.09024194999999999p as=0.09024194999999999p pd=2.7702180000000003u ps=2.7702180000000003u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M029_net_fail SOURCE029_net_fail GATE029_net_fail DRAIN029_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=12.96225u l=7.592175u nf=5 m=1 ad=0.4510863p as=0.4510863p pd=5.25897u ps=5.25897u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M030_net_fail SOURCE030_net_fail GATE030_net_fail DRAIN030_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=7.592175u nf=5 m=1 ad=0.8119306499999999p as=0.8119306499999999p pd=7.7477219999999996u ps=7.7477219999999996u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M031_net_fail SOURCE031_net_fail GATE031_net_fail DRAIN031_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=7.592175u nf=5 m=1 ad=1.172775p as=1.172775p pd=10.236474u ps=10.236474u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M032_net_fail SOURCE032_net_fail GATE032_net_fail DRAIN032_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=0.18517499999999998u nf=9 m=1 ad=0.08357564999999999p as=0.08357564999999999p pd=4.15619115u ps=4.15619115u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M033_net_fail SOURCE033_net_fail GATE033_net_fail DRAIN033_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=0.18517499999999998u nf=9 m=1 ad=0.41763134999999996p as=0.41763134999999996p pd=6.460508849999999u ps=6.460508849999999u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M034_net_fail SOURCE034_net_fail GATE034_net_fail DRAIN034_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=41.99769u l=0.18517499999999998u nf=9 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=8.764949999999999u ps=8.764949999999999u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M035_net_fail SOURCE035_net_fail GATE035_net_fail DRAIN035_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=0.18517499999999998u nf=9 m=1 ad=1.08598965p as=1.08598965p pd=11.06939115u ps=11.06939115u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M036_net_fail SOURCE036_net_fail GATE036_net_fail DRAIN036_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=2.654175u nf=9 m=1 ad=0.08357564999999999p as=0.08357564999999999p pd=4.15619115u ps=4.15619115u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M037_net_fail SOURCE037_net_fail GATE037_net_fail DRAIN037_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=2.654175u nf=9 m=1 ad=0.41763134999999996p as=0.41763134999999996p pd=6.460508849999999u ps=6.460508849999999u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M038_net_fail SOURCE038_net_fail GATE038_net_fail DRAIN038_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=41.99769u l=2.654175u nf=9 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=8.764949999999999u ps=8.764949999999999u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M039_net_fail SOURCE039_net_fail GATE039_net_fail DRAIN039_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=2.654175u nf=9 m=1 ad=1.08598965p as=1.08598965p pd=11.06939115u ps=11.06939115u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M040_net_fail SOURCE040_net_fail GATE040_net_fail DRAIN040_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=5.123175u nf=9 m=1 ad=0.08357564999999999p as=0.08357564999999999p pd=4.15619115u ps=4.15619115u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M041_net_fail SOURCE041_net_fail GATE041_net_fail DRAIN041_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=5.123175u nf=9 m=1 ad=0.41763134999999996p as=0.41763134999999996p pd=6.460508849999999u ps=6.460508849999999u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M042_net_fail SOURCE042_net_fail GATE042_net_fail DRAIN042_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=41.99769u l=5.123175u nf=9 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=8.764949999999999u ps=8.764949999999999u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M043_net_fail SOURCE043_net_fail GATE043_net_fail DRAIN043_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=5.123175u nf=9 m=1 ad=1.08598965p as=1.08598965p pd=11.06939115u ps=11.06939115u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M044_net_fail SOURCE044_net_fail GATE044_net_fail DRAIN044_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=4.666409999999999u l=7.592175u nf=9 m=1 ad=0.08357564999999999p as=0.08357564999999999p pd=4.15619115u ps=4.15619115u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M045_net_fail SOURCE045_net_fail GATE045_net_fail DRAIN045_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=23.332049999999995u l=7.592175u nf=9 m=1 ad=0.41763134999999996p as=0.41763134999999996p pd=6.460508849999999u ps=6.460508849999999u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M046_net_fail SOURCE046_net_fail GATE046_net_fail DRAIN046_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=41.99769u l=7.592175u nf=9 m=1 ad=0.7518104999999999p as=0.7518104999999999p pd=8.764949999999999u ps=8.764949999999999u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M047_net_fail SOURCE047_net_fail GATE047_net_fail DRAIN047_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=7.592175u nf=9 m=1 ad=1.08598965p as=1.08598965p pd=11.06939115u ps=11.06939115u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M048_net_fail SOURCE048_net_fail GATE048_net_fail DRAIN048_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=0.18517499999999998u nf=13 m=1 ad=0.0809832p as=0.0809832p pd=5.570434349999999u ps=5.570434349999999u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M049_net_fail SOURCE049_net_fail GATE049_net_fail DRAIN049_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=0.18517499999999998u nf=13 m=1 ad=0.40479255000000003p as=0.40479255000000003p pd=7.80389175u ps=7.80389175u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M050_net_fail SOURCE050_net_fail GATE050_net_fail DRAIN050_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=0.18517499999999998u nf=13 m=1 ad=0.72872535p as=0.72872535p pd=10.037472600000001u ps=10.037472600000001u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M051_net_fail SOURCE051_net_fail GATE051_net_fail DRAIN051_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=87.62481u l=0.18517499999999998u nf=13 m=1 ad=1.0525347p as=1.0525347p pd=12.270929999999998u ps=12.270929999999998u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M052_net_fail SOURCE052_net_fail GATE052_net_fail DRAIN052_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=2.654175u nf=13 m=1 ad=0.0809832p as=0.0809832p pd=5.570434349999999u ps=5.570434349999999u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M053_net_fail SOURCE053_net_fail GATE053_net_fail DRAIN053_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=2.654175u nf=13 m=1 ad=0.40479255000000003p as=0.40479255000000003p pd=7.80389175u ps=7.80389175u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M054_net_fail SOURCE054_net_fail GATE054_net_fail DRAIN054_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=2.654175u nf=13 m=1 ad=0.72872535p as=0.72872535p pd=10.037472600000001u ps=10.037472600000001u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M055_net_fail SOURCE055_net_fail GATE055_net_fail DRAIN055_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=87.62481u l=2.654175u nf=13 m=1 ad=1.0525347p as=1.0525347p pd=12.270929999999998u ps=12.270929999999998u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M056_net_fail SOURCE056_net_fail GATE056_net_fail DRAIN056_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=5.123175u nf=13 m=1 ad=0.0809832p as=0.0809832p pd=5.570434349999999u ps=5.570434349999999u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M057_net_fail SOURCE057_net_fail GATE057_net_fail DRAIN057_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=5.123175u nf=13 m=1 ad=0.40479255000000003p as=0.40479255000000003p pd=7.80389175u ps=7.80389175u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M058_net_fail SOURCE058_net_fail GATE058_net_fail DRAIN058_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=5.123175u nf=13 m=1 ad=0.72872535p as=0.72872535p pd=10.037472600000001u ps=10.037472600000001u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M059_net_fail SOURCE059_net_fail GATE059_net_fail DRAIN059_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=87.62481u l=5.123175u nf=13 m=1 ad=1.0525347p as=1.0525347p pd=12.270929999999998u ps=12.270929999999998u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+M060_net_fail SOURCE060_net_fail GATE060_net_fail DRAIN060_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=6.7403699999999995u l=7.592175u nf=13 m=1 ad=0.0809832p as=0.0809832p pd=5.570434349999999u ps=5.570434349999999u nrd=0.8524222499999999 nrs=0.8524222499999999 sa=0.0 sb=0.0 sd=0.0
+
+M061_net_fail SOURCE061_net_fail GATE061_net_fail DRAIN061_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=33.70185u l=7.592175u nf=13 m=1 ad=0.40479255000000003p as=0.40479255000000003p pd=7.80389175u ps=7.80389175u nrd=0.17048444999999998 nrs=0.17048444999999998 sa=0.0 sb=0.0 sd=0.0
+
+M062_net_fail SOURCE062_net_fail GATE062_net_fail DRAIN062_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=60.663329999999995u l=7.592175u nf=13 m=1 ad=0.72872535p as=0.72872535p pd=10.037472600000001u ps=10.037472600000001u nrd=0.09468615 nrs=0.09468615 sa=0.0 sb=0.0 sd=0.0
+
+M063_net_fail SOURCE063_net_fail GATE063_net_fail DRAIN063_net_fail SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=87.62481u l=7.592175u nf=13 m=1 ad=1.0525347p as=1.0525347p pd=12.270929999999998u ps=12.270929999999998u nrd=0.06555195 nrs=0.06555195 sa=0.0 sb=0.0 sd=0.0
+
+.ENDS

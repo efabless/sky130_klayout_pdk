@@ -1,0 +1,262 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__model__cap_mim_m4 
++ C0_000 C1_000
++ C0_001 C1_001
++ C0_002 C1_002
++ C0_003 C1_003
++ C0_004 C1_004
++ C0_005 C1_005
++ C0_006 C1_006
++ C0_007 C1_007
++ C0_008 C1_008
++ C0_009 C1_009
++ C0_010 C1_010
++ C0_011 C1_011
++ C0_012 C1_012
++ C0_013 C1_013
++ C0_014 C1_014
++ C0_015 C1_015
++ C0_016 C1_016
++ C0_017 C1_017
++ C0_018 C1_018
++ C0_019 C1_019
++ C0_020 C1_020
++ C0_021 C1_021
++ C0_022 C1_022
++ C0_023 C1_023
++ C0_024 C1_024
++ C0_025 C1_025
++ C0_026 C1_026
++ C0_027 C1_027
++ C0_028 C1_028
++ C0_029 C1_029
++ C0_030 C1_030
++ C0_031 C1_031
++ C0_032 C1_032
++ C0_033 C1_033
++ C0_034 C1_034
++ C0_035 C1_035
++ C0_036 C1_036
++ C0_037 C1_037
++ C0_038 C1_038
++ C0_039 C1_039
++ C0_040 C1_040
++ C0_041 C1_041
++ C0_042 C1_042
++ C0_043 C1_043
++ C0_044 C1_044
++ C0_045 C1_045
++ C0_046 C1_046
++ C0_047 C1_047
++ C0_048 C1_048
++ C0_049 C1_049
++ C0_050 C1_050
++ C0_051 C1_051
++ C0_052 C1_052
++ C0_053 C1_053
++ C0_054 C1_054
++ C0_055 C1_055
++ C0_056 C1_056
++ C0_057 C1_057
++ C0_058 C1_058
++ C0_059 C1_059
++ C0_060 C1_060
++ C0_061 C1_061
++ C0_062 C1_062
++ C0_063 C1_063
++ C0_064 C1_064
++ C0_065 C1_065
++ C0_066 C1_066
++ C0_067 C1_067
++ C0_068 C1_068
++ C0_069 C1_069
++ C0_070 C1_070
++ C0_071 C1_071
++ C0_072 C1_072
++ C0_073 C1_073
++ C0_074 C1_074
++ C0_075 C1_075
++ C0_076 C1_076
++ C0_077 C1_077
++ C0_078 C1_078
++ C0_079 C1_079
++ C0_080 C1_080
+
+C000 C0_000 C1_000 sky130_fd_pr__model__cap_mim_m4 A=4p P=8u
+
+C001 C0_001 C1_001 sky130_fd_pr__model__cap_mim_m4 A=24p P=28u
+
+C002 C0_002 C1_002 sky130_fd_pr__model__cap_mim_m4 A=44p P=48u
+
+C003 C0_003 C1_003 sky130_fd_pr__model__cap_mim_m4 A=64p P=68u
+
+C004 C0_004 C1_004 sky130_fd_pr__model__cap_mim_m4 A=84p P=88u
+
+C005 C0_005 C1_005 sky130_fd_pr__model__cap_mim_m4 A=104p P=108u
+
+C006 C0_006 C1_006 sky130_fd_pr__model__cap_mim_m4 A=124p P=128u
+
+C007 C0_007 C1_007 sky130_fd_pr__model__cap_mim_m4 A=144p P=148u
+
+C008 C0_008 C1_008 sky130_fd_pr__model__cap_mim_m4 A=164p P=168u
+
+C009 C0_009 C1_009 sky130_fd_pr__model__cap_mim_m4 A=24p P=28u
+
+C010 C0_010 C1_010 sky130_fd_pr__model__cap_mim_m4 A=144p P=48u
+
+C011 C0_011 C1_011 sky130_fd_pr__model__cap_mim_m4 A=264p P=68u
+
+C012 C0_012 C1_012 sky130_fd_pr__model__cap_mim_m4 A=384p P=88u
+
+C013 C0_013 C1_013 sky130_fd_pr__model__cap_mim_m4 A=504p P=108u
+
+C014 C0_014 C1_014 sky130_fd_pr__model__cap_mim_m4 A=624p P=128u
+
+C015 C0_015 C1_015 sky130_fd_pr__model__cap_mim_m4 A=744p P=148u
+
+C016 C0_016 C1_016 sky130_fd_pr__model__cap_mim_m4 A=864p P=168u
+
+C017 C0_017 C1_017 sky130_fd_pr__model__cap_mim_m4 A=984p P=188u
+
+C018 C0_018 C1_018 sky130_fd_pr__model__cap_mim_m4 A=44p P=48u
+
+C019 C0_019 C1_019 sky130_fd_pr__model__cap_mim_m4 A=264p P=68u
+
+C020 C0_020 C1_020 sky130_fd_pr__model__cap_mim_m4 A=484p P=88u
+
+C021 C0_021 C1_021 sky130_fd_pr__model__cap_mim_m4 A=704p P=108u
+
+C022 C0_022 C1_022 sky130_fd_pr__model__cap_mim_m4 A=924p P=128u
+
+C023 C0_023 C1_023 sky130_fd_pr__model__cap_mim_m4 A=1144p P=148u
+
+C024 C0_024 C1_024 sky130_fd_pr__model__cap_mim_m4 A=1364p P=168u
+
+C025 C0_025 C1_025 sky130_fd_pr__model__cap_mim_m4 A=1584p P=188u
+
+C026 C0_026 C1_026 sky130_fd_pr__model__cap_mim_m4 A=1804p P=208u
+
+C027 C0_027 C1_027 sky130_fd_pr__model__cap_mim_m4 A=64p P=68u
+
+C028 C0_028 C1_028 sky130_fd_pr__model__cap_mim_m4 A=384p P=88u
+
+C029 C0_029 C1_029 sky130_fd_pr__model__cap_mim_m4 A=704p P=108u
+
+C030 C0_030 C1_030 sky130_fd_pr__model__cap_mim_m4 A=1024p P=128u
+
+C031 C0_031 C1_031 sky130_fd_pr__model__cap_mim_m4 A=1344p P=148u
+
+C032 C0_032 C1_032 sky130_fd_pr__model__cap_mim_m4 A=1664p P=168u
+
+C033 C0_033 C1_033 sky130_fd_pr__model__cap_mim_m4 A=1984p P=188u
+
+C034 C0_034 C1_034 sky130_fd_pr__model__cap_mim_m4 A=2304p P=208u
+
+C035 C0_035 C1_035 sky130_fd_pr__model__cap_mim_m4 A=2624p P=228u
+
+C036 C0_036 C1_036 sky130_fd_pr__model__cap_mim_m4 A=84p P=88u
+
+C037 C0_037 C1_037 sky130_fd_pr__model__cap_mim_m4 A=504p P=108u
+
+C038 C0_038 C1_038 sky130_fd_pr__model__cap_mim_m4 A=924p P=128u
+
+C039 C0_039 C1_039 sky130_fd_pr__model__cap_mim_m4 A=1344p P=148u
+
+C040 C0_040 C1_040 sky130_fd_pr__model__cap_mim_m4 A=1764p P=168u
+
+C041 C0_041 C1_041 sky130_fd_pr__model__cap_mim_m4 A=2184p P=188u
+
+C042 C0_042 C1_042 sky130_fd_pr__model__cap_mim_m4 A=2604p P=208u
+
+C043 C0_043 C1_043 sky130_fd_pr__model__cap_mim_m4 A=3024p P=228u
+
+C044 C0_044 C1_044 sky130_fd_pr__model__cap_mim_m4 A=3444p P=248u
+
+C045 C0_045 C1_045 sky130_fd_pr__model__cap_mim_m4 A=104p P=108u
+
+C046 C0_046 C1_046 sky130_fd_pr__model__cap_mim_m4 A=624p P=128u
+
+C047 C0_047 C1_047 sky130_fd_pr__model__cap_mim_m4 A=1144p P=148u
+
+C048 C0_048 C1_048 sky130_fd_pr__model__cap_mim_m4 A=1664p P=168u
+
+C049 C0_049 C1_049 sky130_fd_pr__model__cap_mim_m4 A=2184p P=188u
+
+C050 C0_050 C1_050 sky130_fd_pr__model__cap_mim_m4 A=2704p P=208u
+
+C051 C0_051 C1_051 sky130_fd_pr__model__cap_mim_m4 A=3224p P=228u
+
+C052 C0_052 C1_052 sky130_fd_pr__model__cap_mim_m4 A=3744p P=248u
+
+C053 C0_053 C1_053 sky130_fd_pr__model__cap_mim_m4 A=4264p P=268u
+
+C054 C0_054 C1_054 sky130_fd_pr__model__cap_mim_m4 A=124p P=128u
+
+C055 C0_055 C1_055 sky130_fd_pr__model__cap_mim_m4 A=744p P=148u
+
+C056 C0_056 C1_056 sky130_fd_pr__model__cap_mim_m4 A=1364p P=168u
+
+C057 C0_057 C1_057 sky130_fd_pr__model__cap_mim_m4 A=1984p P=188u
+
+C058 C0_058 C1_058 sky130_fd_pr__model__cap_mim_m4 A=2604p P=208u
+
+C059 C0_059 C1_059 sky130_fd_pr__model__cap_mim_m4 A=3224p P=228u
+
+C060 C0_060 C1_060 sky130_fd_pr__model__cap_mim_m4 A=3844p P=248u
+
+C061 C0_061 C1_061 sky130_fd_pr__model__cap_mim_m4 A=4464p P=268u
+
+C062 C0_062 C1_062 sky130_fd_pr__model__cap_mim_m4 A=5084p P=288u
+
+C063 C0_063 C1_063 sky130_fd_pr__model__cap_mim_m4 A=144p P=148u
+
+C064 C0_064 C1_064 sky130_fd_pr__model__cap_mim_m4 A=864p P=168u
+
+C065 C0_065 C1_065 sky130_fd_pr__model__cap_mim_m4 A=1584p P=188u
+
+C066 C0_066 C1_066 sky130_fd_pr__model__cap_mim_m4 A=2304p P=208u
+
+C067 C0_067 C1_067 sky130_fd_pr__model__cap_mim_m4 A=3024p P=228u
+
+C068 C0_068 C1_068 sky130_fd_pr__model__cap_mim_m4 A=3744p P=248u
+
+C069 C0_069 C1_069 sky130_fd_pr__model__cap_mim_m4 A=4464p P=268u
+
+C070 C0_070 C1_070 sky130_fd_pr__model__cap_mim_m4 A=5184p P=288u
+
+C071 C0_071 C1_071 sky130_fd_pr__model__cap_mim_m4 A=5904p P=308u
+
+C072 C0_072 C1_072 sky130_fd_pr__model__cap_mim_m4 A=164p P=168u
+
+C073 C0_073 C1_073 sky130_fd_pr__model__cap_mim_m4 A=984p P=188u
+
+C074 C0_074 C1_074 sky130_fd_pr__model__cap_mim_m4 A=1804p P=208u
+
+C075 C0_075 C1_075 sky130_fd_pr__model__cap_mim_m4 A=2624p P=228u
+
+C076 C0_076 C1_076 sky130_fd_pr__model__cap_mim_m4 A=3444p P=248u
+
+C077 C0_077 C1_077 sky130_fd_pr__model__cap_mim_m4 A=4264p P=268u
+
+C078 C0_078 C1_078 sky130_fd_pr__model__cap_mim_m4 A=5084p P=288u
+
+C079 C0_079 C1_079 sky130_fd_pr__model__cap_mim_m4 A=5904p P=308u
+
+C080 C0_080 C1_080 sky130_fd_pr__model__cap_mim_m4 A=6724p P=328u
+
+.ENDS

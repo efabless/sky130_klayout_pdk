@@ -1,0 +1,262 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__model__cap_mim 
++ C0_000_dim_fail C1_000_dim_fail
++ C0_001_dim_fail C1_001_dim_fail
++ C0_002_dim_fail C1_002_dim_fail
++ C0_003_dim_fail C1_003_dim_fail
++ C0_004_dim_fail C1_004_dim_fail
++ C0_005_dim_fail C1_005_dim_fail
++ C0_006_dim_fail C1_006_dim_fail
++ C0_007_dim_fail C1_007_dim_fail
++ C0_008_dim_fail C1_008_dim_fail
++ C0_009_dim_fail C1_009_dim_fail
++ C0_010_dim_fail C1_010_dim_fail
++ C0_011_dim_fail C1_011_dim_fail
++ C0_012_dim_fail C1_012_dim_fail
++ C0_013_dim_fail C1_013_dim_fail
++ C0_014_dim_fail C1_014_dim_fail
++ C0_015_dim_fail C1_015_dim_fail
++ C0_016_dim_fail C1_016_dim_fail
++ C0_017_dim_fail C1_017_dim_fail
++ C0_018_dim_fail C1_018_dim_fail
++ C0_019_dim_fail C1_019_dim_fail
++ C0_020_dim_fail C1_020_dim_fail
++ C0_021_dim_fail C1_021_dim_fail
++ C0_022_dim_fail C1_022_dim_fail
++ C0_023_dim_fail C1_023_dim_fail
++ C0_024_dim_fail C1_024_dim_fail
++ C0_025_dim_fail C1_025_dim_fail
++ C0_026_dim_fail C1_026_dim_fail
++ C0_027_dim_fail C1_027_dim_fail
++ C0_028_dim_fail C1_028_dim_fail
++ C0_029_dim_fail C1_029_dim_fail
++ C0_030_dim_fail C1_030_dim_fail
++ C0_031_dim_fail C1_031_dim_fail
++ C0_032_dim_fail C1_032_dim_fail
++ C0_033_dim_fail C1_033_dim_fail
++ C0_034_dim_fail C1_034_dim_fail
++ C0_035_dim_fail C1_035_dim_fail
++ C0_036_dim_fail C1_036_dim_fail
++ C0_037_dim_fail C1_037_dim_fail
++ C0_038_dim_fail C1_038_dim_fail
++ C0_039_dim_fail C1_039_dim_fail
++ C0_040_dim_fail C1_040_dim_fail
++ C0_041_dim_fail C1_041_dim_fail
++ C0_042_dim_fail C1_042_dim_fail
++ C0_043_dim_fail C1_043_dim_fail
++ C0_044_dim_fail C1_044_dim_fail
++ C0_045_dim_fail C1_045_dim_fail
++ C0_046_dim_fail C1_046_dim_fail
++ C0_047_dim_fail C1_047_dim_fail
++ C0_048_dim_fail C1_048_dim_fail
++ C0_049_dim_fail C1_049_dim_fail
++ C0_050_dim_fail C1_050_dim_fail
++ C0_051_dim_fail C1_051_dim_fail
++ C0_052_dim_fail C1_052_dim_fail
++ C0_053_dim_fail C1_053_dim_fail
++ C0_054_dim_fail C1_054_dim_fail
++ C0_055_dim_fail C1_055_dim_fail
++ C0_056_dim_fail C1_056_dim_fail
++ C0_057_dim_fail C1_057_dim_fail
++ C0_058_dim_fail C1_058_dim_fail
++ C0_059_dim_fail C1_059_dim_fail
++ C0_060_dim_fail C1_060_dim_fail
++ C0_061_dim_fail C1_061_dim_fail
++ C0_062_dim_fail C1_062_dim_fail
++ C0_063_dim_fail C1_063_dim_fail
++ C0_064_dim_fail C1_064_dim_fail
++ C0_065_dim_fail C1_065_dim_fail
++ C0_066_dim_fail C1_066_dim_fail
++ C0_067_dim_fail C1_067_dim_fail
++ C0_068_dim_fail C1_068_dim_fail
++ C0_069_dim_fail C1_069_dim_fail
++ C0_070_dim_fail C1_070_dim_fail
++ C0_071_dim_fail C1_071_dim_fail
++ C0_072_dim_fail C1_072_dim_fail
++ C0_073_dim_fail C1_073_dim_fail
++ C0_074_dim_fail C1_074_dim_fail
++ C0_075_dim_fail C1_075_dim_fail
++ C0_076_dim_fail C1_076_dim_fail
++ C0_077_dim_fail C1_077_dim_fail
++ C0_078_dim_fail C1_078_dim_fail
++ C0_079_dim_fail C1_079_dim_fail
++ C0_080_dim_fail C1_080_dim_fail
+
+C000_dim_fail C0_000_dim_fail C1_000_dim_fail sky130_fd_pr__model__cap_mim A=4p P=8u
+
+C001_dim_fail C0_001_dim_fail C1_001_dim_fail sky130_fd_pr__model__cap_mim A=24p P=28u
+
+C002_dim_fail C0_002_dim_fail C1_002_dim_fail sky130_fd_pr__model__cap_mim A=44p P=48u
+
+C003_dim_fail C0_003_dim_fail C1_003_dim_fail sky130_fd_pr__model__cap_mim A=64p P=68u
+
+C004_dim_fail C0_004_dim_fail C1_004_dim_fail sky130_fd_pr__model__cap_mim A=84p P=88u
+
+C005_dim_fail C0_005_dim_fail C1_005_dim_fail sky130_fd_pr__model__cap_mim A=104p P=108u
+
+C006_dim_fail C0_006_dim_fail C1_006_dim_fail sky130_fd_pr__model__cap_mim A=124p P=128u
+
+C007_dim_fail C0_007_dim_fail C1_007_dim_fail sky130_fd_pr__model__cap_mim A=144p P=148u
+
+C008_dim_fail C0_008_dim_fail C1_008_dim_fail sky130_fd_pr__model__cap_mim A=164p P=168u
+
+C009_dim_fail C0_009_dim_fail C1_009_dim_fail sky130_fd_pr__model__cap_mim A=24p P=28u
+
+C010_dim_fail C0_010_dim_fail C1_010_dim_fail sky130_fd_pr__model__cap_mim A=144p P=48u
+
+C011_dim_fail C0_011_dim_fail C1_011_dim_fail sky130_fd_pr__model__cap_mim A=264p P=68u
+
+C012_dim_fail C0_012_dim_fail C1_012_dim_fail sky130_fd_pr__model__cap_mim A=384p P=88u
+
+C013_dim_fail C0_013_dim_fail C1_013_dim_fail sky130_fd_pr__model__cap_mim A=504p P=108u
+
+C014_dim_fail C0_014_dim_fail C1_014_dim_fail sky130_fd_pr__model__cap_mim A=624p P=128u
+
+C015_dim_fail C0_015_dim_fail C1_015_dim_fail sky130_fd_pr__model__cap_mim A=744p P=148u
+
+C016_dim_fail C0_016_dim_fail C1_016_dim_fail sky130_fd_pr__model__cap_mim A=864p P=168u
+
+C017_dim_fail C0_017_dim_fail C1_017_dim_fail sky130_fd_pr__model__cap_mim A=984p P=188u
+
+C018_dim_fail C0_018_dim_fail C1_018_dim_fail sky130_fd_pr__model__cap_mim A=44p P=48u
+
+C019_dim_fail C0_019_dim_fail C1_019_dim_fail sky130_fd_pr__model__cap_mim A=264p P=68u
+
+C020_dim_fail C0_020_dim_fail C1_020_dim_fail sky130_fd_pr__model__cap_mim A=484p P=88u
+
+C021_dim_fail C0_021_dim_fail C1_021_dim_fail sky130_fd_pr__model__cap_mim A=704p P=108u
+
+C022_dim_fail C0_022_dim_fail C1_022_dim_fail sky130_fd_pr__model__cap_mim A=924p P=128u
+
+C023_dim_fail C0_023_dim_fail C1_023_dim_fail sky130_fd_pr__model__cap_mim A=1144p P=148u
+
+C024_dim_fail C0_024_dim_fail C1_024_dim_fail sky130_fd_pr__model__cap_mim A=1364p P=168u
+
+C025_dim_fail C0_025_dim_fail C1_025_dim_fail sky130_fd_pr__model__cap_mim A=1584p P=188u
+
+C026_dim_fail C0_026_dim_fail C1_026_dim_fail sky130_fd_pr__model__cap_mim A=1804p P=208u
+
+C027_dim_fail C0_027_dim_fail C1_027_dim_fail sky130_fd_pr__model__cap_mim A=64p P=68u
+
+C028_dim_fail C0_028_dim_fail C1_028_dim_fail sky130_fd_pr__model__cap_mim A=384p P=88u
+
+C029_dim_fail C0_029_dim_fail C1_029_dim_fail sky130_fd_pr__model__cap_mim A=704p P=108u
+
+C030_dim_fail C0_030_dim_fail C1_030_dim_fail sky130_fd_pr__model__cap_mim A=1024p P=128u
+
+C031_dim_fail C0_031_dim_fail C1_031_dim_fail sky130_fd_pr__model__cap_mim A=1344p P=148u
+
+C032_dim_fail C0_032_dim_fail C1_032_dim_fail sky130_fd_pr__model__cap_mim A=1664p P=168u
+
+C033_dim_fail C0_033_dim_fail C1_033_dim_fail sky130_fd_pr__model__cap_mim A=1984p P=188u
+
+C034_dim_fail C0_034_dim_fail C1_034_dim_fail sky130_fd_pr__model__cap_mim A=2304p P=208u
+
+C035_dim_fail C0_035_dim_fail C1_035_dim_fail sky130_fd_pr__model__cap_mim A=2624p P=228u
+
+C036_dim_fail C0_036_dim_fail C1_036_dim_fail sky130_fd_pr__model__cap_mim A=84p P=88u
+
+C037_dim_fail C0_037_dim_fail C1_037_dim_fail sky130_fd_pr__model__cap_mim A=504p P=108u
+
+C038_dim_fail C0_038_dim_fail C1_038_dim_fail sky130_fd_pr__model__cap_mim A=924p P=128u
+
+C039_dim_fail C0_039_dim_fail C1_039_dim_fail sky130_fd_pr__model__cap_mim A=1344p P=148u
+
+C040_dim_fail C0_040_dim_fail C1_040_dim_fail sky130_fd_pr__model__cap_mim A=1764p P=168u
+
+C041_dim_fail C0_041_dim_fail C1_041_dim_fail sky130_fd_pr__model__cap_mim A=2184p P=188u
+
+C042_dim_fail C0_042_dim_fail C1_042_dim_fail sky130_fd_pr__model__cap_mim A=2604p P=208u
+
+C043_dim_fail C0_043_dim_fail C1_043_dim_fail sky130_fd_pr__model__cap_mim A=3024p P=228u
+
+C044_dim_fail C0_044_dim_fail C1_044_dim_fail sky130_fd_pr__model__cap_mim A=3444p P=248u
+
+C045_dim_fail C0_045_dim_fail C1_045_dim_fail sky130_fd_pr__model__cap_mim A=104p P=108u
+
+C046_dim_fail C0_046_dim_fail C1_046_dim_fail sky130_fd_pr__model__cap_mim A=624p P=128u
+
+C047_dim_fail C0_047_dim_fail C1_047_dim_fail sky130_fd_pr__model__cap_mim A=1144p P=148u
+
+C048_dim_fail C0_048_dim_fail C1_048_dim_fail sky130_fd_pr__model__cap_mim A=1664p P=168u
+
+C049_dim_fail C0_049_dim_fail C1_049_dim_fail sky130_fd_pr__model__cap_mim A=2184p P=188u
+
+C050_dim_fail C0_050_dim_fail C1_050_dim_fail sky130_fd_pr__model__cap_mim A=2704p P=208u
+
+C051_dim_fail C0_051_dim_fail C1_051_dim_fail sky130_fd_pr__model__cap_mim A=3224p P=228u
+
+C052_dim_fail C0_052_dim_fail C1_052_dim_fail sky130_fd_pr__model__cap_mim A=3744p P=248u
+
+C053_dim_fail C0_053_dim_fail C1_053_dim_fail sky130_fd_pr__model__cap_mim A=4264p P=268u
+
+C054_dim_fail C0_054_dim_fail C1_054_dim_fail sky130_fd_pr__model__cap_mim A=124p P=128u
+
+C055_dim_fail C0_055_dim_fail C1_055_dim_fail sky130_fd_pr__model__cap_mim A=744p P=148u
+
+C056_dim_fail C0_056_dim_fail C1_056_dim_fail sky130_fd_pr__model__cap_mim A=1364p P=168u
+
+C057_dim_fail C0_057_dim_fail C1_057_dim_fail sky130_fd_pr__model__cap_mim A=1984p P=188u
+
+C058_dim_fail C0_058_dim_fail C1_058_dim_fail sky130_fd_pr__model__cap_mim A=2604p P=208u
+
+C059_dim_fail C0_059_dim_fail C1_059_dim_fail sky130_fd_pr__model__cap_mim A=3224p P=228u
+
+C060_dim_fail C0_060_dim_fail C1_060_dim_fail sky130_fd_pr__model__cap_mim A=3844p P=248u
+
+C061_dim_fail C0_061_dim_fail C1_061_dim_fail sky130_fd_pr__model__cap_mim A=4464p P=268u
+
+C062_dim_fail C0_062_dim_fail C1_062_dim_fail sky130_fd_pr__model__cap_mim A=5084p P=288u
+
+C063_dim_fail C0_063_dim_fail C1_063_dim_fail sky130_fd_pr__model__cap_mim A=144p P=148u
+
+C064_dim_fail C0_064_dim_fail C1_064_dim_fail sky130_fd_pr__model__cap_mim A=864p P=168u
+
+C065_dim_fail C0_065_dim_fail C1_065_dim_fail sky130_fd_pr__model__cap_mim A=1584p P=188u
+
+C066_dim_fail C0_066_dim_fail C1_066_dim_fail sky130_fd_pr__model__cap_mim A=2304p P=208u
+
+C067_dim_fail C0_067_dim_fail C1_067_dim_fail sky130_fd_pr__model__cap_mim A=3024p P=228u
+
+C068_dim_fail C0_068_dim_fail C1_068_dim_fail sky130_fd_pr__model__cap_mim A=3744p P=248u
+
+C069_dim_fail C0_069_dim_fail C1_069_dim_fail sky130_fd_pr__model__cap_mim A=4464p P=268u
+
+C070_dim_fail C0_070_dim_fail C1_070_dim_fail sky130_fd_pr__model__cap_mim A=5184p P=288u
+
+C071_dim_fail C0_071_dim_fail C1_071_dim_fail sky130_fd_pr__model__cap_mim A=5904p P=308u
+
+C072_dim_fail C0_072_dim_fail C1_072_dim_fail sky130_fd_pr__model__cap_mim A=164p P=168u
+
+C073_dim_fail C0_073_dim_fail C1_073_dim_fail sky130_fd_pr__model__cap_mim A=984p P=188u
+
+C074_dim_fail C0_074_dim_fail C1_074_dim_fail sky130_fd_pr__model__cap_mim A=1804p P=208u
+
+C075_dim_fail C0_075_dim_fail C1_075_dim_fail sky130_fd_pr__model__cap_mim A=2624p P=228u
+
+C076_dim_fail C0_076_dim_fail C1_076_dim_fail sky130_fd_pr__model__cap_mim A=3444p P=248u
+
+C077_dim_fail C0_077_dim_fail C1_077_dim_fail sky130_fd_pr__model__cap_mim A=4264p P=268u
+
+C078_dim_fail C0_078_dim_fail C1_078_dim_fail sky130_fd_pr__model__cap_mim A=5084p P=288u
+
+C079_dim_fail C0_079_dim_fail C1_079_dim_fail sky130_fd_pr__model__cap_mim A=5904p P=308u
+
+C080_dim_fail C0_080_dim_fail C1_080_dim_fail sky130_fd_pr__model__cap_mim A=6724p P=328u
+
+.ENDS

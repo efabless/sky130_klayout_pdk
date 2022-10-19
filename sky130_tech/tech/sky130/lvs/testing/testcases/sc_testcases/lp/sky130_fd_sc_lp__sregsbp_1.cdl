@@ -1,0 +1,108 @@
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* SPDX-License-Identifier: Apache-2.0
+
+.SUBCKT sky130_fd_sc_lp__sregsbp_1 ASYNC CLK D SCD SCE VGND VNB VPB VPWR Q Q_N
+*.PININFO ASYNC:I CLK:I D:I SCD:I SCE:I VGND:I VNB:I VPB:I VPWR:I Q:O
+*.PININFO Q_N:O
+MI7 net255 D net170 VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI8 net170 SCE VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI9 net158 SCD VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI10 net255 sceb net158 VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI643 clkneg CLK VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=1.26U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI661 Q_N s1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=1.26U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI48 s1 ASYNC VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.84U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI658 m1 m0 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.84U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI659 m1 ASYNC VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.84U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI38 net135 m1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.84U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI39 s0 clkneg net135 VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.84U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI43 s0 clkpos net126 VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI42 net126 s1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI633 sceb SCE VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI49 s1 s0 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.84U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI635 clkpos clkneg VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=1.26U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI662 net107 m1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI664 m0 clkneg net107 VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI660 Q net235 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=1.26U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI663 net235 s1 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.64U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI57 net175 net255 VPWR VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI58 net255 clkpos m0 VPB sky130_fd_pr__pfet_01v8_hvt m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI2 net259 sceb VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI3 net255 D net259 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI5 net255 SCE net247 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI6 net247 SCD VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI651 Q_N s1 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.84U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI655 m0 clkpos net195 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI652 net235 s1 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI653 Q net235 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.84U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI657 net227 m0 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.64U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI656 m1 ASYNC net227 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.64U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI40 s0 clkpos net218 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.64U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI45 net215 s1 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI44 s0 clkneg net215 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI51 net198 s0 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.64U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI634 sceb SCE VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI50 s1 ASYNC net198 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.64U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI654 net195 m1 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI41 net218 m1 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.64U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI642 clkneg CLK VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.84U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI636 clkpos clkneg VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.84U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI60 net255 clkneg m0 VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MI59 net175 net255 VGND VNB sky130_fd_pr__nfet_01v8 m=1 w=0.42U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+.ENDS sky130_fd_sc_lp__sregsbp_1

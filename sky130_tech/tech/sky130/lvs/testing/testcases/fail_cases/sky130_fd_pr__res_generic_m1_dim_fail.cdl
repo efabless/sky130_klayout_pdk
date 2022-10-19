@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__res_generic_m1 
++ R0_000_dim_fail R1_000_dim_fail
++ R0_001_dim_fail R1_001_dim_fail
++ R0_002_dim_fail R1_002_dim_fail
++ R0_003_dim_fail R1_003_dim_fail
++ R0_004_dim_fail R1_004_dim_fail
++ R0_005_dim_fail R1_005_dim_fail
++ R0_006_dim_fail R1_006_dim_fail
++ R0_007_dim_fail R1_007_dim_fail
++ R0_008_dim_fail R1_008_dim_fail
++ R0_009_dim_fail R1_009_dim_fail
++ R0_010_dim_fail R1_010_dim_fail
++ R0_011_dim_fail R1_011_dim_fail
++ R0_012_dim_fail R1_012_dim_fail
++ R0_013_dim_fail R1_013_dim_fail
++ R0_014_dim_fail R1_014_dim_fail
++ R0_015_dim_fail R1_015_dim_fail
++ R0_016_dim_fail R1_016_dim_fail
++ R0_017_dim_fail R1_017_dim_fail
++ R0_018_dim_fail R1_018_dim_fail
++ R0_019_dim_fail R1_019_dim_fail
++ R0_020_dim_fail R1_020_dim_fail
++ R0_021_dim_fail R1_021_dim_fail
++ R0_022_dim_fail R1_022_dim_fail
++ R0_023_dim_fail R1_023_dim_fail
++ R0_024_dim_fail R1_024_dim_fail
++ R0_025_dim_fail R1_025_dim_fail
++ R0_026_dim_fail R1_026_dim_fail
++ R0_027_dim_fail R1_027_dim_fail
++ R0_028_dim_fail R1_028_dim_fail
++ R0_029_dim_fail R1_029_dim_fail
++ R0_030_dim_fail R1_030_dim_fail
++ R0_031_dim_fail R1_031_dim_fail
++ R0_032_dim_fail R1_032_dim_fail
++ R0_033_dim_fail R1_033_dim_fail
++ R0_034_dim_fail R1_034_dim_fail
++ R0_035_dim_fail R1_035_dim_fail
++ R0_036_dim_fail R1_036_dim_fail
++ R0_037_dim_fail R1_037_dim_fail
++ R0_038_dim_fail R1_038_dim_fail
++ R0_039_dim_fail R1_039_dim_fail
++ R0_040_dim_fail R1_040_dim_fail
++ R0_041_dim_fail R1_041_dim_fail
++ R0_042_dim_fail R1_042_dim_fail
++ R0_043_dim_fail R1_043_dim_fail
++ R0_044_dim_fail R1_044_dim_fail
++ R0_045_dim_fail R1_045_dim_fail
++ R0_046_dim_fail R1_046_dim_fail
++ R0_047_dim_fail R1_047_dim_fail
++ R0_048_dim_fail R1_048_dim_fail
++ R0_049_dim_fail R1_049_dim_fail
++ R0_050_dim_fail R1_050_dim_fail
++ R0_051_dim_fail R1_051_dim_fail
++ R0_052_dim_fail R1_052_dim_fail
++ R0_053_dim_fail R1_053_dim_fail
++ R0_054_dim_fail R1_054_dim_fail
++ R0_055_dim_fail R1_055_dim_fail
++ R0_056_dim_fail R1_056_dim_fail
++ R0_057_dim_fail R1_057_dim_fail
++ R0_058_dim_fail R1_058_dim_fail
++ R0_059_dim_fail R1_059_dim_fail
++ R0_060_dim_fail R1_060_dim_fail
++ R0_061_dim_fail R1_061_dim_fail
++ R0_062_dim_fail R1_062_dim_fail
++ R0_063_dim_fail R1_063_dim_fail
+
+R000_dim_fail R0_000_dim_fail R1_000_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=0.42u
+
+R001_dim_fail R0_001_dim_fail R1_001_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=0.84u
+
+R002_dim_fail R0_002_dim_fail R1_002_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=1.26u
+
+R003_dim_fail R0_003_dim_fail R1_003_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=1.68u
+
+R004_dim_fail R0_004_dim_fail R1_004_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=2.1u
+
+R005_dim_fail R0_005_dim_fail R1_005_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=2.52u
+
+R006_dim_fail R0_006_dim_fail R1_006_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=2.94u
+
+R007_dim_fail R0_007_dim_fail R1_007_dim_fail sky130_fd_pr__res_generic_m1 l=2.1u w=3.36u
+
+R008_dim_fail R0_008_dim_fail R1_008_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=0.42u
+
+R009_dim_fail R0_009_dim_fail R1_009_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=0.84u
+
+R010_dim_fail R0_010_dim_fail R1_010_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=1.26u
+
+R011_dim_fail R0_011_dim_fail R1_011_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=1.68u
+
+R012_dim_fail R0_012_dim_fail R1_012_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=2.1u
+
+R013_dim_fail R0_013_dim_fail R1_013_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=2.52u
+
+R014_dim_fail R0_014_dim_fail R1_014_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=2.94u
+
+R015_dim_fail R0_015_dim_fail R1_015_dim_fail sky130_fd_pr__res_generic_m1 l=4.2u w=3.36u
+
+R016_dim_fail R0_016_dim_fail R1_016_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=0.42u
+
+R017_dim_fail R0_017_dim_fail R1_017_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=0.84u
+
+R018_dim_fail R0_018_dim_fail R1_018_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=1.26u
+
+R019_dim_fail R0_019_dim_fail R1_019_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=1.68u
+
+R020_dim_fail R0_020_dim_fail R1_020_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=2.1u
+
+R021_dim_fail R0_021_dim_fail R1_021_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=2.52u
+
+R022_dim_fail R0_022_dim_fail R1_022_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=2.94u
+
+R023_dim_fail R0_023_dim_fail R1_023_dim_fail sky130_fd_pr__res_generic_m1 l=6.3u w=3.36u
+
+R024_dim_fail R0_024_dim_fail R1_024_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=0.42u
+
+R025_dim_fail R0_025_dim_fail R1_025_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=0.84u
+
+R026_dim_fail R0_026_dim_fail R1_026_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=1.26u
+
+R027_dim_fail R0_027_dim_fail R1_027_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=1.68u
+
+R028_dim_fail R0_028_dim_fail R1_028_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=2.1u
+
+R029_dim_fail R0_029_dim_fail R1_029_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=2.52u
+
+R030_dim_fail R0_030_dim_fail R1_030_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=2.94u
+
+R031_dim_fail R0_031_dim_fail R1_031_dim_fail sky130_fd_pr__res_generic_m1 l=8.4u w=3.36u
+
+R032_dim_fail R0_032_dim_fail R1_032_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=0.42u
+
+R033_dim_fail R0_033_dim_fail R1_033_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=0.84u
+
+R034_dim_fail R0_034_dim_fail R1_034_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=1.26u
+
+R035_dim_fail R0_035_dim_fail R1_035_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=1.68u
+
+R036_dim_fail R0_036_dim_fail R1_036_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=2.1u
+
+R037_dim_fail R0_037_dim_fail R1_037_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=2.52u
+
+R038_dim_fail R0_038_dim_fail R1_038_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=2.94u
+
+R039_dim_fail R0_039_dim_fail R1_039_dim_fail sky130_fd_pr__res_generic_m1 l=10.5u w=3.36u
+
+R040_dim_fail R0_040_dim_fail R1_040_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=0.42u
+
+R041_dim_fail R0_041_dim_fail R1_041_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=0.84u
+
+R042_dim_fail R0_042_dim_fail R1_042_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=1.26u
+
+R043_dim_fail R0_043_dim_fail R1_043_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=1.68u
+
+R044_dim_fail R0_044_dim_fail R1_044_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=2.1u
+
+R045_dim_fail R0_045_dim_fail R1_045_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=2.52u
+
+R046_dim_fail R0_046_dim_fail R1_046_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=2.94u
+
+R047_dim_fail R0_047_dim_fail R1_047_dim_fail sky130_fd_pr__res_generic_m1 l=12.6u w=3.36u
+
+R048_dim_fail R0_048_dim_fail R1_048_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=0.42u
+
+R049_dim_fail R0_049_dim_fail R1_049_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=0.84u
+
+R050_dim_fail R0_050_dim_fail R1_050_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=1.26u
+
+R051_dim_fail R0_051_dim_fail R1_051_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=1.68u
+
+R052_dim_fail R0_052_dim_fail R1_052_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=2.1u
+
+R053_dim_fail R0_053_dim_fail R1_053_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=2.52u
+
+R054_dim_fail R0_054_dim_fail R1_054_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=2.94u
+
+R055_dim_fail R0_055_dim_fail R1_055_dim_fail sky130_fd_pr__res_generic_m1 l=14.7u w=3.36u
+
+R056_dim_fail R0_056_dim_fail R1_056_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=0.42u
+
+R057_dim_fail R0_057_dim_fail R1_057_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=0.84u
+
+R058_dim_fail R0_058_dim_fail R1_058_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=1.26u
+
+R059_dim_fail R0_059_dim_fail R1_059_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=1.68u
+
+R060_dim_fail R0_060_dim_fail R1_060_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=2.1u
+
+R061_dim_fail R0_061_dim_fail R1_061_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=2.52u
+
+R062_dim_fail R0_062_dim_fail R1_062_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=2.94u
+
+R063_dim_fail R0_063_dim_fail R1_063_dim_fail sky130_fd_pr__res_generic_m1 l=16.8u w=3.36u
+
+.ENDS

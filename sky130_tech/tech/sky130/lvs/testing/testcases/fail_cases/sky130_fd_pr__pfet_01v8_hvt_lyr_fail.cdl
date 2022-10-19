@@ -1,0 +1,210 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+.SUBCKT sky130_fd_pr__pfet_01v8_hvt BULK_lyr_fail
++ SOURCE000_lyr_fail GATE000_lyr_fail DRAIN000_lyr_fail
++ SOURCE001_lyr_fail GATE001_lyr_fail DRAIN001_lyr_fail
++ SOURCE002_lyr_fail GATE002_lyr_fail DRAIN002_lyr_fail
++ SOURCE003_lyr_fail GATE003_lyr_fail DRAIN003_lyr_fail
++ SOURCE004_lyr_fail GATE004_lyr_fail DRAIN004_lyr_fail
++ SOURCE005_lyr_fail GATE005_lyr_fail DRAIN005_lyr_fail
++ SOURCE006_lyr_fail GATE006_lyr_fail DRAIN006_lyr_fail
++ SOURCE007_lyr_fail GATE007_lyr_fail DRAIN007_lyr_fail
++ SOURCE008_lyr_fail GATE008_lyr_fail DRAIN008_lyr_fail
++ SOURCE009_lyr_fail GATE009_lyr_fail DRAIN009_lyr_fail
++ SOURCE010_lyr_fail GATE010_lyr_fail DRAIN010_lyr_fail
++ SOURCE011_lyr_fail GATE011_lyr_fail DRAIN011_lyr_fail
++ SOURCE012_lyr_fail GATE012_lyr_fail DRAIN012_lyr_fail
++ SOURCE013_lyr_fail GATE013_lyr_fail DRAIN013_lyr_fail
++ SOURCE014_lyr_fail GATE014_lyr_fail DRAIN014_lyr_fail
++ SOURCE015_lyr_fail GATE015_lyr_fail DRAIN015_lyr_fail
++ SOURCE016_lyr_fail GATE016_lyr_fail DRAIN016_lyr_fail
++ SOURCE017_lyr_fail GATE017_lyr_fail DRAIN017_lyr_fail
++ SOURCE018_lyr_fail GATE018_lyr_fail DRAIN018_lyr_fail
++ SOURCE019_lyr_fail GATE019_lyr_fail DRAIN019_lyr_fail
++ SOURCE020_lyr_fail GATE020_lyr_fail DRAIN020_lyr_fail
++ SOURCE021_lyr_fail GATE021_lyr_fail DRAIN021_lyr_fail
++ SOURCE022_lyr_fail GATE022_lyr_fail DRAIN022_lyr_fail
++ SOURCE023_lyr_fail GATE023_lyr_fail DRAIN023_lyr_fail
++ SOURCE024_lyr_fail GATE024_lyr_fail DRAIN024_lyr_fail
++ SOURCE025_lyr_fail GATE025_lyr_fail DRAIN025_lyr_fail
++ SOURCE026_lyr_fail GATE026_lyr_fail DRAIN026_lyr_fail
++ SOURCE027_lyr_fail GATE027_lyr_fail DRAIN027_lyr_fail
++ SOURCE028_lyr_fail GATE028_lyr_fail DRAIN028_lyr_fail
++ SOURCE029_lyr_fail GATE029_lyr_fail DRAIN029_lyr_fail
++ SOURCE030_lyr_fail GATE030_lyr_fail DRAIN030_lyr_fail
++ SOURCE031_lyr_fail GATE031_lyr_fail DRAIN031_lyr_fail
++ SOURCE032_lyr_fail GATE032_lyr_fail DRAIN032_lyr_fail
++ SOURCE033_lyr_fail GATE033_lyr_fail DRAIN033_lyr_fail
++ SOURCE034_lyr_fail GATE034_lyr_fail DRAIN034_lyr_fail
++ SOURCE035_lyr_fail GATE035_lyr_fail DRAIN035_lyr_fail
++ SOURCE036_lyr_fail GATE036_lyr_fail DRAIN036_lyr_fail
++ SOURCE037_lyr_fail GATE037_lyr_fail DRAIN037_lyr_fail
++ SOURCE038_lyr_fail GATE038_lyr_fail DRAIN038_lyr_fail
++ SOURCE039_lyr_fail GATE039_lyr_fail DRAIN039_lyr_fail
++ SOURCE040_lyr_fail GATE040_lyr_fail DRAIN040_lyr_fail
++ SOURCE041_lyr_fail GATE041_lyr_fail DRAIN041_lyr_fail
++ SOURCE042_lyr_fail GATE042_lyr_fail DRAIN042_lyr_fail
++ SOURCE043_lyr_fail GATE043_lyr_fail DRAIN043_lyr_fail
++ SOURCE044_lyr_fail GATE044_lyr_fail DRAIN044_lyr_fail
++ SOURCE045_lyr_fail GATE045_lyr_fail DRAIN045_lyr_fail
++ SOURCE046_lyr_fail GATE046_lyr_fail DRAIN046_lyr_fail
++ SOURCE047_lyr_fail GATE047_lyr_fail DRAIN047_lyr_fail
++ SOURCE048_lyr_fail GATE048_lyr_fail DRAIN048_lyr_fail
++ SOURCE049_lyr_fail GATE049_lyr_fail DRAIN049_lyr_fail
++ SOURCE050_lyr_fail GATE050_lyr_fail DRAIN050_lyr_fail
++ SOURCE051_lyr_fail GATE051_lyr_fail DRAIN051_lyr_fail
++ SOURCE052_lyr_fail GATE052_lyr_fail DRAIN052_lyr_fail
++ SOURCE053_lyr_fail GATE053_lyr_fail DRAIN053_lyr_fail
++ SOURCE054_lyr_fail GATE054_lyr_fail DRAIN054_lyr_fail
++ SOURCE055_lyr_fail GATE055_lyr_fail DRAIN055_lyr_fail
++ SOURCE056_lyr_fail GATE056_lyr_fail DRAIN056_lyr_fail
++ SOURCE057_lyr_fail GATE057_lyr_fail DRAIN057_lyr_fail
++ SOURCE058_lyr_fail GATE058_lyr_fail DRAIN058_lyr_fail
++ SOURCE059_lyr_fail GATE059_lyr_fail DRAIN059_lyr_fail
++ SOURCE060_lyr_fail GATE060_lyr_fail DRAIN060_lyr_fail
++ SOURCE061_lyr_fail GATE061_lyr_fail DRAIN061_lyr_fail
++ SOURCE062_lyr_fail GATE062_lyr_fail DRAIN062_lyr_fail
++ SOURCE063_lyr_fail GATE063_lyr_fail DRAIN063_lyr_fail
+
+M000_lyr_fail SOURCE000_lyr_fail GATE000_lyr_fail DRAIN000_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M001_lyr_fail SOURCE001_lyr_fail GATE001_lyr_fail DRAIN001_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=0.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M002_lyr_fail SOURCE002_lyr_fail GATE002_lyr_fail DRAIN002_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=0.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M003_lyr_fail SOURCE003_lyr_fail GATE003_lyr_fail DRAIN003_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=0.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M004_lyr_fail SOURCE004_lyr_fail GATE004_lyr_fail DRAIN004_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=0.42u l=2.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M005_lyr_fail SOURCE005_lyr_fail GATE005_lyr_fail DRAIN005_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=2.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M006_lyr_fail SOURCE006_lyr_fail GATE006_lyr_fail DRAIN006_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=2.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M007_lyr_fail SOURCE007_lyr_fail GATE007_lyr_fail DRAIN007_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=2.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M008_lyr_fail SOURCE008_lyr_fail GATE008_lyr_fail DRAIN008_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=0.42u l=4.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M009_lyr_fail SOURCE009_lyr_fail GATE009_lyr_fail DRAIN009_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=4.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M010_lyr_fail SOURCE010_lyr_fail GATE010_lyr_fail DRAIN010_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=4.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M011_lyr_fail SOURCE011_lyr_fail GATE011_lyr_fail DRAIN011_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=4.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M012_lyr_fail SOURCE012_lyr_fail GATE012_lyr_fail DRAIN012_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=0.42u l=6.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M013_lyr_fail SOURCE013_lyr_fail GATE013_lyr_fail DRAIN013_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=6.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M014_lyr_fail SOURCE014_lyr_fail GATE014_lyr_fail DRAIN014_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=6.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M015_lyr_fail SOURCE015_lyr_fail GATE015_lyr_fail DRAIN015_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=6.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M016_lyr_fail SOURCE016_lyr_fail GATE016_lyr_fail DRAIN016_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=0.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M017_lyr_fail SOURCE017_lyr_fail GATE017_lyr_fail DRAIN017_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=10.50u l=0.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M018_lyr_fail SOURCE018_lyr_fail GATE018_lyr_fail DRAIN018_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=0.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M019_lyr_fail SOURCE019_lyr_fail GATE019_lyr_fail DRAIN019_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=0.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M020_lyr_fail SOURCE020_lyr_fail GATE020_lyr_fail DRAIN020_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=2.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M021_lyr_fail SOURCE021_lyr_fail GATE021_lyr_fail DRAIN021_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=10.50u l=2.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M022_lyr_fail SOURCE022_lyr_fail GATE022_lyr_fail DRAIN022_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=2.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M023_lyr_fail SOURCE023_lyr_fail GATE023_lyr_fail DRAIN023_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=2.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M024_lyr_fail SOURCE024_lyr_fail GATE024_lyr_fail DRAIN024_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=4.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M025_lyr_fail SOURCE025_lyr_fail GATE025_lyr_fail DRAIN025_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=10.50u l=4.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M026_lyr_fail SOURCE026_lyr_fail GATE026_lyr_fail DRAIN026_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=4.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M027_lyr_fail SOURCE027_lyr_fail GATE027_lyr_fail DRAIN027_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=4.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M028_lyr_fail SOURCE028_lyr_fail GATE028_lyr_fail DRAIN028_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=2.10u l=6.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M029_lyr_fail SOURCE029_lyr_fail GATE029_lyr_fail DRAIN029_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=10.50u l=6.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M030_lyr_fail SOURCE030_lyr_fail GATE030_lyr_fail DRAIN030_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=6.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M031_lyr_fail SOURCE031_lyr_fail GATE031_lyr_fail DRAIN031_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M032_lyr_fail SOURCE032_lyr_fail GATE032_lyr_fail DRAIN032_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=0.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M033_lyr_fail SOURCE033_lyr_fail GATE033_lyr_fail DRAIN033_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=0.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M034_lyr_fail SOURCE034_lyr_fail GATE034_lyr_fail DRAIN034_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=34.02u l=0.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M035_lyr_fail SOURCE035_lyr_fail GATE035_lyr_fail DRAIN035_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=0.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M036_lyr_fail SOURCE036_lyr_fail GATE036_lyr_fail DRAIN036_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=2.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M037_lyr_fail SOURCE037_lyr_fail GATE037_lyr_fail DRAIN037_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=2.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M038_lyr_fail SOURCE038_lyr_fail GATE038_lyr_fail DRAIN038_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=34.02u l=2.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M039_lyr_fail SOURCE039_lyr_fail GATE039_lyr_fail DRAIN039_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=2.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M040_lyr_fail SOURCE040_lyr_fail GATE040_lyr_fail DRAIN040_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=4.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M041_lyr_fail SOURCE041_lyr_fail GATE041_lyr_fail DRAIN041_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=4.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M042_lyr_fail SOURCE042_lyr_fail GATE042_lyr_fail DRAIN042_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=34.02u l=4.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M043_lyr_fail SOURCE043_lyr_fail GATE043_lyr_fail DRAIN043_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=4.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M044_lyr_fail SOURCE044_lyr_fail GATE044_lyr_fail DRAIN044_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=3.78u l=6.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M045_lyr_fail SOURCE045_lyr_fail GATE045_lyr_fail DRAIN045_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=18.90u l=6.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M046_lyr_fail SOURCE046_lyr_fail GATE046_lyr_fail DRAIN046_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=34.02u l=6.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M047_lyr_fail SOURCE047_lyr_fail GATE047_lyr_fail DRAIN047_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=6.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M048_lyr_fail SOURCE048_lyr_fail GATE048_lyr_fail DRAIN048_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=0.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M049_lyr_fail SOURCE049_lyr_fail GATE049_lyr_fail DRAIN049_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=0.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M050_lyr_fail SOURCE050_lyr_fail GATE050_lyr_fail DRAIN050_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=0.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M051_lyr_fail SOURCE051_lyr_fail GATE051_lyr_fail DRAIN051_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=70.98u l=0.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M052_lyr_fail SOURCE052_lyr_fail GATE052_lyr_fail DRAIN052_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=2.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M053_lyr_fail SOURCE053_lyr_fail GATE053_lyr_fail DRAIN053_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=2.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M054_lyr_fail SOURCE054_lyr_fail GATE054_lyr_fail DRAIN054_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=2.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M055_lyr_fail SOURCE055_lyr_fail GATE055_lyr_fail DRAIN055_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=70.98u l=2.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M056_lyr_fail SOURCE056_lyr_fail GATE056_lyr_fail DRAIN056_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=4.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M057_lyr_fail SOURCE057_lyr_fail GATE057_lyr_fail DRAIN057_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=4.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M058_lyr_fail SOURCE058_lyr_fail GATE058_lyr_fail DRAIN058_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=4.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M059_lyr_fail SOURCE059_lyr_fail GATE059_lyr_fail DRAIN059_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=70.98u l=4.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M060_lyr_fail SOURCE060_lyr_fail GATE060_lyr_fail DRAIN060_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=5.46u l=6.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M061_lyr_fail SOURCE061_lyr_fail GATE061_lyr_fail DRAIN061_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=27.30u l=6.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M062_lyr_fail SOURCE062_lyr_fail GATE062_lyr_fail DRAIN062_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=49.14u l=6.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M063_lyr_fail SOURCE063_lyr_fail GATE063_lyr_fail DRAIN063_lyr_fail BULK_lyr_fail sky130_fd_pr__pfet_01v8_hvt w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+.ENDS

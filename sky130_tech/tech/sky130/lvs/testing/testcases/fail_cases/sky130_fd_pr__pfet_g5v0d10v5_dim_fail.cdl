@@ -1,0 +1,210 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+.SUBCKT sky130_fd_pr__pfet_g5v0d10v5 BULK_dim_fail
++ SOURCE000_dim_fail GATE000_dim_fail DRAIN000_dim_fail
++ SOURCE001_dim_fail GATE001_dim_fail DRAIN001_dim_fail
++ SOURCE002_dim_fail GATE002_dim_fail DRAIN002_dim_fail
++ SOURCE003_dim_fail GATE003_dim_fail DRAIN003_dim_fail
++ SOURCE004_dim_fail GATE004_dim_fail DRAIN004_dim_fail
++ SOURCE005_dim_fail GATE005_dim_fail DRAIN005_dim_fail
++ SOURCE006_dim_fail GATE006_dim_fail DRAIN006_dim_fail
++ SOURCE007_dim_fail GATE007_dim_fail DRAIN007_dim_fail
++ SOURCE008_dim_fail GATE008_dim_fail DRAIN008_dim_fail
++ SOURCE009_dim_fail GATE009_dim_fail DRAIN009_dim_fail
++ SOURCE010_dim_fail GATE010_dim_fail DRAIN010_dim_fail
++ SOURCE011_dim_fail GATE011_dim_fail DRAIN011_dim_fail
++ SOURCE012_dim_fail GATE012_dim_fail DRAIN012_dim_fail
++ SOURCE013_dim_fail GATE013_dim_fail DRAIN013_dim_fail
++ SOURCE014_dim_fail GATE014_dim_fail DRAIN014_dim_fail
++ SOURCE015_dim_fail GATE015_dim_fail DRAIN015_dim_fail
++ SOURCE016_dim_fail GATE016_dim_fail DRAIN016_dim_fail
++ SOURCE017_dim_fail GATE017_dim_fail DRAIN017_dim_fail
++ SOURCE018_dim_fail GATE018_dim_fail DRAIN018_dim_fail
++ SOURCE019_dim_fail GATE019_dim_fail DRAIN019_dim_fail
++ SOURCE020_dim_fail GATE020_dim_fail DRAIN020_dim_fail
++ SOURCE021_dim_fail GATE021_dim_fail DRAIN021_dim_fail
++ SOURCE022_dim_fail GATE022_dim_fail DRAIN022_dim_fail
++ SOURCE023_dim_fail GATE023_dim_fail DRAIN023_dim_fail
++ SOURCE024_dim_fail GATE024_dim_fail DRAIN024_dim_fail
++ SOURCE025_dim_fail GATE025_dim_fail DRAIN025_dim_fail
++ SOURCE026_dim_fail GATE026_dim_fail DRAIN026_dim_fail
++ SOURCE027_dim_fail GATE027_dim_fail DRAIN027_dim_fail
++ SOURCE028_dim_fail GATE028_dim_fail DRAIN028_dim_fail
++ SOURCE029_dim_fail GATE029_dim_fail DRAIN029_dim_fail
++ SOURCE030_dim_fail GATE030_dim_fail DRAIN030_dim_fail
++ SOURCE031_dim_fail GATE031_dim_fail DRAIN031_dim_fail
++ SOURCE032_dim_fail GATE032_dim_fail DRAIN032_dim_fail
++ SOURCE033_dim_fail GATE033_dim_fail DRAIN033_dim_fail
++ SOURCE034_dim_fail GATE034_dim_fail DRAIN034_dim_fail
++ SOURCE035_dim_fail GATE035_dim_fail DRAIN035_dim_fail
++ SOURCE036_dim_fail GATE036_dim_fail DRAIN036_dim_fail
++ SOURCE037_dim_fail GATE037_dim_fail DRAIN037_dim_fail
++ SOURCE038_dim_fail GATE038_dim_fail DRAIN038_dim_fail
++ SOURCE039_dim_fail GATE039_dim_fail DRAIN039_dim_fail
++ SOURCE040_dim_fail GATE040_dim_fail DRAIN040_dim_fail
++ SOURCE041_dim_fail GATE041_dim_fail DRAIN041_dim_fail
++ SOURCE042_dim_fail GATE042_dim_fail DRAIN042_dim_fail
++ SOURCE043_dim_fail GATE043_dim_fail DRAIN043_dim_fail
++ SOURCE044_dim_fail GATE044_dim_fail DRAIN044_dim_fail
++ SOURCE045_dim_fail GATE045_dim_fail DRAIN045_dim_fail
++ SOURCE046_dim_fail GATE046_dim_fail DRAIN046_dim_fail
++ SOURCE047_dim_fail GATE047_dim_fail DRAIN047_dim_fail
++ SOURCE048_dim_fail GATE048_dim_fail DRAIN048_dim_fail
++ SOURCE049_dim_fail GATE049_dim_fail DRAIN049_dim_fail
++ SOURCE050_dim_fail GATE050_dim_fail DRAIN050_dim_fail
++ SOURCE051_dim_fail GATE051_dim_fail DRAIN051_dim_fail
++ SOURCE052_dim_fail GATE052_dim_fail DRAIN052_dim_fail
++ SOURCE053_dim_fail GATE053_dim_fail DRAIN053_dim_fail
++ SOURCE054_dim_fail GATE054_dim_fail DRAIN054_dim_fail
++ SOURCE055_dim_fail GATE055_dim_fail DRAIN055_dim_fail
++ SOURCE056_dim_fail GATE056_dim_fail DRAIN056_dim_fail
++ SOURCE057_dim_fail GATE057_dim_fail DRAIN057_dim_fail
++ SOURCE058_dim_fail GATE058_dim_fail DRAIN058_dim_fail
++ SOURCE059_dim_fail GATE059_dim_fail DRAIN059_dim_fail
++ SOURCE060_dim_fail GATE060_dim_fail DRAIN060_dim_fail
++ SOURCE061_dim_fail GATE061_dim_fail DRAIN061_dim_fail
++ SOURCE062_dim_fail GATE062_dim_fail DRAIN062_dim_fail
++ SOURCE063_dim_fail GATE063_dim_fail DRAIN063_dim_fail
+
+M000_dim_fail SOURCE000_dim_fail GATE000_dim_fail DRAIN000_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M001_dim_fail SOURCE001_dim_fail GATE001_dim_fail DRAIN001_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=0.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M002_dim_fail SOURCE002_dim_fail GATE002_dim_fail DRAIN002_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=0.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M003_dim_fail SOURCE003_dim_fail GATE003_dim_fail DRAIN003_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=0.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M004_dim_fail SOURCE004_dim_fail GATE004_dim_fail DRAIN004_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=0.42u l=2.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M005_dim_fail SOURCE005_dim_fail GATE005_dim_fail DRAIN005_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=2.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M006_dim_fail SOURCE006_dim_fail GATE006_dim_fail DRAIN006_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=2.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M007_dim_fail SOURCE007_dim_fail GATE007_dim_fail DRAIN007_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=2.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M008_dim_fail SOURCE008_dim_fail GATE008_dim_fail DRAIN008_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=0.42u l=4.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M009_dim_fail SOURCE009_dim_fail GATE009_dim_fail DRAIN009_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=4.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M010_dim_fail SOURCE010_dim_fail GATE010_dim_fail DRAIN010_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=4.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M011_dim_fail SOURCE011_dim_fail GATE011_dim_fail DRAIN011_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=4.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M012_dim_fail SOURCE012_dim_fail GATE012_dim_fail DRAIN012_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=0.42u l=6.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M013_dim_fail SOURCE013_dim_fail GATE013_dim_fail DRAIN013_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=6.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M014_dim_fail SOURCE014_dim_fail GATE014_dim_fail DRAIN014_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=6.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M015_dim_fail SOURCE015_dim_fail GATE015_dim_fail DRAIN015_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=6.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M016_dim_fail SOURCE016_dim_fail GATE016_dim_fail DRAIN016_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=0.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M017_dim_fail SOURCE017_dim_fail GATE017_dim_fail DRAIN017_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=10.50u l=0.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M018_dim_fail SOURCE018_dim_fail GATE018_dim_fail DRAIN018_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=0.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M019_dim_fail SOURCE019_dim_fail GATE019_dim_fail DRAIN019_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=0.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M020_dim_fail SOURCE020_dim_fail GATE020_dim_fail DRAIN020_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=2.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M021_dim_fail SOURCE021_dim_fail GATE021_dim_fail DRAIN021_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=10.50u l=2.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M022_dim_fail SOURCE022_dim_fail GATE022_dim_fail DRAIN022_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=2.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M023_dim_fail SOURCE023_dim_fail GATE023_dim_fail DRAIN023_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=2.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M024_dim_fail SOURCE024_dim_fail GATE024_dim_fail DRAIN024_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=4.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M025_dim_fail SOURCE025_dim_fail GATE025_dim_fail DRAIN025_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=10.50u l=4.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M026_dim_fail SOURCE026_dim_fail GATE026_dim_fail DRAIN026_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=4.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M027_dim_fail SOURCE027_dim_fail GATE027_dim_fail DRAIN027_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=4.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M028_dim_fail SOURCE028_dim_fail GATE028_dim_fail DRAIN028_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=2.10u l=6.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M029_dim_fail SOURCE029_dim_fail GATE029_dim_fail DRAIN029_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=10.50u l=6.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M030_dim_fail SOURCE030_dim_fail GATE030_dim_fail DRAIN030_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=6.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M031_dim_fail SOURCE031_dim_fail GATE031_dim_fail DRAIN031_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M032_dim_fail SOURCE032_dim_fail GATE032_dim_fail DRAIN032_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=0.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M033_dim_fail SOURCE033_dim_fail GATE033_dim_fail DRAIN033_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=0.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M034_dim_fail SOURCE034_dim_fail GATE034_dim_fail DRAIN034_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=34.02u l=0.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M035_dim_fail SOURCE035_dim_fail GATE035_dim_fail DRAIN035_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=0.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M036_dim_fail SOURCE036_dim_fail GATE036_dim_fail DRAIN036_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=2.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M037_dim_fail SOURCE037_dim_fail GATE037_dim_fail DRAIN037_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=2.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M038_dim_fail SOURCE038_dim_fail GATE038_dim_fail DRAIN038_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=34.02u l=2.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M039_dim_fail SOURCE039_dim_fail GATE039_dim_fail DRAIN039_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=2.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M040_dim_fail SOURCE040_dim_fail GATE040_dim_fail DRAIN040_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=4.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M041_dim_fail SOURCE041_dim_fail GATE041_dim_fail DRAIN041_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=4.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M042_dim_fail SOURCE042_dim_fail GATE042_dim_fail DRAIN042_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=34.02u l=4.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M043_dim_fail SOURCE043_dim_fail GATE043_dim_fail DRAIN043_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=4.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M044_dim_fail SOURCE044_dim_fail GATE044_dim_fail DRAIN044_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=3.78u l=6.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M045_dim_fail SOURCE045_dim_fail GATE045_dim_fail DRAIN045_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=18.90u l=6.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M046_dim_fail SOURCE046_dim_fail GATE046_dim_fail DRAIN046_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=34.02u l=6.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M047_dim_fail SOURCE047_dim_fail GATE047_dim_fail DRAIN047_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=6.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M048_dim_fail SOURCE048_dim_fail GATE048_dim_fail DRAIN048_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=0.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M049_dim_fail SOURCE049_dim_fail GATE049_dim_fail DRAIN049_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=0.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M050_dim_fail SOURCE050_dim_fail GATE050_dim_fail DRAIN050_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=0.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M051_dim_fail SOURCE051_dim_fail GATE051_dim_fail DRAIN051_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=70.98u l=0.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M052_dim_fail SOURCE052_dim_fail GATE052_dim_fail DRAIN052_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=2.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M053_dim_fail SOURCE053_dim_fail GATE053_dim_fail DRAIN053_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=2.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M054_dim_fail SOURCE054_dim_fail GATE054_dim_fail DRAIN054_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=2.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M055_dim_fail SOURCE055_dim_fail GATE055_dim_fail DRAIN055_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=70.98u l=2.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M056_dim_fail SOURCE056_dim_fail GATE056_dim_fail DRAIN056_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=4.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M057_dim_fail SOURCE057_dim_fail GATE057_dim_fail DRAIN057_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=4.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M058_dim_fail SOURCE058_dim_fail GATE058_dim_fail DRAIN058_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=4.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M059_dim_fail SOURCE059_dim_fail GATE059_dim_fail DRAIN059_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=70.98u l=4.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M060_dim_fail SOURCE060_dim_fail GATE060_dim_fail DRAIN060_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=6.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M061_dim_fail SOURCE061_dim_fail GATE061_dim_fail DRAIN061_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=6.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M062_dim_fail SOURCE062_dim_fail GATE062_dim_fail DRAIN062_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=6.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M063_dim_fail SOURCE063_dim_fail GATE063_dim_fail DRAIN063_dim_fail BULK_dim_fail sky130_fd_pr__pfet_g5v0d10v5 w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+.ENDS

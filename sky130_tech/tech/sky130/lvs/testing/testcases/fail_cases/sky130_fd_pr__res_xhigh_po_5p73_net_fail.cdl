@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__res_xhigh_po_5p73 SUBSTRATE
++ R0_000_net_fail R1_000_net_fail
++ R0_001_net_fail R1_001_net_fail
++ R0_002_net_fail R1_002_net_fail
++ R0_003_net_fail R1_003_net_fail
++ R0_004_net_fail R1_004_net_fail
++ R0_005_net_fail R1_005_net_fail
++ R0_006_net_fail R1_006_net_fail
++ R0_007_net_fail R1_007_net_fail
++ R0_008_net_fail R1_008_net_fail
++ R0_009_net_fail R1_009_net_fail
++ R0_010_net_fail R1_010_net_fail
++ R0_011_net_fail R1_011_net_fail
++ R0_012_net_fail R1_012_net_fail
++ R0_013_net_fail R1_013_net_fail
++ R0_014_net_fail R1_014_net_fail
++ R0_015_net_fail R1_015_net_fail
++ R0_016_net_fail R1_016_net_fail
++ R0_017_net_fail R1_017_net_fail
++ R0_018_net_fail R1_018_net_fail
++ R0_019_net_fail R1_019_net_fail
++ R0_020_net_fail R1_020_net_fail
++ R0_021_net_fail R1_021_net_fail
++ R0_022_net_fail R1_022_net_fail
++ R0_023_net_fail R1_023_net_fail
++ R0_024_net_fail R1_024_net_fail
++ R0_025_net_fail R1_025_net_fail
++ R0_026_net_fail R1_026_net_fail
++ R0_027_net_fail R1_027_net_fail
++ R0_028_net_fail R1_028_net_fail
++ R0_029_net_fail R1_029_net_fail
++ R0_030_net_fail R1_030_net_fail
++ R0_031_net_fail R1_031_net_fail
++ R0_032_net_fail R1_032_net_fail
++ R0_033_net_fail R1_033_net_fail
++ R0_034_net_fail R1_034_net_fail
++ R0_035_net_fail R1_035_net_fail
++ R0_036_net_fail R1_036_net_fail
++ R0_037_net_fail R1_037_net_fail
++ R0_038_net_fail R1_038_net_fail
++ R0_039_net_fail R1_039_net_fail
++ R0_040_net_fail R1_040_net_fail
++ R0_041_net_fail R1_041_net_fail
++ R0_042_net_fail R1_042_net_fail
++ R0_043_net_fail R1_043_net_fail
++ R0_044_net_fail R1_044_net_fail
++ R0_045_net_fail R1_045_net_fail
++ R0_046_net_fail R1_046_net_fail
++ R0_047_net_fail R1_047_net_fail
++ R0_048_net_fail R1_048_net_fail
++ R0_049_net_fail R1_049_net_fail
++ R0_050_net_fail R1_050_net_fail
++ R0_051_net_fail R1_051_net_fail
++ R0_052_net_fail R1_052_net_fail
++ R0_053_net_fail R1_053_net_fail
++ R0_054_net_fail R1_054_net_fail
++ R0_055_net_fail R1_055_net_fail
++ R0_056_net_fail R1_056_net_fail
++ R0_057_net_fail R1_057_net_fail
++ R0_058_net_fail R1_058_net_fail
++ R0_059_net_fail R1_059_net_fail
++ R0_060_net_fail R1_060_net_fail
++ R0_061_net_fail R1_061_net_fail
++ R0_062_net_fail R1_062_net_fail
++ R0_063_net_fail R1_063_net_fail
+
+R000_net_fail R0_000_net_fail R1_000_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=7.839074999999999u w=7.073685u
+
+R001_net_fail R0_001_net_fail R1_001_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=15.530009999999999u w=7.073685u
+
+R002_net_fail R0_002_net_fail R1_002_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=23.220944999999997u w=7.073685u
+
+R003_net_fail R0_003_net_fail R1_003_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=30.911879999999996u w=7.073685u
+
+R004_net_fail R0_004_net_fail R1_004_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=38.602815u w=7.073685u
+
+R005_net_fail R0_005_net_fail R1_005_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=46.293749999999996u w=7.073685u
+
+R006_net_fail R0_006_net_fail R1_006_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=53.98468499999999u w=7.073685u
+
+R007_net_fail R0_007_net_fail R1_007_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=61.675619999999995u w=7.073685u
+
+R008_net_fail R0_008_net_fail R1_008_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=15.530009999999999u w=7.073685u
+
+R009_net_fail R0_009_net_fail R1_009_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=30.911879999999996u w=7.073685u
+
+R010_net_fail R0_010_net_fail R1_010_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=46.293749999999996u w=7.073685u
+
+R011_net_fail R0_011_net_fail R1_011_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=61.675619999999995u w=7.073685u
+
+R012_net_fail R0_012_net_fail R1_012_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=77.05749u w=7.073685u
+
+R013_net_fail R0_013_net_fail R1_013_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=92.43936u w=7.073685u
+
+R014_net_fail R0_014_net_fail R1_014_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=107.82123u w=7.073685u
+
+R015_net_fail R0_015_net_fail R1_015_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=123.20309999999999u w=7.073685u
+
+R016_net_fail R0_016_net_fail R1_016_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=23.220944999999997u w=7.073685u
+
+R017_net_fail R0_017_net_fail R1_017_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=46.293749999999996u w=7.073685u
+
+R018_net_fail R0_018_net_fail R1_018_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=69.36655499999999u w=7.073685u
+
+R019_net_fail R0_019_net_fail R1_019_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=92.43936u w=7.073685u
+
+R020_net_fail R0_020_net_fail R1_020_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=115.51216499999998u w=7.073685u
+
+R021_net_fail R0_021_net_fail R1_021_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=138.58497u w=7.073685u
+
+R022_net_fail R0_022_net_fail R1_022_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=161.657775u w=7.073685u
+
+R023_net_fail R0_023_net_fail R1_023_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=184.73057999999997u w=7.073685u
+
+R024_net_fail R0_024_net_fail R1_024_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=30.911879999999996u w=7.073685u
+
+R025_net_fail R0_025_net_fail R1_025_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=61.675619999999995u w=7.073685u
+
+R026_net_fail R0_026_net_fail R1_026_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=92.43936u w=7.073685u
+
+R027_net_fail R0_027_net_fail R1_027_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=123.20309999999999u w=7.073685u
+
+R028_net_fail R0_028_net_fail R1_028_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=153.96684u w=7.073685u
+
+R029_net_fail R0_029_net_fail R1_029_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=184.73057999999997u w=7.073685u
+
+R030_net_fail R0_030_net_fail R1_030_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=215.49432u w=7.073685u
+
+R031_net_fail R0_031_net_fail R1_031_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=246.25805999999997u w=7.073685u
+
+R032_net_fail R0_032_net_fail R1_032_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=38.602815u w=7.073685u
+
+R033_net_fail R0_033_net_fail R1_033_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=77.05749u w=7.073685u
+
+R034_net_fail R0_034_net_fail R1_034_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=115.51216499999998u w=7.073685u
+
+R035_net_fail R0_035_net_fail R1_035_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=153.96684u w=7.073685u
+
+R036_net_fail R0_036_net_fail R1_036_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=192.421515u w=7.073685u
+
+R037_net_fail R0_037_net_fail R1_037_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=230.87619u w=7.073685u
+
+R038_net_fail R0_038_net_fail R1_038_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=269.33086499999996u w=7.073685u
+
+R039_net_fail R0_039_net_fail R1_039_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=307.78553999999997u w=7.073685u
+
+R040_net_fail R0_040_net_fail R1_040_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=46.293749999999996u w=7.073685u
+
+R041_net_fail R0_041_net_fail R1_041_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=92.43936u w=7.073685u
+
+R042_net_fail R0_042_net_fail R1_042_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=138.58497u w=7.073685u
+
+R043_net_fail R0_043_net_fail R1_043_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=184.73057999999997u w=7.073685u
+
+R044_net_fail R0_044_net_fail R1_044_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=230.87619u w=7.073685u
+
+R045_net_fail R0_045_net_fail R1_045_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=277.0218u w=7.073685u
+
+R046_net_fail R0_046_net_fail R1_046_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=323.16740999999996u w=7.073685u
+
+R047_net_fail R0_047_net_fail R1_047_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=369.31302u w=7.073685u
+
+R048_net_fail R0_048_net_fail R1_048_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=53.98468499999999u w=7.073685u
+
+R049_net_fail R0_049_net_fail R1_049_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=107.82123u w=7.073685u
+
+R050_net_fail R0_050_net_fail R1_050_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=161.657775u w=7.073685u
+
+R051_net_fail R0_051_net_fail R1_051_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=215.49432u w=7.073685u
+
+R052_net_fail R0_052_net_fail R1_052_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=269.33086499999996u w=7.073685u
+
+R053_net_fail R0_053_net_fail R1_053_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=323.16740999999996u w=7.073685u
+
+R054_net_fail R0_054_net_fail R1_054_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=377.00395499999996u w=7.073685u
+
+R055_net_fail R0_055_net_fail R1_055_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=430.84049999999996u w=7.073685u
+
+R056_net_fail R0_056_net_fail R1_056_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=61.675619999999995u w=7.073685u
+
+R057_net_fail R0_057_net_fail R1_057_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=123.20309999999999u w=7.073685u
+
+R058_net_fail R0_058_net_fail R1_058_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=184.73057999999997u w=7.073685u
+
+R059_net_fail R0_059_net_fail R1_059_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=246.25805999999997u w=7.073685u
+
+R060_net_fail R0_060_net_fail R1_060_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=307.78553999999997u w=7.073685u
+
+R061_net_fail R0_061_net_fail R1_061_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=369.31302u w=7.073685u
+
+R062_net_fail R0_062_net_fail R1_062_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=430.84049999999996u w=7.073685u
+
+R063_net_fail R0_063_net_fail R1_063_net_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=492.36797999999993u w=7.073685u
+
+.ENDS

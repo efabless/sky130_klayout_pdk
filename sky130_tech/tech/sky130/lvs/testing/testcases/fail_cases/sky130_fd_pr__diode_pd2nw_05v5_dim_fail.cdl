@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__diode_pd2nw_05v5 
++ D0_000_dim_fail D1_000_dim_fail
++ D0_001_dim_fail D1_001_dim_fail
++ D0_002_dim_fail D1_002_dim_fail
++ D0_003_dim_fail D1_003_dim_fail
++ D0_004_dim_fail D1_004_dim_fail
++ D0_005_dim_fail D1_005_dim_fail
++ D0_006_dim_fail D1_006_dim_fail
++ D0_007_dim_fail D1_007_dim_fail
++ D0_008_dim_fail D1_008_dim_fail
++ D0_009_dim_fail D1_009_dim_fail
++ D0_010_dim_fail D1_010_dim_fail
++ D0_011_dim_fail D1_011_dim_fail
++ D0_012_dim_fail D1_012_dim_fail
++ D0_013_dim_fail D1_013_dim_fail
++ D0_014_dim_fail D1_014_dim_fail
++ D0_015_dim_fail D1_015_dim_fail
++ D0_016_dim_fail D1_016_dim_fail
++ D0_017_dim_fail D1_017_dim_fail
++ D0_018_dim_fail D1_018_dim_fail
++ D0_019_dim_fail D1_019_dim_fail
++ D0_020_dim_fail D1_020_dim_fail
++ D0_021_dim_fail D1_021_dim_fail
++ D0_022_dim_fail D1_022_dim_fail
++ D0_023_dim_fail D1_023_dim_fail
++ D0_024_dim_fail D1_024_dim_fail
++ D0_025_dim_fail D1_025_dim_fail
++ D0_026_dim_fail D1_026_dim_fail
++ D0_027_dim_fail D1_027_dim_fail
++ D0_028_dim_fail D1_028_dim_fail
++ D0_029_dim_fail D1_029_dim_fail
++ D0_030_dim_fail D1_030_dim_fail
++ D0_031_dim_fail D1_031_dim_fail
++ D0_032_dim_fail D1_032_dim_fail
++ D0_033_dim_fail D1_033_dim_fail
++ D0_034_dim_fail D1_034_dim_fail
++ D0_035_dim_fail D1_035_dim_fail
++ D0_036_dim_fail D1_036_dim_fail
++ D0_037_dim_fail D1_037_dim_fail
++ D0_038_dim_fail D1_038_dim_fail
++ D0_039_dim_fail D1_039_dim_fail
++ D0_040_dim_fail D1_040_dim_fail
++ D0_041_dim_fail D1_041_dim_fail
++ D0_042_dim_fail D1_042_dim_fail
++ D0_043_dim_fail D1_043_dim_fail
++ D0_044_dim_fail D1_044_dim_fail
++ D0_045_dim_fail D1_045_dim_fail
++ D0_046_dim_fail D1_046_dim_fail
++ D0_047_dim_fail D1_047_dim_fail
++ D0_048_dim_fail D1_048_dim_fail
++ D0_049_dim_fail D1_049_dim_fail
++ D0_050_dim_fail D1_050_dim_fail
++ D0_051_dim_fail D1_051_dim_fail
++ D0_052_dim_fail D1_052_dim_fail
++ D0_053_dim_fail D1_053_dim_fail
++ D0_054_dim_fail D1_054_dim_fail
++ D0_055_dim_fail D1_055_dim_fail
++ D0_056_dim_fail D1_056_dim_fail
++ D0_057_dim_fail D1_057_dim_fail
++ D0_058_dim_fail D1_058_dim_fail
++ D0_059_dim_fail D1_059_dim_fail
++ D0_060_dim_fail D1_060_dim_fail
++ D0_061_dim_fail D1_061_dim_fail
++ D0_062_dim_fail D1_062_dim_fail
++ D0_063_dim_fail D1_063_dim_fail
+
+D000_dim_fail D0_000_dim_fail D1_000_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.2025p P=1.8u
+
+D001_dim_fail D0_001_dim_fail D1_001_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.405p P=2.7u
+
+D002_dim_fail D0_002_dim_fail D1_002_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.6075p P=3.6u
+
+D003_dim_fail D0_003_dim_fail D1_003_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.81p P=4.5u
+
+D004_dim_fail D0_004_dim_fail D1_004_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.0125p P=5.4u
+
+D005_dim_fail D0_005_dim_fail D1_005_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.215p P=6.3u
+
+D006_dim_fail D0_006_dim_fail D1_006_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.4175p P=7.2u
+
+D007_dim_fail D0_007_dim_fail D1_007_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.62p P=8.1u
+
+D008_dim_fail D0_008_dim_fail D1_008_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.405p P=2.7u
+
+D009_dim_fail D0_009_dim_fail D1_009_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.81p P=3.6u
+
+D010_dim_fail D0_010_dim_fail D1_010_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.215p P=4.5u
+
+D011_dim_fail D0_011_dim_fail D1_011_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.62p P=5.4u
+
+D012_dim_fail D0_012_dim_fail D1_012_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.025p P=6.3u
+
+D013_dim_fail D0_013_dim_fail D1_013_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.43p P=7.2u
+
+D014_dim_fail D0_014_dim_fail D1_014_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.835p P=8.1u
+
+D015_dim_fail D0_015_dim_fail D1_015_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=3.24p P=9.0u
+
+D016_dim_fail D0_016_dim_fail D1_016_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.6075p P=3.6u
+
+D017_dim_fail D0_017_dim_fail D1_017_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.215p P=4.5u
+
+D018_dim_fail D0_018_dim_fail D1_018_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.8225p P=5.4u
+
+D019_dim_fail D0_019_dim_fail D1_019_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.43p P=6.3u
+
+D020_dim_fail D0_020_dim_fail D1_020_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=3.0375p P=7.2u
+
+D021_dim_fail D0_021_dim_fail D1_021_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=3.645p P=8.1u
+
+D022_dim_fail D0_022_dim_fail D1_022_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.2525p P=9.0u
+
+D023_dim_fail D0_023_dim_fail D1_023_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.86p P=9.9u
+
+D024_dim_fail D0_024_dim_fail D1_024_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=0.81p P=4.5u
+
+D025_dim_fail D0_025_dim_fail D1_025_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.62p P=5.4u
+
+D026_dim_fail D0_026_dim_fail D1_026_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.43p P=6.3u
+
+D027_dim_fail D0_027_dim_fail D1_027_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=3.24p P=7.2u
+
+D028_dim_fail D0_028_dim_fail D1_028_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.05p P=8.1u
+
+D029_dim_fail D0_029_dim_fail D1_029_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.86p P=9.0u
+
+D030_dim_fail D0_030_dim_fail D1_030_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=5.67p P=9.9u
+
+D031_dim_fail D0_031_dim_fail D1_031_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=6.48p P=10.8u
+
+D032_dim_fail D0_032_dim_fail D1_032_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.0125p P=5.4u
+
+D033_dim_fail D0_033_dim_fail D1_033_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.025p P=6.3u
+
+D034_dim_fail D0_034_dim_fail D1_034_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=3.0375p P=7.2u
+
+D035_dim_fail D0_035_dim_fail D1_035_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.05p P=8.1u
+
+D036_dim_fail D0_036_dim_fail D1_036_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=5.0625p P=9.0u
+
+D037_dim_fail D0_037_dim_fail D1_037_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=6.075p P=9.9u
+
+D038_dim_fail D0_038_dim_fail D1_038_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=7.0875p P=10.8u
+
+D039_dim_fail D0_039_dim_fail D1_039_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=8.1p P=11.7u
+
+D040_dim_fail D0_040_dim_fail D1_040_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.215p P=6.3u
+
+D041_dim_fail D0_041_dim_fail D1_041_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.43p P=7.2u
+
+D042_dim_fail D0_042_dim_fail D1_042_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=3.645p P=8.1u
+
+D043_dim_fail D0_043_dim_fail D1_043_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.86p P=9.0u
+
+D044_dim_fail D0_044_dim_fail D1_044_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=6.075p P=9.9u
+
+D045_dim_fail D0_045_dim_fail D1_045_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=7.29p P=10.8u
+
+D046_dim_fail D0_046_dim_fail D1_046_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=8.505p P=11.7u
+
+D047_dim_fail D0_047_dim_fail D1_047_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=9.72p P=12.6u
+
+D048_dim_fail D0_048_dim_fail D1_048_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.4175p P=7.2u
+
+D049_dim_fail D0_049_dim_fail D1_049_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=2.835p P=8.1u
+
+D050_dim_fail D0_050_dim_fail D1_050_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.2525p P=9.0u
+
+D051_dim_fail D0_051_dim_fail D1_051_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=5.67p P=9.9u
+
+D052_dim_fail D0_052_dim_fail D1_052_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=7.0875p P=10.8u
+
+D053_dim_fail D0_053_dim_fail D1_053_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=8.505p P=11.7u
+
+D054_dim_fail D0_054_dim_fail D1_054_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=9.9225p P=12.6u
+
+D055_dim_fail D0_055_dim_fail D1_055_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=11.34p P=13.5u
+
+D056_dim_fail D0_056_dim_fail D1_056_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=1.62p P=8.1u
+
+D057_dim_fail D0_057_dim_fail D1_057_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=3.24p P=9.0u
+
+D058_dim_fail D0_058_dim_fail D1_058_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=4.86p P=9.9u
+
+D059_dim_fail D0_059_dim_fail D1_059_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=6.48p P=10.8u
+
+D060_dim_fail D0_060_dim_fail D1_060_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=8.1p P=11.7u
+
+D061_dim_fail D0_061_dim_fail D1_061_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=9.72p P=12.6u
+
+D062_dim_fail D0_062_dim_fail D1_062_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=11.34p P=13.5u
+
+D063_dim_fail D0_063_dim_fail D1_063_dim_fail sky130_fd_pr__diode_pd2nw_05v5 A=12.96p P=14.4u
+
+.ENDS

@@ -1,0 +1,39 @@
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* SPDX-License-Identifier: Apache-2.0
+
+.SUBCKT sky130_fd_sc_hs__a311oi_1 A1 A2 A3 B1 C1 VGND VNB VPB VPWR Y
+*.PININFO A1:I A2:I A3:I B1:I C1:I VGND:I VNB:I VPB:I VPWR:I Y:O
+MMPA0 pndA A1 VPWR VPB sky130_fd_pr__pfet_01v8 m=1 w=1.12U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMPA1 pndA A2 VPWR VPB sky130_fd_pr__pfet_01v8 m=1 w=1.12U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMPA2 pndA A3 VPWR VPB sky130_fd_pr__pfet_01v8 m=1 w=1.12U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMPB0 pndB B1 pndA VPB sky130_fd_pr__pfet_01v8 m=1 w=1.12U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMPC0 Y C1 pndB VPB sky130_fd_pr__pfet_01v8 m=1 w=1.12U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMNA0 Y A1 sndA1 VNB sky130_fd_pr__nfet_01v8_lvt m=1 w=0.74U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMNA1 sndA1 A2 sndA2 VNB sky130_fd_pr__nfet_01v8_lvt m=1 w=0.74U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMNA2 sndA2 A3 VGND VNB sky130_fd_pr__nfet_01v8_lvt m=1 w=0.74U l=0.15U mult=1
++ sa=0.265 sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMNB0 Y B1 VGND VNB sky130_fd_pr__nfet_01v8_lvt m=1 w=0.74U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+MMNC0 Y C1 VGND VNB sky130_fd_pr__nfet_01v8_lvt m=1 w=0.74U l=0.15U mult=1 sa=0.265
++ sb=0.265 sd=0.28 area=0.063 perim=1.14
+.ENDS sky130_fd_sc_hs__a311oi_1

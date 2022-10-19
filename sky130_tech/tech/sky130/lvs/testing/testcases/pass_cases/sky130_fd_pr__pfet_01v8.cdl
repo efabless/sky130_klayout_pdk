@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__pfet_01v8 BULK
++ SOURCE000 GATE000 DRAIN000
++ SOURCE001 GATE001 DRAIN001
++ SOURCE002 GATE002 DRAIN002
++ SOURCE003 GATE003 DRAIN003
++ SOURCE004 GATE004 DRAIN004
++ SOURCE005 GATE005 DRAIN005
++ SOURCE006 GATE006 DRAIN006
++ SOURCE007 GATE007 DRAIN007
++ SOURCE008 GATE008 DRAIN008
++ SOURCE009 GATE009 DRAIN009
++ SOURCE010 GATE010 DRAIN010
++ SOURCE011 GATE011 DRAIN011
++ SOURCE012 GATE012 DRAIN012
++ SOURCE013 GATE013 DRAIN013
++ SOURCE014 GATE014 DRAIN014
++ SOURCE015 GATE015 DRAIN015
++ SOURCE016 GATE016 DRAIN016
++ SOURCE017 GATE017 DRAIN017
++ SOURCE018 GATE018 DRAIN018
++ SOURCE019 GATE019 DRAIN019
++ SOURCE020 GATE020 DRAIN020
++ SOURCE021 GATE021 DRAIN021
++ SOURCE022 GATE022 DRAIN022
++ SOURCE023 GATE023 DRAIN023
++ SOURCE024 GATE024 DRAIN024
++ SOURCE025 GATE025 DRAIN025
++ SOURCE026 GATE026 DRAIN026
++ SOURCE027 GATE027 DRAIN027
++ SOURCE028 GATE028 DRAIN028
++ SOURCE029 GATE029 DRAIN029
++ SOURCE030 GATE030 DRAIN030
++ SOURCE031 GATE031 DRAIN031
++ SOURCE032 GATE032 DRAIN032
++ SOURCE033 GATE033 DRAIN033
++ SOURCE034 GATE034 DRAIN034
++ SOURCE035 GATE035 DRAIN035
++ SOURCE036 GATE036 DRAIN036
++ SOURCE037 GATE037 DRAIN037
++ SOURCE038 GATE038 DRAIN038
++ SOURCE039 GATE039 DRAIN039
++ SOURCE040 GATE040 DRAIN040
++ SOURCE041 GATE041 DRAIN041
++ SOURCE042 GATE042 DRAIN042
++ SOURCE043 GATE043 DRAIN043
++ SOURCE044 GATE044 DRAIN044
++ SOURCE045 GATE045 DRAIN045
++ SOURCE046 GATE046 DRAIN046
++ SOURCE047 GATE047 DRAIN047
++ SOURCE048 GATE048 DRAIN048
++ SOURCE049 GATE049 DRAIN049
++ SOURCE050 GATE050 DRAIN050
++ SOURCE051 GATE051 DRAIN051
++ SOURCE052 GATE052 DRAIN052
++ SOURCE053 GATE053 DRAIN053
++ SOURCE054 GATE054 DRAIN054
++ SOURCE055 GATE055 DRAIN055
++ SOURCE056 GATE056 DRAIN056
++ SOURCE057 GATE057 DRAIN057
++ SOURCE058 GATE058 DRAIN058
++ SOURCE059 GATE059 DRAIN059
++ SOURCE060 GATE060 DRAIN060
++ SOURCE061 GATE061 DRAIN061
++ SOURCE062 GATE062 DRAIN062
++ SOURCE063 GATE063 DRAIN063
+
+M000 SOURCE000 GATE000 DRAIN000 BULK sky130_fd_pr__pfet_01v8 w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M001 SOURCE001 GATE001 DRAIN001 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=0.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M002 SOURCE002 GATE002 DRAIN002 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=0.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M003 SOURCE003 GATE003 DRAIN003 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=0.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M004 SOURCE004 GATE004 DRAIN004 BULK sky130_fd_pr__pfet_01v8 w=0.42u l=2.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M005 SOURCE005 GATE005 DRAIN005 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=2.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M006 SOURCE006 GATE006 DRAIN006 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=2.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M007 SOURCE007 GATE007 DRAIN007 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=2.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M008 SOURCE008 GATE008 DRAIN008 BULK sky130_fd_pr__pfet_01v8 w=0.42u l=4.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M009 SOURCE009 GATE009 DRAIN009 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=4.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M010 SOURCE010 GATE010 DRAIN010 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=4.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M011 SOURCE011 GATE011 DRAIN011 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=4.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M012 SOURCE012 GATE012 DRAIN012 BULK sky130_fd_pr__pfet_01v8 w=0.42u l=6.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M013 SOURCE013 GATE013 DRAIN013 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=6.15u nf=1 m=1 ad=0.6090p as=0.6090p pd=4.7800u ps=4.7800u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M014 SOURCE014 GATE014 DRAIN014 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=6.15u nf=1 m=1 ad=1.0962p as=1.0962p pd=8.1400u ps=8.1400u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M015 SOURCE015 GATE015 DRAIN015 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=6.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5000u ps=11.5000u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M016 SOURCE016 GATE016 DRAIN016 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=0.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M017 SOURCE017 GATE017 DRAIN017 BULK sky130_fd_pr__pfet_01v8 w=10.50u l=0.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M018 SOURCE018 GATE018 DRAIN018 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=0.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M019 SOURCE019 GATE019 DRAIN019 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=0.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M020 SOURCE020 GATE020 DRAIN020 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=2.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M021 SOURCE021 GATE021 DRAIN021 BULK sky130_fd_pr__pfet_01v8 w=10.50u l=2.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M022 SOURCE022 GATE022 DRAIN022 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=2.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M023 SOURCE023 GATE023 DRAIN023 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=2.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M024 SOURCE024 GATE024 DRAIN024 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=4.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M025 SOURCE025 GATE025 DRAIN025 BULK sky130_fd_pr__pfet_01v8 w=10.50u l=4.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M026 SOURCE026 GATE026 DRAIN026 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=4.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M027 SOURCE027 GATE027 DRAIN027 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=4.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M028 SOURCE028 GATE028 DRAIN028 BULK sky130_fd_pr__pfet_01v8 w=2.10u l=6.15u nf=5 m=1 ad=0.0731p as=0.0731p pd=2.2440u ps=2.2440u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M029 SOURCE029 GATE029 DRAIN029 BULK sky130_fd_pr__pfet_01v8 w=10.50u l=6.15u nf=5 m=1 ad=0.3654p as=0.3654p pd=4.2600u ps=4.2600u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M030 SOURCE030 GATE030 DRAIN030 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=6.15u nf=5 m=1 ad=0.6577p as=0.6577p pd=6.2760u ps=6.2760u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M032 SOURCE032 GATE032 DRAIN032 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=0.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M033 SOURCE033 GATE033 DRAIN033 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=0.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M034 SOURCE034 GATE034 DRAIN034 BULK sky130_fd_pr__pfet_01v8 w=34.02u l=0.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M035 SOURCE035 GATE035 DRAIN035 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=0.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M036 SOURCE036 GATE036 DRAIN036 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=2.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M037 SOURCE037 GATE037 DRAIN037 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=2.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M038 SOURCE038 GATE038 DRAIN038 BULK sky130_fd_pr__pfet_01v8 w=34.02u l=2.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M039 SOURCE039 GATE039 DRAIN039 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=2.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M040 SOURCE040 GATE040 DRAIN040 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=4.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M041 SOURCE041 GATE041 DRAIN041 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=4.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M042 SOURCE042 GATE042 DRAIN042 BULK sky130_fd_pr__pfet_01v8 w=34.02u l=4.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M043 SOURCE043 GATE043 DRAIN043 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=4.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M044 SOURCE044 GATE044 DRAIN044 BULK sky130_fd_pr__pfet_01v8 w=3.78u l=6.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M045 SOURCE045 GATE045 DRAIN045 BULK sky130_fd_pr__pfet_01v8 w=18.90u l=6.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M046 SOURCE046 GATE046 DRAIN046 BULK sky130_fd_pr__pfet_01v8 w=34.02u l=6.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M047 SOURCE047 GATE047 DRAIN047 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=6.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M048 SOURCE048 GATE048 DRAIN048 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=0.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M049 SOURCE049 GATE049 DRAIN049 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=0.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M050 SOURCE050 GATE050 DRAIN050 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=0.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M051 SOURCE051 GATE051 DRAIN051 BULK sky130_fd_pr__pfet_01v8 w=70.98u l=0.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M052 SOURCE052 GATE052 DRAIN052 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=2.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M053 SOURCE053 GATE053 DRAIN053 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=2.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M054 SOURCE054 GATE054 DRAIN054 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=2.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M055 SOURCE055 GATE055 DRAIN055 BULK sky130_fd_pr__pfet_01v8 w=70.98u l=2.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M056 SOURCE056 GATE056 DRAIN056 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=4.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M057 SOURCE057 GATE057 DRAIN057 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=4.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M058 SOURCE058 GATE058 DRAIN058 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=4.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M059 SOURCE059 GATE059 DRAIN059 BULK sky130_fd_pr__pfet_01v8 w=70.98u l=4.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M060 SOURCE060 GATE060 DRAIN060 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=6.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M061 SOURCE061 GATE061 DRAIN061 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=6.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M062 SOURCE062 GATE062 DRAIN062 BULK sky130_fd_pr__pfet_01v8 w=49.14u l=6.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 BULK sky130_fd_pr__pfet_01v8 w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+.ENDS

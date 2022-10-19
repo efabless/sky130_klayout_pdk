@@ -1,0 +1,63 @@
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* SPDX-License-Identifier: Apache-2.0
+
+.SUBCKT sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 A LOWLVPWR VGND VPB VPWR X
+*.PININFO A:I LOWLVPWR:I VGND:I VPB:I VPWR:I X:O
+M1000 VPWR a_620_911# a_714_47# VPB sky130_fd_pr__pfet_01v8_hvt w=790000u l=150000u
++ ad=1.1152e+12p pd=9.97e+06u as=2.1725e+11p ps=2.13e+06u
+M1001 a_1032_911# a_620_911# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=790000u
++ l=150000u ad=2.133e+11p pd=2.12e+06u as=0p ps=0u
+M1002 X a_1032_911# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
++ ad=6.5e+11p pd=5.3e+06u as=0p ps=0u
+M1003 a_620_911# a_505_297# VGND VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u
++ ad=3.64e+11p pd=3.72e+06u as=1.81105e+12p ps=1.7e+07u
+M1004 a_714_47# A VGND VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u ad=3.64e+11p
++ pd=3.72e+06u as=0p ps=0u
+M1005 a_714_47# A VGND VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u ad=0p pd=0u
++ as=0p ps=0u
+M1006 X a_1032_911# VGND VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u
++ ad=4.225e+11p pd=3.9e+06u as=0p ps=0u
+M1007 X a_1032_911# VGND VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u ad=0p
++ pd=0u as=0p ps=0u
+M1008 VPWR a_1032_911# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u ad=0p
++ pd=0u as=0p ps=0u
+M1009 VGND A a_714_47# VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u ad=0p pd=0u
++ as=0p ps=0u
+M1010 VGND a_505_297# a_620_911# VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u
++ ad=0p pd=0u as=0p ps=0u
+M1011 a_1032_911# a_620_911# VGND VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u
++ ad=1.7225e+11p pd=1.83e+06u as=0p ps=0u
+M1012 VGND A a_714_47# VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u ad=0p pd=0u
++ as=0p ps=0u
+M1013 a_505_297# A LOWLVPWR LOWLVPWR sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
++ ad=2.75e+11p pd=2.55e+06u as=2.75e+11p ps=2.55e+06u
+M1014 a_505_297# A VGND VGND sky130_fd_pr__nfet_01v8 w=420000u l=150000u
++ ad=1.113e+11p pd=1.37e+06u as=0p ps=0u
+M1015 X a_1032_911# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u ad=0p
++ pd=0u as=0p ps=0u
+M1016 VPWR a_1032_911# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u ad=0p
++ pd=0u as=0p ps=0u
+M1017 VGND a_1032_911# X VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u ad=0p
++ pd=0u as=0p ps=0u
+M1018 VGND a_1032_911# X VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u ad=0p
++ pd=0u as=0p ps=0u
+M1019 VGND a_505_297# a_620_911# VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u
++ ad=0p pd=0u as=0p ps=0u
+M1020 a_620_911# a_505_297# VGND VGND sky130_fd_pr__nfet_01v8 w=650000u l=150000u
++ ad=0p pd=0u as=0p ps=0u
+M1021 VPWR a_714_47# a_620_911# VPB sky130_fd_pr__pfet_01v8_hvt w=790000u l=150000u
++ ad=0p pd=0u as=2.1725e+11p ps=2.13e+06u
+.ENDS sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4

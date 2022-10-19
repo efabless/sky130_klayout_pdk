@@ -1,0 +1,1178 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT collision SUBSTRATE BULK
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ C0_000 C1_000
++ C0_031 C1_031
++ C0_063 C1_063
++ C0_000 C1_000
++ C0_031 C1_031
++ C0_063 C1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ D0_000 D1_000
++ D0_031 D1_031
++ D0_063 D1_063
++ C0_000 C1_000
++ C0_039 C1_039
++ C0_080 C1_080
++ C0_000 C1_000
++ C0_039 C1_039
++ C0_080 C1_080
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ SOURCE000 GATE000 DRAIN000
++ SOURCE031 GATE031 DRAIN031
++ SOURCE063 GATE063 DRAIN063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ R0_000 R1_000
++ R0_031 R1_031
++ R0_063 R1_063
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 MET3 SUB
++ C0 C1 SUB
++ C0 C1 MET3 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 MET5 SUB
++ C0 C1 M5 SUB
++ C0 C1 SUB
++ C0 C1 MET4 SUB
++ C0 C1 M4 SUB
++ C0 C1 MET4 SUB
++ C0 C1 M4 SUB
++ C0 C1 SUB
++ C0 C1 MET3 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 MET5 SUB
++ C0 C1 M5 SUB
++ C0 C1 SUB
++ C0 C1 MET5
++ C0 M5 SUB
++ C0 C1 SUB
++ C0 C1 MET3 SUB
++ C0 C1 MET4 SUB
++ C0 C1 M4 SUB
++ C0 C1 MET4 SUB
++ C0 C1 M4 SUB
++ C0 C1 MET5 SUB
++ C0 C1 M5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 M5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 M5A SUB
++ C0 C1 M5A SUB
++ C0 C1 M5A SUB
++ C0 C1 M5A SUB
++ C0 C1 M5 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 MET5 SUB
++ C0 C1 M5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 M5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ B C E SUBSTRATE
++ D0 D1
++ Base Collector Emitter SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ D PSUB S
++ D G PSUB S
++ D PSUB S
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE SUBSTRATE
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ DRAIN GATE SOURCE BULK
++ Bulk DRAIN GATE SOURCE
++ DRAIN GATE SOURCE BULK
++ L0 L1 SUBSTRATE TAP
++ L0 L1 SUBSTRATE TAP
++ L0 L1 SUBSTRATE TAP
+
+
+M000 SOURCE000 GATE000 DRAIN000 BULK sky130_fd_bs_flash__special_sonosfet_star w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 BULK sky130_fd_bs_flash__special_sonosfet_star w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 BULK sky130_fd_bs_flash__special_sonosfet_star w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+C000 C0_000 C1_000 SUBSTRATE sky130_fd_pr__cap_var_hvt A=0.18p P=2.36u
+
+C031 C0_031 C1_031 SUBSTRATE sky130_fd_pr__cap_var_hvt A=14.4p P=47.2u
+
+C063 C0_063 C1_063 SUBSTRATE sky130_fd_pr__cap_var_hvt A=37.44p P=122.72u
+
+C000 C0_000 C1_000 SUBSTRATE sky130_fd_pr__cap_var_lvt A=0.18p P=2.36u
+
+C031 C0_031 C1_031 SUBSTRATE sky130_fd_pr__cap_var_lvt A=14.4p P=47.2u
+
+C063 C0_063 C1_063 SUBSTRATE sky130_fd_pr__cap_var_lvt A=37.44p P=122.72u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pd2nw_05v5 A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pd2nw_05v5 A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pd2nw_05v5 A=12.96p P=14.4u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pd2nw_05v5_hvt A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pd2nw_05v5_hvt A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pd2nw_05v5_hvt A=12.96p P=14.4u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pd2nw_05v5_lvt A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pd2nw_05v5_lvt A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pd2nw_05v5_lvt A=12.96p P=14.4u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pd2nw_11v0 A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pd2nw_11v0 A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pd2nw_11v0 A=12.96p P=14.4u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pw2nd_05v5 A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pw2nd_05v5 A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pw2nd_05v5 A=12.96p P=14.4u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pw2nd_05v5_lvt A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pw2nd_05v5_lvt A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pw2nd_05v5_lvt A=12.96p P=14.4u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pw2nd_05v5_nvt A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pw2nd_05v5_nvt A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pw2nd_05v5_nvt A=12.96p P=14.4u
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pw2nd_11v0 A=0.2025p P=1.8u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pw2nd_11v0 A=6.48p P=10.8u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pw2nd_11v0 A=12.96p P=14.4u
+
+C000 C0_000 C1_000 sky130_fd_pr__model__cap_mim A=4p P=8u
+
+C039 C0_039 C1_039 sky130_fd_pr__model__cap_mim A=1344p P=148u
+
+C080 C0_080 C1_080 sky130_fd_pr__model__cap_mim A=6724p P=328u
+
+C000 C0_000 C1_000 sky130_fd_pr__model__cap_mim_m4 A=4p P=8u
+
+C039 C0_039 C1_039 sky130_fd_pr__model__cap_mim_m4 A=1344p P=148u
+
+C080 C0_080 C1_080 sky130_fd_pr__model__cap_mim_m4 A=6724p P=328u
+
+M000 SOURCE000 GATE000 DRAIN000 SUBSTRATE sky130_fd_pr__nfet_01v8 w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 SUBSTRATE sky130_fd_pr__nfet_01v8 w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 SUBSTRATE sky130_fd_pr__nfet_01v8 w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 SUBSTRATE sky130_fd_pr__nfet_05v0_nvt w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 SUBSTRATE sky130_fd_pr__nfet_05v0_nvt w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 SUBSTRATE sky130_fd_pr__nfet_05v0_nvt w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 BULK sky130_fd_pr__pfet_01v8 w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 BULK sky130_fd_pr__pfet_01v8 w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 BULK sky130_fd_pr__pfet_01v8_hvt w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 BULK sky130_fd_pr__pfet_01v8_hvt w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 BULK sky130_fd_pr__pfet_01v8_hvt w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 BULK sky130_fd_pr__pfet_01v8_lvt w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 BULK sky130_fd_pr__pfet_01v8_lvt w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 BULK sky130_fd_pr__pfet_01v8_lvt w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M000 SOURCE000 GATE000 DRAIN000 BULK sky130_fd_pr__pfet_g5v0d10v5 w=0.42u l=0.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.4200u ps=1.4200u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M031 SOURCE031 GATE031 DRAIN031 BULK sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=6.15u nf=5 m=1 ad=0.9500p as=0.9500p pd=8.2920u ps=8.2920u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M063 SOURCE063 GATE063 DRAIN063 BULK sky130_fd_pr__pfet_g5v0d10v5 w=70.98u l=6.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_l1 l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_l1 l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_l1 l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_m1 l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_m1 l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_m1 l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_m2 l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_m2 l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_m2 l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_m3 l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_m3 l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_m3 l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_m4 l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_m4 l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_m4 l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_m5 l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_m5 l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_m5 l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_nd l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_nd l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_nd l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_nd_hv l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_nd_hv l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_nd_hv l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_pd l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_pd l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_pd l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_pd_hv l=2.1u w=0.42u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_pd_hv l=8.4u w=3.36u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_pd_hv l=16.8u w=3.36u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_po l=1.65u w=0.33u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_po l=6.6u w=2.64u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_po l=13.2u w=2.64u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_high_po_0p35 l=0.85u w=0.35u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_high_po_0p35 l=27.2u w=0.35u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_high_po_0p35 l=54.4u w=0.35u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_high_po_0p69 l=1.19u w=0.69u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_high_po_0p69 l=38.08u w=0.69u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_high_po_0p69 l=76.16u w=0.69u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_high_po_1p41 l=1.91u w=1.41u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_high_po_1p41 l=61.12u w=1.41u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_high_po_1p41 l=122.24u w=1.41u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_high_po_2p85 l=3.35u w=2.85u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_high_po_2p85 l=107.2u w=2.85u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_high_po_2p85 l=214.4u w=2.85u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_high_po_5p73 l=6.23u w=5.73u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_high_po_5p73 l=199.36u w=5.73u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_high_po_5p73 l=398.72u w=5.73u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_iso_pw l=26.5u w=2.65u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_iso_pw l=106.0u w=21.2u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_iso_pw l=212.0u w=21.2u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_xhigh_po_0p35 l=0.85u w=0.35u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_xhigh_po_0p35 l=27.2u w=0.35u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_xhigh_po_0p35 l=54.4u w=0.35u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_xhigh_po_0p69 l=1.19u w=0.69u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_xhigh_po_0p69 l=38.08u w=0.69u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_xhigh_po_0p69 l=76.16u w=0.69u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_xhigh_po_1p41 l=1.91u w=1.41u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_xhigh_po_1p41 l=61.12u w=1.41u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_xhigh_po_1p41 l=122.24u w=1.41u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_xhigh_po_2p85 l=3.35u w=2.85u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_xhigh_po_2p85 l=107.2u w=2.85u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_xhigh_po_2p85 l=214.4u w=2.85u
+
+R000 R0_000 R1_000 sky130_fd_pr__res_xhigh_po_5p73 l=6.23u w=5.73u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_xhigh_po_5p73 l=199.36u w=5.73u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_xhigh_po_5p73 l=398.72u w=5.73u
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_02p4x04p6_m1m2_noshield
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_02p7x06p1_m1m2m3m4_shieldl1_fingercap
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_02p7x11p1_m1m2m3m4_shieldl1_fingercap
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_02p7x21p1_m1m2m3m4_shieldl1_fingercap
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_02p7x41p1_m1m2m3m4_shieldl1_fingercap
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_02p9x06p1_m1m2m3m4_shieldl1_fingercap2
+
+Cx C0 C1 MET3 SUB sky130_fd_pr__cap_vpp_03p9x03p9_m1m2_shieldl1_floatm3
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_noshield
+
+Cx C0 C1 MET3 SUB sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield_o2
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_shieldl1
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_04p4x04p6_m1m2m3_shieldl1
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_04p4x04p6_m1m2m3_shieldl1m5_floatm4
+
+Cx C0 C1 M5 SUB sky130_fd_pr__cap_vpp_04p4x04p6_m1m2m3_shieldl1m5_floatm4_top
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_05p9x05p9_m1m2m3m4_shieldl1_wafflecap
+
+Cx C0 C1 MET4 SUB sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
+
+Cx C0 C1 M4 SUB sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_top
+
+Cx C0 C1 MET4 SUB sky130_fd_pr__cap_vpp_06p8x06p1_m1m2m3_shieldl1m4
+
+Cx C0 C1 M4 SUB sky130_fd_pr__cap_vpp_06p8x06p1_m1m2m3_shieldl1m4_top
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_noshield
+
+Cx C0 C1 MET3 SUB sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_shieldpo_floatm3
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_08p6x07p8_m1m2_noshield
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_08p6x07p8_m1m2_shieldl1
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4
+
+Cx C0 C1 M5 SUB sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4_top
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_11p3x11p3_m1m2m3m4_shieldl1_wafflecap
+
+Cx C0 C1 MET5 sky130_fd_pr__cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5_nhv
+
+Cx C0 M5 SUB sky130_fd_pr__cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5_nhvtop
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2_noshield
+
+Cx C0 C1 MET3 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2_shieldpom3
+
+Cx C0 C1 MET4 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldm4
+
+Cx C0 C1 M4 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldm4_top
+
+Cx C0 C1 MET4 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4
+
+Cx C0 C1 M4 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4_top
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5
+
+Cx C0 C1 M5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5_top
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5
+
+Cx C0 C1 M5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_top
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x
+
+Cx C0 C1 M5A SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x6
+
+Cx C0 C1 M5A SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x7
+
+Cx C0 C1 M5A SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x8
+
+Cx C0 C1 M5A SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x9
+
+Cx C0 C1 M5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_xtop
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2_noshield
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2_shieldl1
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3_shieldl1
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3_shieldl1m5_floatm4
+
+Cx C0 C1 M5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3_shieldl1m5_floatm4_top
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5
+
+Cx C0 C1 M5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5_top
+
+Cx C0 C1 MET5 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldm5
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_11p5x11p7_m1m4_noshield
+
+Cx C0 C1 SUB sky130_fd_pr__cap_vpp_44p7x23p1_pol1m1m2m3m4m5_noshield
+
+Qx B C E SUBSTRATE sky130_fd_pr__npn_05v5_W1p00L1p00
+
+Dx D0 D1 sky130_fd_pr__photodiode
+
+Qx Base Collector Emitter SUBSTRATE sky130_fd_pr__pnp_05v5_W0p68L0p68
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p15 W=3.3u L=0.15u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p18 W=3.3u L=0.18u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W1p65L0p25 W=3.3u L=0.25u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p15 W=6.0u L=0.15u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p18 W=6.0u L=0.18u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W3p00L0p25 W=6.0u L=0.25u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p15 W=10.0u L=0.15u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p18 W=10.0u L=0.18u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM02W5p00L0p25 W=10.0u L=0.25u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p18 W=6.6u L=0.18u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W1p65L0p25 W=6.6u L=0.25u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p18 W=12.0u L=0.18u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W3p00L0p25 W=12.0u L=0.25u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p18 W=20.0u L=0.18u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_aM04W5p00L0p25 W=20.0u L=0.25u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W1p65L0p18 W=6.6u L=0.18u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W1p65L0p25 W=6.6u L=0.25u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W3p00L0p18 W=12.0u L=0.18u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W3p00L0p25 W=12.0u L=0.25u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W5p00L0p18 W=20.0u L=0.18u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM02W5p00L0p25 W=20.0u L=0.25u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W1p65L0p15 W=9.899999999999999u L=0.15u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W1p65L0p18 W=9.899999999999999u L=0.18u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W1p65L0p25 W=9.899999999999999u L=0.25u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W3p00L0p15 W=18.0u L=0.15u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W3p00L0p18 W=18.0u L=0.18u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W3p00L0p25 W=18.0u L=0.25u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p15 W=30.0u L=0.15u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p18 W=30.0u L=0.18u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_bM04W5p00L0p25 W=30.0u L=0.25u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_hcM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_hcM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF02W0p42L0p15 W=0.84u L=0.15u nf=2 m=1 ad=0.0609p as=0.0609p pd=1.0u ps=1.0u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF02W0p84L0p15 W=1.68u L=0.15u nf=2 m=1 ad=0.1218p as=0.1218p pd=1.42u ps=1.42u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF02W1p65L0p15 W=3.3u L=0.15u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF02W3p00L0p15 W=6.0u L=0.15u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF04W0p42L0p15 W=1.68u L=0.15u nf=4 m=1 ad=0.0609p as=0.0609p pd=1.58u ps=1.58u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF04W0p84L0p15 W=3.36u L=0.15u nf=4 m=1 ad=0.1218p as=0.1218p pd=2.0u ps=2.0u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF04W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF06W0p42L0p15 W=2.52u L=0.15u nf=6 m=1 ad=0.0609p as=0.0609p pd=2.16u ps=2.16u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF06W0p84L0p15 W=5.04u L=0.15u nf=6 m=1 ad=0.1218p as=0.1218p pd=2.58u ps=2.58u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF06W1p65L0p15 W=9.899999999999999u L=0.15u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF06W3p00L0p15 W=18.0u L=0.15u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF08W0p42L0p15 W=3.36u L=0.15u nf=8 m=1 ad=0.0609p as=0.0609p pd=2.74u ps=2.74u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF08W0p84L0p15 W=6.72u L=0.15u nf=8 m=1 ad=0.1218p as=0.1218p pd=3.16u ps=3.16u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF08W1p65L0p15 W=13.2u L=0.15u nf=8 m=1 ad=0.2392p as=0.2392p pd=3.97u ps=3.97u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aF08W3p00L0p15 W=24.0u L=0.15u nf=8 m=1 ad=0.435p as=0.435p pd=5.32u ps=5.32u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p15 W=3.3u L=0.15u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p18 W=3.3u L=0.18u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W1p65L0p25 W=3.3u L=0.25u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p15 W=6.0u L=0.15u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p18 W=6.0u L=0.18u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W3p00L0p25 W=6.0u L=0.25u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p15 W=10.0u L=0.15u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p18 W=10.0u L=0.18u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM02W5p00L0p25 W=10.0u L=0.25u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p18 W=6.6u L=0.18u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W1p65L0p25 W=6.6u L=0.25u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p18 W=12.0u L=0.18u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W3p00L0p25 W=12.0u L=0.25u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p18 W=20.0u L=0.18u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_aM04W5p00L0p25 W=20.0u L=0.25u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p18 W=6.6u L=0.18u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W1p65L0p25 W=6.6u L=0.25u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p18 W=12.0u L=0.18u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W3p00L0p25 W=12.0u L=0.25u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00L0p18 W=20.0u L=0.18u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM02W5p00L0p25 W=20.0u L=0.25u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p15 W=9.899999999999999u L=0.15u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p18 W=9.899999999999999u L=0.18u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W1p65L0p25 W=9.899999999999999u L=0.25u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p15 W=18.0u L=0.15u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p18 W=18.0u L=0.18u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W3p00L0p25 W=18.0u L=0.25u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p15 W=30.0u L=0.15u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p18 W=30.0u L=0.18u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p25 W=30.0u L=0.25u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p15 W=3.3u L=0.15u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p18 W=3.3u L=0.18u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W1p65L0p25 W=3.3u L=0.25u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p15 W=6.0u L=0.15u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p18 W=6.0u L=0.18u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W3p00L0p25 W=6.0u L=0.25u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p15 W=10.0u L=0.15u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p18 W=10.0u L=0.18u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM02W5p00L0p25 W=10.0u L=0.25u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p18 W=6.6u L=0.18u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W1p65L0p25 W=6.6u L=0.25u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p18 W=12.0u L=0.18u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W3p00L0p25 W=12.0u L=0.25u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p18 W=20.0u L=0.18u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_lvt_cM04W5p00L0p25 W=20.0u L=0.25u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_mcM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_01v8_mcM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx D G PSUB S sky130_fd_pr__rf_nfet_20v0_nvt_aup
+
+Mx D G PSUB S sky130_fd_pr__rf_nfet_20v0_nvt_withptap
+
+Mx D G PSUB S sky130_fd_pr__rf_nfet_20v0_zvt_withptap
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W3p00L0p50 W=12.0u L=0.5u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W5p00L0p50 W=20.0u L=0.5u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_aM04W7p00L0p50 W=28.0u L=0.5u nf=4 m=1 ad=1.015p as=1.015p pd=8.16u ps=8.16u nrd=0.0414 nrs=0.0414 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W3p00L0p50 W=30.0u L=0.5u nf=10 m=1 ad=0.435p as=0.435p pd=5.9u ps=5.9u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W5p00L0p50 W=50.0u L=0.5u nf=10 m=1 ad=0.725p as=0.725p pd=7.9u ps=7.9u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W7p00L0p50 W=70.0u L=0.5u nf=10 m=1 ad=1.015p as=1.015p pd=9.9u ps=9.9u nrd=0.0414 nrs=0.0414 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM02W3p00L0p50 W=12.0u L=0.5u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM02W5p00L0p50 W=20.0u L=0.5u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W3p00L0p50 W=18.0u L=0.5u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W5p00L0p50 W=30.0u L=0.5u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM04W7p00L0p50 W=42.0u L=0.5u nf=6 m=1 ad=1.015p as=1.015p pd=8.74u ps=8.74u nrd=0.0414 nrs=0.0414 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W3p00L0p50 W=36.0u L=0.5u nf=12 m=1 ad=0.435p as=0.435p pd=6.48u ps=6.48u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W5p00L0p50 W=60.0u L=0.5u nf=12 m=1 ad=0.725p as=0.725p pd=8.48u ps=8.48u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__rf_nfet_g5v0d10v5_bM10W7p00L0p50 W=84.0u L=0.5u nf=12 m=1 ad=1.015p as=1.015p pd=10.48u ps=10.48u nrd=0.0414 nrs=0.0414 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF02W0p84L0p15 W=1.68u L=0.15u nf=2 m=1 ad=0.1218p as=0.1218p pd=1.42u ps=1.42u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF02W1p68L0p15 W=3.36u L=0.15u nf=2 m=1 ad=0.2436p as=0.2436p pd=2.26u ps=2.26u nrd=0.1726 nrs=0.1726 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF02W2p00L0p15 W=4.0u L=0.15u nf=2 m=1 ad=0.29p as=0.29p pd=2.58u ps=2.58u nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF02W3p00L0p15 W=6.0u L=0.15u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF02W5p00L0p15 W=10.0u L=0.15u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF04W0p84L0p15 W=3.36u L=0.15u nf=4 m=1 ad=0.1218p as=0.1218p pd=2.0u ps=2.0u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF04W1p68L0p15 W=6.72u L=0.15u nf=4 m=1 ad=0.2436p as=0.2436p pd=2.84u ps=2.84u nrd=0.1726 nrs=0.1726 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF04W2p00L0p15 W=8.0u L=0.15u nf=4 m=1 ad=0.29p as=0.29p pd=3.16u ps=3.16u nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF06W0p84L0p15 W=5.04u L=0.15u nf=6 m=1 ad=0.1218p as=0.1218p pd=2.58u ps=2.58u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF06W1p68L0p15 W=10.08u L=0.15u nf=6 m=1 ad=0.2436p as=0.2436p pd=3.42u ps=3.42u nrd=0.1726 nrs=0.1726 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF06W2p00L0p15 W=12.0u L=0.15u nf=6 m=1 ad=0.29p as=0.29p pd=3.74u ps=3.74u nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF06W3p00L0p15 W=18.0u L=0.15u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF08W0p84L0p15 W=6.72u L=0.15u nf=8 m=1 ad=0.1218p as=0.1218p pd=3.16u ps=3.16u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aF08W1p68L0p15 W=13.44u L=0.15u nf=8 m=1 ad=0.2436p as=0.2436p pd=4.0u ps=4.0u nrd=0.1726 nrs=0.1726 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p15 W=3.3u L=0.15u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p18 W=3.3u L=0.18u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W1p65L0p25 W=3.3u L=0.25u nf=2 m=1 ad=0.2392p as=0.2392p pd=2.23u ps=2.23u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p15 W=6.0u L=0.15u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p18 W=6.0u L=0.18u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W3p00L0p25 W=6.0u L=0.25u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p15 W=10.0u L=0.15u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p18 W=10.0u L=0.18u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM02W5p00L0p25 W=10.0u L=0.25u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p18 W=6.6u L=0.18u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W1p65L0p25 W=6.6u L=0.25u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p18 W=12.0u L=0.18u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W3p00L0p25 W=12.0u L=0.25u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p18 W=20.0u L=0.18u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_aM04W5p00L0p25 W=20.0u L=0.25u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W1p65L0p15 W=6.6u L=0.15u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W1p65L0p18 W=6.6u L=0.18u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W1p65L0p25 W=6.6u L=0.25u nf=4 m=1 ad=0.2392p as=0.2392p pd=2.81u ps=2.81u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W3p00L0p18 W=12.0u L=0.18u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W3p00L0p25 W=12.0u L=0.25u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W5p00L0p18 W=20.0u L=0.18u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM02W5p00L0p25 W=20.0u L=0.25u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W1p65L0p15 W=9.899999999999999u L=0.15u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W1p65L0p18 W=9.899999999999999u L=0.18u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W1p65L0p25 W=9.899999999999999u L=0.25u nf=6 m=1 ad=0.2392p as=0.2392p pd=3.39u ps=3.39u nrd=0.1758 nrs=0.1758 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W3p00L0p15 W=18.0u L=0.15u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W3p00L0p18 W=18.0u L=0.18u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W3p00L0p25 W=18.0u L=0.25u nf=6 m=1 ad=0.435p as=0.435p pd=4.74u ps=4.74u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W5p00L0p15 W=30.0u L=0.15u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W5p00L0p18 W=30.0u L=0.18u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_bM04W5p00L0p25 W=30.0u L=0.25u nf=6 m=1 ad=0.725p as=0.725p pd=6.74u ps=6.74u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_hcM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_hcM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM02W3p00L0p35 W=6.0u L=0.35u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM02W3p00L0p50 W=6.0u L=0.5u nf=2 m=1 ad=0.435p as=0.435p pd=3.58u ps=3.58u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM02W5p00L0p35 W=10.0u L=0.35u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM02W5p00L0p50 W=10.0u L=0.5u nf=2 m=1 ad=0.725p as=0.725p pd=5.58u ps=5.58u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM04W3p00L0p35 W=12.0u L=0.35u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM04W3p00L0p50 W=12.0u L=0.5u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM04W5p00L0p35 W=20.0u L=0.35u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_lvt_aM04W5p00L0p50 W=20.0u L=0.5u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_mcM04W3p00L0p15 W=12.0u L=0.15u nf=4 m=1 ad=0.435p as=0.435p pd=4.16u ps=4.16u nrd=0.0967 nrs=0.0967 sa=0 sb=0 sd=0
+
+Mx Bulk DRAIN GATE SOURCE sky130_fd_pr__rf_pfet_01v8_mcM04W5p00L0p15 W=20.0u L=0.15u nf=4 m=1 ad=0.725p as=0.725p pd=6.16u ps=6.16u nrd=0.058 nrs=0.058 sa=0 sb=0 sd=0
+
+Mx DRAIN GATE SOURCE BULK sky130_fd_pr__rf_pfet_01v8_mvt_aF02W0p84L0p15 W=1.68u L=0.15u nf=2 m=1 ad=0.1218p as=0.1218p pd=1.42u ps=1.42u nrd=0.3452 nrs=0.3452 sa=0 sb=0 sd=0
+
+Lx L0 L1 SUBSTRATE TAP sky130_fd_pr__rf_test_coil1
+
+Lx L0 L1 SUBSTRATE TAP sky130_fd_pr__rf_test_coil2
+
+Lx L0 L1 SUBSTRATE TAP sky130_fd_pr__rf_test_coil3
+
+.ENDS

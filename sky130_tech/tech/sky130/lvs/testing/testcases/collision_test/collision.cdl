@@ -1,0 +1,605 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT collision SUBSTRATE BULK
++ C0_000 C1_000
++ C0_001 C1_001
++ C0_002 C1_002
++ C0_003 C1_003
++ C0_004 C1_004
++ C0_005 C1_005
++ D0_006 D1_006
++ D0_007 D1_007
++ D0_008 D1_008
++ D0_009 D1_009
++ D0_010 D1_010
++ D0_011 D1_011
++ D0_012 D1_012
++ D0_013 D1_013
++ D0_014 D1_014
++ D0_015 D1_015
++ D0_016 D1_016
++ D0_017 D1_017
++ D0_018 D1_018
++ D0_019 D1_019
++ D0_020 D1_020
++ D0_021 D1_021
++ D0_022 D1_022
++ D0_023 D1_023
++ D0_024 D1_024
++ D0_025 D1_025
++ D0_026 D1_026
++ D0_027 D1_027
++ D0_028 D1_028
++ D0_029 D1_029
++ C0_030 C1_030
++ C0_031 C1_031
++ C0_032 C1_032
++ C0_033 C1_033
++ C0_034 C1_034
++ C0_035 C1_035
++ SOURCE036 GATE036 DRAIN036
++ SOURCE037 GATE037 DRAIN037
++ SOURCE038 GATE038 DRAIN038
++ SOURCE039 GATE039 DRAIN039
++ SOURCE040 GATE040 DRAIN040
++ SOURCE041 GATE041 DRAIN041
++ SOURCE042 GATE042 DRAIN042
++ SOURCE043 GATE043 DRAIN043
++ SOURCE044 GATE044 DRAIN044
++ SOURCE045 GATE045 DRAIN045
++ SOURCE046 GATE046 DRAIN046
++ SOURCE047 GATE047 DRAIN047
++ SOURCE048 GATE048 DRAIN048
++ SOURCE049 GATE049 DRAIN049
++ SOURCE050 GATE050 DRAIN050
++ SOURCE051 GATE051 DRAIN051
++ SOURCE052 GATE052 DRAIN052
++ SOURCE053 GATE053 DRAIN053
++ SOURCE054 GATE054 DRAIN054
++ SOURCE055 GATE055 DRAIN055
++ SOURCE056 GATE056 DRAIN056
++ SOURCE057 GATE057 DRAIN057
++ SOURCE058 GATE058 DRAIN058
++ SOURCE059 GATE059 DRAIN059
++ SOURCE060 GATE060 DRAIN060
++ SOURCE061 GATE061 DRAIN061
++ SOURCE062 GATE062 DRAIN062
++ R0_000 R1_000
++ R0_001 R1_001
++ R0_002 R1_002
++ R0_003 R1_003
++ R0_004 R1_004
++ R0_005 R1_005
++ R0_006 R1_006
++ R0_007 R1_007
++ R0_008 R1_008
++ R0_009 R1_009
++ R0_010 R1_010
++ R0_011 R1_011
++ R0_012 R1_012
++ R0_013 R1_013
++ R0_014 R1_014
++ R0_015 R1_015
++ R0_016 R1_016
++ R0_017 R1_017
++ R0_018 R1_018
++ R0_019 R1_019
++ R0_020 R1_020
++ R0_021 R1_021
++ R0_022 R1_022
++ R0_023 R1_023
++ R0_024 R1_024
++ R0_025 R1_025
++ R0_026 R1_026
++ R0_027 R1_027
++ R0_028 R1_028
++ R0_029 R1_029
++ R0_030 R1_030
++ R0_031 R1_031
++ R0_032 R1_032
++ R0_033 R1_033
++ R0_034 R1_034
++ R0_035 R1_035
++ R0_036 R1_036
++ R0_037 R1_037
++ R0_038 R1_038
++ R0_039 R1_039
++ R0_040 R1_040
++ R0_041 R1_041
++ R0_042 R1_042
++ R0_043 R1_043
++ R0_044 R1_044
++ R0_045 R1_045
++ R0_046 R1_046
++ R0_047 R1_047
++ R0_048 R1_048
++ R0_049 R1_049
++ R0_050 R1_050
++ R0_051 R1_051
++ R0_052 R1_052
++ R0_053 R1_053
++ R0_054 R1_054
++ R0_055 R1_055
++ R0_056 R1_056
++ R0_057 R1_057
++ R0_058 R1_058
++ R0_059 R1_059
++ R0_060 R1_060
++ R0_061 R1_061
++ R0_062 R1_062
++ R0_000 R1_000
++ R0_001 R1_001
++ R0_002 R1_002
++ SOURCE003 GATE003 DRAIN003
++ SOURCE004 GATE004 DRAIN004
++ SOURCE005 GATE005 DRAIN005
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB MET3
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB MET3
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 MET5 SUB
++ C0 C1 SUB
++ C0 C1 MET4 SUB
++ C0 C1 MET4 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB MET3
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 MET5 SUB
++ C0 C1 SUB
++ C0 C1 MET5
++ C0 C1 SUB
++ C0 C1 SUB MET3
++ C0 C1 MET4 SUB
++ C0 C1 MET4 SUB
++ C0 C1 MET5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 MET5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 MET5 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C0 C1 SUB
++ C B E SUBSTRATE
++ C B E SUBSTRATE
++ C B E SUBSTRATE
++ D0 D1
++ Collector Base Emitter
++ Collector Base Emitter
+* + L0_54 L1_54 SUBSTRATE_54 TAP_54
+* + L0_55 L1_55 SUBSTRATE_55 TAP_55
+* + L0_56 L1_56 SUBSTRATE_56 TAP_56
+
+
+C000 C0_000 C1_000 SUBSTRATE sky130_fd_pr__cap_var_hvt A=0.18p P=2.36u
+
+C001 C0_001 C1_001 SUBSTRATE sky130_fd_pr__cap_var_hvt A=0.36p P=4.36u
+
+C002 C0_002 C1_002 SUBSTRATE sky130_fd_pr__cap_var_hvt A=0.54p P=6.36u
+
+C003 C0_003 C1_003 SUBSTRATE sky130_fd_pr__cap_var_lvt A=0.72p P=8.36u
+
+C004 C0_004 C1_004 SUBSTRATE sky130_fd_pr__cap_var_lvt A=0.36p P=2.72u
+
+C005 C0_005 C1_005 SUBSTRATE sky130_fd_pr__cap_var_lvt A=0.72p P=4.72u
+
+D006 D0_006 D1_006 sky130_fd_pr__diode_pd2nw_05v5 A=1.4175p P=7.2u
+
+D007 D0_007 D1_007 sky130_fd_pr__diode_pd2nw_05v5 A=1.62p P=8.1u
+
+D008 D0_008 D1_008 sky130_fd_pr__diode_pd2nw_05v5 A=0.405p P=2.7u
+
+D009 D0_009 D1_009 sky130_fd_pr__diode_pd2nw_05v5_hvt A=0.81p P=3.6u
+
+D010 D0_010 D1_010 sky130_fd_pr__diode_pd2nw_05v5_hvt A=1.215p P=4.5u
+
+D011 D0_011 D1_011 sky130_fd_pr__diode_pd2nw_05v5_hvt A=1.62p P=5.4u
+
+D012 D0_012 D1_012 sky130_fd_pr__diode_pd2nw_05v5_lvt A=2.025p P=6.3u
+
+D013 D0_013 D1_013 sky130_fd_pr__diode_pd2nw_05v5_lvt A=2.43p P=7.2u
+
+D014 D0_014 D1_014 sky130_fd_pr__diode_pd2nw_05v5_lvt A=2.835p P=8.1u
+
+D015 D0_015 D1_015 sky130_fd_pr__diode_pd2nw_11v0 A=3.24p P=9.0u
+
+D016 D0_016 D1_016 sky130_fd_pr__diode_pd2nw_11v0 A=0.6075p P=3.6u
+
+D017 D0_017 D1_017 sky130_fd_pr__diode_pd2nw_11v0 A=1.215p P=4.5u
+
+D018 D0_018 D1_018 sky130_fd_pr__diode_pw2nd_05v5 A=1.8225p P=5.4u
+
+D019 D0_019 D1_019 sky130_fd_pr__diode_pw2nd_05v5 A=2.43p P=6.3u
+
+D020 D0_020 D1_020 sky130_fd_pr__diode_pw2nd_05v5 A=3.0375p P=7.2u
+
+D021 D0_021 D1_021 sky130_fd_pr__diode_pw2nd_05v5_lvt A=3.645p P=8.1u
+
+D022 D0_022 D1_022 sky130_fd_pr__diode_pw2nd_05v5_lvt A=4.2525p P=9.0u
+
+D023 D0_023 D1_023 sky130_fd_pr__diode_pw2nd_05v5_lvt A=4.86p P=9.9u
+
+D024 D0_024 D1_024 sky130_fd_pr__diode_pw2nd_05v5_nvt A=0.81p P=4.5u
+
+D025 D0_025 D1_025 sky130_fd_pr__diode_pw2nd_05v5_nvt A=1.62p P=5.4u
+
+D026 D0_026 D1_026 sky130_fd_pr__diode_pw2nd_05v5_nvt A=2.43p P=6.3u
+
+D027 D0_027 D1_027 sky130_fd_pr__diode_pw2nd_11v0 A=3.24p P=7.2u
+
+D028 D0_028 D1_028 sky130_fd_pr__diode_pw2nd_11v0 A=4.05p P=8.1u
+
+D029 D0_029 D1_029 sky130_fd_pr__diode_pw2nd_11v0 A=4.86p P=9.0u
+
+C030 C0_030 C1_030 sky130_fd_pr__model__cap_mim A=1024p P=128u
+
+C031 C0_031 C1_031 sky130_fd_pr__model__cap_mim A=1344p P=148u
+
+C032 C0_032 C1_032 sky130_fd_pr__model__cap_mim A=1664p P=168u
+
+C033 C0_033 C1_033 sky130_fd_pr__model__cap_mim_m4 A=1984p P=188u
+
+C034 C0_034 C1_034 sky130_fd_pr__model__cap_mim_m4 A=2304p P=208u
+
+C035 C0_035 C1_035 sky130_fd_pr__model__cap_mim_m4 A=2624p P=228u
+
+M036 SOURCE036 GATE036 DRAIN036 SUBSTRATE sky130_fd_pr__nfet_01v8 w=3.78u l=2.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M037 SOURCE037 GATE037 DRAIN037 SUBSTRATE sky130_fd_pr__nfet_01v8 w=18.90u l=2.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M038 SOURCE038 GATE038 DRAIN038 SUBSTRATE sky130_fd_pr__nfet_01v8 w=34.02u l=2.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M039 SOURCE039 GATE039 DRAIN039 SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=49.14u l=2.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M040 SOURCE040 GATE040 DRAIN040 SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=3.78u l=4.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M041 SOURCE041 GATE041 DRAIN041 SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=18.90u l=4.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M042 SOURCE042 GATE042 DRAIN042 SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=34.02u l=4.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M043 SOURCE043 GATE043 DRAIN043 SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=49.14u l=4.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M044 SOURCE044 GATE044 DRAIN044 SUBSTRATE sky130_fd_pr__nfet_03v3_nvt w=3.78u l=6.15u nf=9 m=1 ad=0.0677p as=0.0677p pd=3.3667u ps=3.3667u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M045 SOURCE045 GATE045 DRAIN045 SUBSTRATE sky130_fd_pr__nfet_05v0_nvt w=18.90u l=6.15u nf=9 m=1 ad=0.3383p as=0.3383p pd=5.2333u ps=5.2333u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M046 SOURCE046 GATE046 DRAIN046 SUBSTRATE sky130_fd_pr__nfet_05v0_nvt w=34.02u l=6.15u nf=9 m=1 ad=0.6090p as=0.6090p pd=7.1000u ps=7.1000u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M047 SOURCE047 GATE047 DRAIN047 SUBSTRATE sky130_fd_pr__nfet_05v0_nvt w=49.14u l=6.15u nf=9 m=1 ad=0.8797p as=0.8797p pd=8.9667u ps=8.9667u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M048 SOURCE048 GATE048 DRAIN048 SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=5.46u l=0.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M049 SOURCE049 GATE049 DRAIN049 SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=27.30u l=0.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M050 SOURCE050 GATE050 DRAIN050 SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=49.14u l=0.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M051 SOURCE051 GATE051 DRAIN051 BULK sky130_fd_pr__pfet_01v8 w=70.98u l=0.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M052 SOURCE052 GATE052 DRAIN052 BULK sky130_fd_pr__pfet_01v8 w=5.46u l=2.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M053 SOURCE053 GATE053 DRAIN053 BULK sky130_fd_pr__pfet_01v8 w=27.30u l=2.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M054 SOURCE054 GATE054 DRAIN054 BULK sky130_fd_pr__pfet_01v8_hvt w=49.14u l=2.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M055 SOURCE055 GATE055 DRAIN055 BULK sky130_fd_pr__pfet_01v8_hvt w=70.98u l=2.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M056 SOURCE056 GATE056 DRAIN056 BULK sky130_fd_pr__pfet_01v8_hvt w=5.46u l=4.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M057 SOURCE057 GATE057 DRAIN057 BULK sky130_fd_pr__pfet_01v8_lvt w=27.30u l=4.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M058 SOURCE058 GATE058 DRAIN058 BULK sky130_fd_pr__pfet_01v8_lvt w=49.14u l=4.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+M059 SOURCE059 GATE059 DRAIN059 BULK sky130_fd_pr__pfet_01v8_lvt w=70.98u l=4.15u nf=13 m=1 ad=0.8526p as=0.8526p pd=9.9400u ps=9.9400u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M060 SOURCE060 GATE060 DRAIN060 BULK sky130_fd_pr__pfet_g5v0d10v5 w=5.46u l=6.15u nf=13 m=1 ad=0.0656p as=0.0656p pd=4.5123u ps=4.5123u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M061 SOURCE061 GATE061 DRAIN061 BULK sky130_fd_pr__pfet_g5v0d10v5 w=27.30u l=6.15u nf=13 m=1 ad=0.3279p as=0.3279p pd=6.3215u ps=6.3215u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+M062 SOURCE062 GATE062 DRAIN062 BULK sky130_fd_pr__pfet_g5v0d10v5 w=49.14u l=6.15u nf=13 m=1 ad=0.5903p as=0.5903p pd=8.1308u ps=8.1308u nrd=0.0767 nrs=0.0767 sa=0 sb=0 sd=0
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_l1 l=2.1u w=0.42u
+
+R001 R0_001 R1_001 sky130_fd_pr__res_generic_l1 l=2.1u w=0.84u
+
+R002 R0_002 R1_002 sky130_fd_pr__res_generic_l1 l=2.1u w=1.26u
+
+R003 R0_003 R1_003 sky130_fd_pr__res_generic_m1 l=2.1u w=1.68u
+
+R004 R0_004 R1_004 sky130_fd_pr__res_generic_m1 l=2.1u w=2.1u
+
+R005 R0_005 R1_005 sky130_fd_pr__res_generic_m1 l=2.1u w=2.52u
+
+R006 R0_006 R1_006 sky130_fd_pr__res_generic_m2 l=2.1u w=2.94u
+
+R007 R0_007 R1_007 sky130_fd_pr__res_generic_m2 l=2.1u w=3.36u
+
+R008 R0_008 R1_008 sky130_fd_pr__res_generic_m2 l=4.2u w=0.42u
+
+R009 R0_009 R1_009 sky130_fd_pr__res_generic_m3 l=4.2u w=0.84u
+
+R010 R0_010 R1_010 sky130_fd_pr__res_generic_m3 l=4.2u w=1.26u
+
+R011 R0_011 R1_011 sky130_fd_pr__res_generic_m3 l=4.2u w=1.68u
+
+R012 R0_012 R1_012 sky130_fd_pr__res_generic_m4 l=4.2u w=2.1u
+
+R013 R0_013 R1_013 sky130_fd_pr__res_generic_m4 l=4.2u w=2.52u
+
+R014 R0_014 R1_014 sky130_fd_pr__res_generic_m4 l=4.2u w=2.94u
+
+R015 R0_015 R1_015 sky130_fd_pr__res_generic_m5 l=4.2u w=3.36u
+
+R016 R0_016 R1_016 sky130_fd_pr__res_generic_m5 l=6.3u w=0.42u
+
+R017 R0_017 R1_017 sky130_fd_pr__res_generic_m5 l=6.3u w=0.84u
+
+R018 R0_018 R1_018 SUBSTRATE sky130_fd_pr__res_generic_nd l=6.3u w=1.26u
+
+R019 R0_019 R1_019 SUBSTRATE sky130_fd_pr__res_generic_nd l=6.3u w=1.68u
+
+R020 R0_020 R1_020 SUBSTRATE sky130_fd_pr__res_generic_nd l=6.3u w=2.1u
+
+R021 R0_021 R1_021 SUBSTRATE sky130_fd_pr__res_generic_nd_hv l=6.3u w=2.52u
+
+R022 R0_022 R1_022 SUBSTRATE sky130_fd_pr__res_generic_nd_hv l=6.3u w=2.94u
+
+R023 R0_023 R1_023 SUBSTRATE sky130_fd_pr__res_generic_nd_hv l=6.3u w=3.36u
+
+R024 R0_024 R1_024 SUBSTRATE sky130_fd_pr__res_generic_pd l=8.4u w=0.42u
+
+R025 R0_025 R1_025 SUBSTRATE sky130_fd_pr__res_generic_pd l=8.4u w=0.84u
+
+R026 R0_026 R1_026 SUBSTRATE sky130_fd_pr__res_generic_pd l=8.4u w=1.26u
+
+R027 R0_027 R1_027 SUBSTRATE sky130_fd_pr__res_generic_pd_hv l=8.4u w=1.68u
+
+R028 R0_028 R1_028 SUBSTRATE sky130_fd_pr__res_generic_pd_hv l=8.4u w=2.1u
+
+R029 R0_029 R1_029 SUBSTRATE sky130_fd_pr__res_generic_pd_hv l=8.4u w=2.52u
+
+R030 R0_030 R1_030 sky130_fd_pr__res_generic_po l=6.6u w=2.31u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_po l=6.6u w=2.64u
+
+R032 R0_032 R1_032 sky130_fd_pr__res_generic_po l=8.25u w=0.33u
+
+R033 R0_033 R1_033 SUBSTRATE sky130_fd_pr__res_high_po_0p35 l=8.62u w=0.35u
+
+R034 R0_034 R1_034 SUBSTRATE sky130_fd_pr__res_high_po_0p35 l=12.87u w=0.35u
+
+R035 R0_035 R1_035 SUBSTRATE sky130_fd_pr__res_high_po_0p35 l=17.12u w=0.35u
+
+R036 R0_036 R1_036 SUBSTRATE sky130_fd_pr__res_high_po_0p69 l=29.87u w=0.69u
+
+R037 R0_037 R1_037 SUBSTRATE sky130_fd_pr__res_high_po_0p69 l=35.82u w=0.69u
+
+R038 R0_038 R1_038 SUBSTRATE sky130_fd_pr__res_high_po_0p69 l=41.77u w=0.69u
+
+R039 R0_039 R1_039 SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=76.52u w=1.41u
+
+R040 R0_040 R1_040 SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=11.58u w=1.41u
+
+R041 R0_041 R1_041 SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=23.04u w=1.41u
+
+R042 R0_042 R1_042 SUBSTRATE sky130_fd_pr__res_high_po_2p85 l=60.42u w=2.85u
+
+R043 R0_043 R1_043 SUBSTRATE sky130_fd_pr__res_high_po_2p85 l=80.52u w=2.85u
+
+R044 R0_044 R1_044 SUBSTRATE sky130_fd_pr__res_high_po_2p85 l=100.62u w=2.85u
+
+R045 R0_045 R1_045 SUBSTRATE sky130_fd_pr__res_high_po_5p73 l=224.4u w=5.73u
+
+R046 R0_046 R1_046 SUBSTRATE sky130_fd_pr__res_high_po_5p73 l=261.78u w=5.73u
+
+R047 R0_047 R1_047 SUBSTRATE sky130_fd_pr__res_high_po_5p73 l=299.16u w=5.73u
+
+R048 R0_048 R1_048 SUBSTRATE sky130_fd_pr__res_iso_pw l=185.5u w=2.65u
+
+R049 R0_049 R1_049 SUBSTRATE sky130_fd_pr__res_iso_pw l=185.5u w=5.3u
+
+R050 R0_050 R1_050 SUBSTRATE sky130_fd_pr__res_iso_pw l=185.5u w=7.95u
+
+R051 R0_051 R1_051 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=23.92u w=0.35u
+
+R052 R0_052 R1_052 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=29.87u w=0.35u
+
+R053 R0_053 R1_053 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=35.82u w=0.35u
+
+R054 R0_054 R1_054 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p69 l=58.43u w=0.69u
+
+R055 R0_055 R1_055 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p69 l=66.76u w=0.69u
+
+R056 R0_056 R1_056 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p69 l=9.64u w=0.69u
+
+R057 R0_057 R1_057 SUBSTRATE sky130_fd_pr__res_xhigh_po_1p41 l=30.68u w=1.41u
+
+R058 R0_058 R1_058 SUBSTRATE sky130_fd_pr__res_xhigh_po_1p41 l=45.96u w=1.41u
+
+R059 R0_059 R1_059 SUBSTRATE sky130_fd_pr__res_xhigh_po_1p41 l=61.24u w=1.41u
+
+R060 R0_060 R1_060 SUBSTRATE sky130_fd_pr__res_xhigh_po_2p85 l=134.12u w=2.85u
+
+R061 R0_061 R1_061 SUBSTRATE sky130_fd_pr__res_xhigh_po_2p85 l=160.92u w=2.85u
+
+R062 R0_062 R1_062 SUBSTRATE sky130_fd_pr__res_xhigh_po_2p85 l=187.72u w=2.85u
+
+R000 R0_000 R1_000 SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=6.35u w=5.73u
+
+R001 R0_001 R1_001 SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=12.58u w=5.73u
+
+R002 R0_002 R1_002 SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=18.81u w=5.73u
+
+M003 SOURCE003 GATE003 DRAIN003 SUBSTRATE sky130_fd_bs_flash__special_sonosfet_star w=5.46u l=0.15u nf=1 m=1 ad=1.5834p as=1.5834p pd=11.5u ps=11.5u nrd=0.0531 nrs=0.0531 sa=0 sb=0 sd=0
+
+M004 SOURCE004 GATE004 DRAIN004 SUBSTRATE sky130_fd_bs_flash__special_sonosfet_star w=0.42u l=2.15u nf=1 m=1 ad=0.1218p as=0.1218p pd=1.42u ps=1.42u nrd=0.6905 nrs=0.6905 sa=0 sb=0 sd=0
+
+M005 SOURCE005 GATE005 DRAIN005 SUBSTRATE sky130_fd_bs_flash__special_sonosfet_star w=2.1u l=2.15u nf=1 m=1 ad=0.609p as=0.609p pd=4.78u ps=4.78u nrd=0.1381 nrs=0.1381 sa=0 sb=0 sd=0
+
+C1_0 C0_0 C1_0 SUB_0 sky130_fd_pr__cap_vpp_02p4x04p6_m1m2_noshield
+
+Cx C0_1 C1_1 SUB_1 sky130_fd_pr__cap_vpp_02p7x06p1_m1m2m3m4_shieldl1_fingercap
+
+C1_2 C0_2 C1_2 SUB_2 sky130_fd_pr__cap_vpp_02p7x11p1_m1m2m3m4_shieldl1_fingercap
+
+C1_3 C0_3 C1_3 SUB_3 sky130_fd_pr__cap_vpp_02p7x21p1_m1m2m3m4_shieldl1_fingercap
+
+C1_4 C0_4 C1_4 SUB_4 sky130_fd_pr__cap_vpp_02p7x41p1_m1m2m3m4_shieldl1_fingercap
+
+C1_5 C0_5 C1_5 SUB_5 sky130_fd_pr__cap_vpp_02p9x06p1_m1m2m3m4_shieldl1_fingercap2
+
+C1_6 C0_6 C1_6 SUB_6 MET3_6 sky130_fd_pr__cap_vpp_03p9x03p9_m1m2_shieldl1_floatm3
+
+C1_7 C0_7 C1_7 SUB_7 sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_noshield
+
+Cx C0_8 C1_8 SUB_8 sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_noshield_o2subcell
+
+C1_9 C0_9 C1_9 SUB_9 MET3_9 sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3
+
+C1_10 C0_10 C1_10 SUB_10 sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield
+
+C1_11 C0_11 C1_11 SUB_11 sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield_o2
+
+C1_12 C0_12 C1_12 SUB_12 sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_shieldl1
+
+C1_13 C0_13 C1_13 SUB_13 sky130_fd_pr__cap_vpp_04p4x04p6_m1m2m3_shieldl1
+
+C1_14 C0_14 C1_14 SUB_14 MET5_14 sky130_fd_pr__cap_vpp_04p4x04p6_m1m2m3_shieldl1m5_floatm4
+
+C1_15 C0_15 C1_15 SUB_15 sky130_fd_pr__cap_vpp_05p9x05p9_m1m2m3m4_shieldl1_wafflecap
+
+C1_16 C0_16 C1_16 SUB_16 MET4_16 sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
+
+C1_17 C0_17 C1_17 SUB_17 MET4_17 sky130_fd_pr__cap_vpp_06p8x06p1_m1m2m3_shieldl1m4
+
+Cx C0_18 C1_18 SUB_18 sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_noshield
+
+Cx C0_19 C1_19 SUB_19 sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_noshield_o2subcell
+
+C1_20 C0_20 C1_20 SUB_20 MET3_20 sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_shieldpo_floatm3
+
+C1_21 C0_21 C1_21 SUB_21 sky130_fd_pr__cap_vpp_08p6x07p8_m1m2_noshield
+
+Cx C0_22 C1_22 SUB_22 sky130_fd_pr__cap_vpp_08p6x07p8_m1m2_shieldl1
+
+C1_23 C0_23 C1_23 SUB_23 sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1
+
+C1_24 C0_24 C1_24 SUB_24 MET5_24 sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4
+
+C1_25 C0_25 C1_25 SUB_25 sky130_fd_pr__cap_vpp_11p3x11p3_m1m2m3m4_shieldl1_wafflecap
+
+Cx C0_26 C1_26 MET5_26 sky130_fd_pr__cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5_nhv
+
+C1_27 C0_27 C1_27 SUB_27 sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2_noshield
+
+C1_28 C0_28 C1_28 SUB_28 MET3_28 sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2_shieldpom3
+
+C1_29 C0_29 C1_29 SUB_29 MET4_29 sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldm4
+
+C1_30 C0_30 C1_30 SUB_30 MET4_30 sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4
+
+C1_31 C0_31 C1_31 SUB_31 MET5_31 sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5
+
+C1_32 C0_32 C1_32 SUB_32 MET5_32 sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5
+
+C1_33 C0_33 C1_33 SUB_33 MET5_33 sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x
+
+C1_34 C0_34 C1_34 SUB_34 sky130_fd_pr__cap_vpp_11p5x11p7_m1m2_noshield
+
+C1_35 C0_35 C1_35 SUB_35 sky130_fd_pr__cap_vpp_11p5x11p7_m1m2_shieldl1
+
+C1_36 C0_36 C1_36 SUB_36 sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3_shieldl1
+
+C1_37 C0_37 C1_37 SUB_37 MET5_37 sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3_shieldl1m5_floatm4
+
+C1_38 C0_38 C1_38 SUB_38 MET5_38 sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5
+
+C1_39 C0_39 C1_39 SUB_39 MET5_39 sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldm5
+
+C1_40 C0_40 C1_40 SUB_40 sky130_fd_pr__cap_vpp_11p5x11p7_m1m4_noshield
+
+Cx C0_41 C1_41 SUB_41 sky130_fd_pr__cap_vpp_11p5x11p7_pol1m1m2m3m4m5_noshield
+
+Cx C0_42 C1_42 SUB_42 sky130_fd_pr__cap_vpp_11p5x23p1_pol1m1m2m3m4m5_noshield
+
+Cx C0_43 C1_43 SUB_43 sky130_fd_pr__cap_vpp_22p5x11p7_pol1m1m2m3m4m5_noshield
+
+Cx C0_44 C1_44 SUB_44 sky130_fd_pr__cap_vpp_22p5x23p1_pol1m1m2m3m4m5_noshield
+
+Cx C0_45 C1_45 SUB_45 sky130_fd_pr__cap_vpp_33p6x11p7_pol1m1m2m3m4m5_noshield
+
+Cx C0_46 C1_46 SUB_46 sky130_fd_pr__cap_vpp_33p6x23p1_pol1m1m2m3m4m5_noshield
+
+Cx C0_47 C1_47 SUB_47 sky130_fd_pr__cap_vpp_44p7x11p7_pol1m1m2m3m4m5_noshield
+
+C1_48 C0_48 C1_48 SUB_48 sky130_fd_pr__cap_vpp_44p7x23p1_pol1m1m2m3m4m5_noshield
+
+Cx C0_49 C1_49 SUB_49 sky130_fd_pr__cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield
+
+Cx C0_50 C1_50 SUB_50 sky130_fd_pr__cap_vpp_55p8x11p7_pol1m1m2m3m4m5_noshield_m5pullin
+
+Cx C0_51 C1_51 SUB_51 sky130_fd_pr__cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield
+
+Cx C0_52 C1_52 SUB_52 sky130_fd_pr__cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_m5pullin
+
+Cx C0_53 C1_53 SUB_53 sky130_fd_pr__cap_vpp_55p8x23p1_pol1m1m2m3m4m5_noshield_test
+
+Qx C B E SUBSTRATE sky130_fd_pr__npn_05v5_W1p00L1p00
+
+Qx C B E SUBSTRATE sky130_fd_pr__npn_05v5_W1p00L2p00
+
+Qx C B E SUBSTRATE sky130_fd_pr__npn_11v0_W1p00L1p00
+
+Dx D0 D1 sky130_fd_pr__photodiode
+
+Qx Collector Base Emitter sky130_fd_pr__pnp_05v5_W0p68L0p68
+
+Qx Collector Base Emitter sky130_fd_pr__pnp_05v5_W3p40L3p40
+
+* Lx L0_54 L1_54 TAP_54 SUBSTRATE_54 sky130_fd_pr__rf_test_coil1
+
+* Lx L0_55 L1_55 TAP_55 SUBSTRATE_55 sky130_fd_pr__rf_test_coil2
+
+* Lx L0_56 L1_56 TAP_56 SUBSTRATE_56 sky130_fd_pr__rf_test_coil3
+
+.ENDS

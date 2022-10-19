@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__res_xhigh_po_5p73 SUBSTRATE
++ R0_000_lyr_fail R1_000_lyr_fail
++ R0_001_lyr_fail R1_001_lyr_fail
++ R0_002_lyr_fail R1_002_lyr_fail
++ R0_003_lyr_fail R1_003_lyr_fail
++ R0_004_lyr_fail R1_004_lyr_fail
++ R0_005_lyr_fail R1_005_lyr_fail
++ R0_006_lyr_fail R1_006_lyr_fail
++ R0_007_lyr_fail R1_007_lyr_fail
++ R0_008_lyr_fail R1_008_lyr_fail
++ R0_009_lyr_fail R1_009_lyr_fail
++ R0_010_lyr_fail R1_010_lyr_fail
++ R0_011_lyr_fail R1_011_lyr_fail
++ R0_012_lyr_fail R1_012_lyr_fail
++ R0_013_lyr_fail R1_013_lyr_fail
++ R0_014_lyr_fail R1_014_lyr_fail
++ R0_015_lyr_fail R1_015_lyr_fail
++ R0_016_lyr_fail R1_016_lyr_fail
++ R0_017_lyr_fail R1_017_lyr_fail
++ R0_018_lyr_fail R1_018_lyr_fail
++ R0_019_lyr_fail R1_019_lyr_fail
++ R0_020_lyr_fail R1_020_lyr_fail
++ R0_021_lyr_fail R1_021_lyr_fail
++ R0_022_lyr_fail R1_022_lyr_fail
++ R0_023_lyr_fail R1_023_lyr_fail
++ R0_024_lyr_fail R1_024_lyr_fail
++ R0_025_lyr_fail R1_025_lyr_fail
++ R0_026_lyr_fail R1_026_lyr_fail
++ R0_027_lyr_fail R1_027_lyr_fail
++ R0_028_lyr_fail R1_028_lyr_fail
++ R0_029_lyr_fail R1_029_lyr_fail
++ R0_030_lyr_fail R1_030_lyr_fail
++ R0_031_lyr_fail R1_031_lyr_fail
++ R0_032_lyr_fail R1_032_lyr_fail
++ R0_033_lyr_fail R1_033_lyr_fail
++ R0_034_lyr_fail R1_034_lyr_fail
++ R0_035_lyr_fail R1_035_lyr_fail
++ R0_036_lyr_fail R1_036_lyr_fail
++ R0_037_lyr_fail R1_037_lyr_fail
++ R0_038_lyr_fail R1_038_lyr_fail
++ R0_039_lyr_fail R1_039_lyr_fail
++ R0_040_lyr_fail R1_040_lyr_fail
++ R0_041_lyr_fail R1_041_lyr_fail
++ R0_042_lyr_fail R1_042_lyr_fail
++ R0_043_lyr_fail R1_043_lyr_fail
++ R0_044_lyr_fail R1_044_lyr_fail
++ R0_045_lyr_fail R1_045_lyr_fail
++ R0_046_lyr_fail R1_046_lyr_fail
++ R0_047_lyr_fail R1_047_lyr_fail
++ R0_048_lyr_fail R1_048_lyr_fail
++ R0_049_lyr_fail R1_049_lyr_fail
++ R0_050_lyr_fail R1_050_lyr_fail
++ R0_051_lyr_fail R1_051_lyr_fail
++ R0_052_lyr_fail R1_052_lyr_fail
++ R0_053_lyr_fail R1_053_lyr_fail
++ R0_054_lyr_fail R1_054_lyr_fail
++ R0_055_lyr_fail R1_055_lyr_fail
++ R0_056_lyr_fail R1_056_lyr_fail
++ R0_057_lyr_fail R1_057_lyr_fail
++ R0_058_lyr_fail R1_058_lyr_fail
++ R0_059_lyr_fail R1_059_lyr_fail
++ R0_060_lyr_fail R1_060_lyr_fail
++ R0_061_lyr_fail R1_061_lyr_fail
++ R0_062_lyr_fail R1_062_lyr_fail
++ R0_063_lyr_fail R1_063_lyr_fail
+
+R000_lyr_fail R0_000_lyr_fail R1_000_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=6.35u w=5.73u
+
+R001_lyr_fail R0_001_lyr_fail R1_001_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=12.58u w=5.73u
+
+R002_lyr_fail R0_002_lyr_fail R1_002_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=18.81u w=5.73u
+
+R003_lyr_fail R0_003_lyr_fail R1_003_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=25.04u w=5.73u
+
+R004_lyr_fail R0_004_lyr_fail R1_004_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=31.27u w=5.73u
+
+R005_lyr_fail R0_005_lyr_fail R1_005_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=37.5u w=5.73u
+
+R006_lyr_fail R0_006_lyr_fail R1_006_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=43.73u w=5.73u
+
+R007_lyr_fail R0_007_lyr_fail R1_007_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=49.96u w=5.73u
+
+R008_lyr_fail R0_008_lyr_fail R1_008_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=12.58u w=5.73u
+
+R009_lyr_fail R0_009_lyr_fail R1_009_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=25.04u w=5.73u
+
+R010_lyr_fail R0_010_lyr_fail R1_010_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=37.5u w=5.73u
+
+R011_lyr_fail R0_011_lyr_fail R1_011_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=49.96u w=5.73u
+
+R012_lyr_fail R0_012_lyr_fail R1_012_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=62.42u w=5.73u
+
+R013_lyr_fail R0_013_lyr_fail R1_013_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=74.88u w=5.73u
+
+R014_lyr_fail R0_014_lyr_fail R1_014_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=87.34u w=5.73u
+
+R015_lyr_fail R0_015_lyr_fail R1_015_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=99.8u w=5.73u
+
+R016_lyr_fail R0_016_lyr_fail R1_016_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=18.81u w=5.73u
+
+R017_lyr_fail R0_017_lyr_fail R1_017_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=37.5u w=5.73u
+
+R018_lyr_fail R0_018_lyr_fail R1_018_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=56.19u w=5.73u
+
+R019_lyr_fail R0_019_lyr_fail R1_019_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=74.88u w=5.73u
+
+R020_lyr_fail R0_020_lyr_fail R1_020_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=93.57u w=5.73u
+
+R021_lyr_fail R0_021_lyr_fail R1_021_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=112.26u w=5.73u
+
+R022_lyr_fail R0_022_lyr_fail R1_022_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=130.95u w=5.73u
+
+R023_lyr_fail R0_023_lyr_fail R1_023_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=149.64u w=5.73u
+
+R024_lyr_fail R0_024_lyr_fail R1_024_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=25.04u w=5.73u
+
+R025_lyr_fail R0_025_lyr_fail R1_025_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=49.96u w=5.73u
+
+R026_lyr_fail R0_026_lyr_fail R1_026_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=74.88u w=5.73u
+
+R027_lyr_fail R0_027_lyr_fail R1_027_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=99.8u w=5.73u
+
+R028_lyr_fail R0_028_lyr_fail R1_028_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=124.72u w=5.73u
+
+R029_lyr_fail R0_029_lyr_fail R1_029_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=149.64u w=5.73u
+
+R030_lyr_fail R0_030_lyr_fail R1_030_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=174.56u w=5.73u
+
+R031_lyr_fail R0_031_lyr_fail R1_031_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=199.48u w=5.73u
+
+R032_lyr_fail R0_032_lyr_fail R1_032_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=31.27u w=5.73u
+
+R033_lyr_fail R0_033_lyr_fail R1_033_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=62.42u w=5.73u
+
+R034_lyr_fail R0_034_lyr_fail R1_034_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=93.57u w=5.73u
+
+R035_lyr_fail R0_035_lyr_fail R1_035_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=124.72u w=5.73u
+
+R036_lyr_fail R0_036_lyr_fail R1_036_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=155.87u w=5.73u
+
+R037_lyr_fail R0_037_lyr_fail R1_037_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=187.02u w=5.73u
+
+R038_lyr_fail R0_038_lyr_fail R1_038_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=218.17u w=5.73u
+
+R039_lyr_fail R0_039_lyr_fail R1_039_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=249.32u w=5.73u
+
+R040_lyr_fail R0_040_lyr_fail R1_040_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=37.5u w=5.73u
+
+R041_lyr_fail R0_041_lyr_fail R1_041_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=74.88u w=5.73u
+
+R042_lyr_fail R0_042_lyr_fail R1_042_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=112.26u w=5.73u
+
+R043_lyr_fail R0_043_lyr_fail R1_043_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=149.64u w=5.73u
+
+R044_lyr_fail R0_044_lyr_fail R1_044_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=187.02u w=5.73u
+
+R045_lyr_fail R0_045_lyr_fail R1_045_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=224.4u w=5.73u
+
+R046_lyr_fail R0_046_lyr_fail R1_046_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=261.78u w=5.73u
+
+R047_lyr_fail R0_047_lyr_fail R1_047_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=299.16u w=5.73u
+
+R048_lyr_fail R0_048_lyr_fail R1_048_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=43.73u w=5.73u
+
+R049_lyr_fail R0_049_lyr_fail R1_049_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=87.34u w=5.73u
+
+R050_lyr_fail R0_050_lyr_fail R1_050_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=130.95u w=5.73u
+
+R051_lyr_fail R0_051_lyr_fail R1_051_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=174.56u w=5.73u
+
+R052_lyr_fail R0_052_lyr_fail R1_052_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=218.17u w=5.73u
+
+R053_lyr_fail R0_053_lyr_fail R1_053_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=261.78u w=5.73u
+
+R054_lyr_fail R0_054_lyr_fail R1_054_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=305.39u w=5.73u
+
+R055_lyr_fail R0_055_lyr_fail R1_055_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=349.0u w=5.73u
+
+R056_lyr_fail R0_056_lyr_fail R1_056_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=49.96u w=5.73u
+
+R057_lyr_fail R0_057_lyr_fail R1_057_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=99.8u w=5.73u
+
+R058_lyr_fail R0_058_lyr_fail R1_058_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=149.64u w=5.73u
+
+R059_lyr_fail R0_059_lyr_fail R1_059_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=199.48u w=5.73u
+
+R060_lyr_fail R0_060_lyr_fail R1_060_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=249.32u w=5.73u
+
+R061_lyr_fail R0_061_lyr_fail R1_061_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=299.16u w=5.73u
+
+R062_lyr_fail R0_062_lyr_fail R1_062_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=349.0u w=5.73u
+
+R063_lyr_fail R0_063_lyr_fail R1_063_lyr_fail SUBSTRATE sky130_fd_pr__res_xhigh_po_5p73 l=398.84u w=5.73u
+
+.ENDS

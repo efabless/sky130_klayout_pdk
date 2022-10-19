@@ -1,0 +1,262 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__model__cap_mim_m4 
++ C0_000_net_fail C1_000_net_fail
++ C0_001_net_fail C1_001_net_fail
++ C0_002_net_fail C1_002_net_fail
++ C0_003_net_fail C1_003_net_fail
++ C0_004_net_fail C1_004_net_fail
++ C0_005_net_fail C1_005_net_fail
++ C0_006_net_fail C1_006_net_fail
++ C0_007_net_fail C1_007_net_fail
++ C0_008_net_fail C1_008_net_fail
++ C0_009_net_fail C1_009_net_fail
++ C0_010_net_fail C1_010_net_fail
++ C0_011_net_fail C1_011_net_fail
++ C0_012_net_fail C1_012_net_fail
++ C0_013_net_fail C1_013_net_fail
++ C0_014_net_fail C1_014_net_fail
++ C0_015_net_fail C1_015_net_fail
++ C0_016_net_fail C1_016_net_fail
++ C0_017_net_fail C1_017_net_fail
++ C0_018_net_fail C1_018_net_fail
++ C0_019_net_fail C1_019_net_fail
++ C0_020_net_fail C1_020_net_fail
++ C0_021_net_fail C1_021_net_fail
++ C0_022_net_fail C1_022_net_fail
++ C0_023_net_fail C1_023_net_fail
++ C0_024_net_fail C1_024_net_fail
++ C0_025_net_fail C1_025_net_fail
++ C0_026_net_fail C1_026_net_fail
++ C0_027_net_fail C1_027_net_fail
++ C0_028_net_fail C1_028_net_fail
++ C0_029_net_fail C1_029_net_fail
++ C0_030_net_fail C1_030_net_fail
++ C0_031_net_fail C1_031_net_fail
++ C0_032_net_fail C1_032_net_fail
++ C0_033_net_fail C1_033_net_fail
++ C0_034_net_fail C1_034_net_fail
++ C0_035_net_fail C1_035_net_fail
++ C0_036_net_fail C1_036_net_fail
++ C0_037_net_fail C1_037_net_fail
++ C0_038_net_fail C1_038_net_fail
++ C0_039_net_fail C1_039_net_fail
++ C0_040_net_fail C1_040_net_fail
++ C0_041_net_fail C1_041_net_fail
++ C0_042_net_fail C1_042_net_fail
++ C0_043_net_fail C1_043_net_fail
++ C0_044_net_fail C1_044_net_fail
++ C0_045_net_fail C1_045_net_fail
++ C0_046_net_fail C1_046_net_fail
++ C0_047_net_fail C1_047_net_fail
++ C0_048_net_fail C1_048_net_fail
++ C0_049_net_fail C1_049_net_fail
++ C0_050_net_fail C1_050_net_fail
++ C0_051_net_fail C1_051_net_fail
++ C0_052_net_fail C1_052_net_fail
++ C0_053_net_fail C1_053_net_fail
++ C0_054_net_fail C1_054_net_fail
++ C0_055_net_fail C1_055_net_fail
++ C0_056_net_fail C1_056_net_fail
++ C0_057_net_fail C1_057_net_fail
++ C0_058_net_fail C1_058_net_fail
++ C0_059_net_fail C1_059_net_fail
++ C0_060_net_fail C1_060_net_fail
++ C0_061_net_fail C1_061_net_fail
++ C0_062_net_fail C1_062_net_fail
++ C0_063_net_fail C1_063_net_fail
++ C0_064_net_fail C1_064_net_fail
++ C0_065_net_fail C1_065_net_fail
++ C0_066_net_fail C1_066_net_fail
++ C0_067_net_fail C1_067_net_fail
++ C0_068_net_fail C1_068_net_fail
++ C0_069_net_fail C1_069_net_fail
++ C0_070_net_fail C1_070_net_fail
++ C0_071_net_fail C1_071_net_fail
++ C0_072_net_fail C1_072_net_fail
++ C0_073_net_fail C1_073_net_fail
++ C0_074_net_fail C1_074_net_fail
++ C0_075_net_fail C1_075_net_fail
++ C0_076_net_fail C1_076_net_fail
++ C0_077_net_fail C1_077_net_fail
++ C0_078_net_fail C1_078_net_fail
++ C0_079_net_fail C1_079_net_fail
++ C0_080_net_fail C1_080_net_fail
+
+C000_net_fail C0_000_net_fail C1_000_net_fail sky130_fd_pr__model__cap_mim_m4 A=4.938p P=9.876u
+
+C001_net_fail C0_001_net_fail C1_001_net_fail sky130_fd_pr__model__cap_mim_m4 A=29.628p P=34.565999999999995u
+
+C002_net_fail C0_002_net_fail C1_002_net_fail sky130_fd_pr__model__cap_mim_m4 A=54.318p P=59.256u
+
+C003_net_fail C0_003_net_fail C1_003_net_fail sky130_fd_pr__model__cap_mim_m4 A=79.008p P=83.946u
+
+C004_net_fail C0_004_net_fail C1_004_net_fail sky130_fd_pr__model__cap_mim_m4 A=103.698p P=108.636u
+
+C005_net_fail C0_005_net_fail C1_005_net_fail sky130_fd_pr__model__cap_mim_m4 A=128.388p P=133.326u
+
+C006_net_fail C0_006_net_fail C1_006_net_fail sky130_fd_pr__model__cap_mim_m4 A=153.078p P=158.016u
+
+C007_net_fail C0_007_net_fail C1_007_net_fail sky130_fd_pr__model__cap_mim_m4 A=177.768p P=182.706u
+
+C008_net_fail C0_008_net_fail C1_008_net_fail sky130_fd_pr__model__cap_mim_m4 A=202.458p P=207.396u
+
+C009_net_fail C0_009_net_fail C1_009_net_fail sky130_fd_pr__model__cap_mim_m4 A=29.628p P=34.565999999999995u
+
+C010_net_fail C0_010_net_fail C1_010_net_fail sky130_fd_pr__model__cap_mim_m4 A=177.768p P=59.256u
+
+C011_net_fail C0_011_net_fail C1_011_net_fail sky130_fd_pr__model__cap_mim_m4 A=325.90799999999996p P=83.946u
+
+C012_net_fail C0_012_net_fail C1_012_net_fail sky130_fd_pr__model__cap_mim_m4 A=474.048p P=108.636u
+
+C013_net_fail C0_013_net_fail C1_013_net_fail sky130_fd_pr__model__cap_mim_m4 A=622.188p P=133.326u
+
+C014_net_fail C0_014_net_fail C1_014_net_fail sky130_fd_pr__model__cap_mim_m4 A=770.328p P=158.016u
+
+C015_net_fail C0_015_net_fail C1_015_net_fail sky130_fd_pr__model__cap_mim_m4 A=918.468p P=182.706u
+
+C016_net_fail C0_016_net_fail C1_016_net_fail sky130_fd_pr__model__cap_mim_m4 A=1066.608p P=207.396u
+
+C017_net_fail C0_017_net_fail C1_017_net_fail sky130_fd_pr__model__cap_mim_m4 A=1214.7479999999998p P=232.08599999999998u
+
+C018_net_fail C0_018_net_fail C1_018_net_fail sky130_fd_pr__model__cap_mim_m4 A=54.318p P=59.256u
+
+C019_net_fail C0_019_net_fail C1_019_net_fail sky130_fd_pr__model__cap_mim_m4 A=325.90799999999996p P=83.946u
+
+C020_net_fail C0_020_net_fail C1_020_net_fail sky130_fd_pr__model__cap_mim_m4 A=597.4979999999999p P=108.636u
+
+C021_net_fail C0_021_net_fail C1_021_net_fail sky130_fd_pr__model__cap_mim_m4 A=869.088p P=133.326u
+
+C022_net_fail C0_022_net_fail C1_022_net_fail sky130_fd_pr__model__cap_mim_m4 A=1140.6779999999999p P=158.016u
+
+C023_net_fail C0_023_net_fail C1_023_net_fail sky130_fd_pr__model__cap_mim_m4 A=1412.268p P=182.706u
+
+C024_net_fail C0_024_net_fail C1_024_net_fail sky130_fd_pr__model__cap_mim_m4 A=1683.858p P=207.396u
+
+C025_net_fail C0_025_net_fail C1_025_net_fail sky130_fd_pr__model__cap_mim_m4 A=1955.4479999999999p P=232.08599999999998u
+
+C026_net_fail C0_026_net_fail C1_026_net_fail sky130_fd_pr__model__cap_mim_m4 A=2227.038p P=256.776u
+
+C027_net_fail C0_027_net_fail C1_027_net_fail sky130_fd_pr__model__cap_mim_m4 A=79.008p P=83.946u
+
+C028_net_fail C0_028_net_fail C1_028_net_fail sky130_fd_pr__model__cap_mim_m4 A=474.048p P=108.636u
+
+C029_net_fail C0_029_net_fail C1_029_net_fail sky130_fd_pr__model__cap_mim_m4 A=869.088p P=133.326u
+
+C030_net_fail C0_030_net_fail C1_030_net_fail sky130_fd_pr__model__cap_mim_m4 A=1264.128p P=158.016u
+
+C031_net_fail C0_031_net_fail C1_031_net_fail sky130_fd_pr__model__cap_mim_m4 A=1659.168p P=182.706u
+
+C032_net_fail C0_032_net_fail C1_032_net_fail sky130_fd_pr__model__cap_mim_m4 A=2054.208p P=207.396u
+
+C033_net_fail C0_033_net_fail C1_033_net_fail sky130_fd_pr__model__cap_mim_m4 A=2449.248p P=232.08599999999998u
+
+C034_net_fail C0_034_net_fail C1_034_net_fail sky130_fd_pr__model__cap_mim_m4 A=2844.288p P=256.776u
+
+C035_net_fail C0_035_net_fail C1_035_net_fail sky130_fd_pr__model__cap_mim_m4 A=3239.328p P=281.466u
+
+C036_net_fail C0_036_net_fail C1_036_net_fail sky130_fd_pr__model__cap_mim_m4 A=103.698p P=108.636u
+
+C037_net_fail C0_037_net_fail C1_037_net_fail sky130_fd_pr__model__cap_mim_m4 A=622.188p P=133.326u
+
+C038_net_fail C0_038_net_fail C1_038_net_fail sky130_fd_pr__model__cap_mim_m4 A=1140.6779999999999p P=158.016u
+
+C039_net_fail C0_039_net_fail C1_039_net_fail sky130_fd_pr__model__cap_mim_m4 A=1659.168p P=182.706u
+
+C040_net_fail C0_040_net_fail C1_040_net_fail sky130_fd_pr__model__cap_mim_m4 A=2177.658p P=207.396u
+
+C041_net_fail C0_041_net_fail C1_041_net_fail sky130_fd_pr__model__cap_mim_m4 A=2696.1479999999997p P=232.08599999999998u
+
+C042_net_fail C0_042_net_fail C1_042_net_fail sky130_fd_pr__model__cap_mim_m4 A=3214.638p P=256.776u
+
+C043_net_fail C0_043_net_fail C1_043_net_fail sky130_fd_pr__model__cap_mim_m4 A=3733.1279999999997p P=281.466u
+
+C044_net_fail C0_044_net_fail C1_044_net_fail sky130_fd_pr__model__cap_mim_m4 A=4251.6179999999995p P=306.156u
+
+C045_net_fail C0_045_net_fail C1_045_net_fail sky130_fd_pr__model__cap_mim_m4 A=128.388p P=133.326u
+
+C046_net_fail C0_046_net_fail C1_046_net_fail sky130_fd_pr__model__cap_mim_m4 A=770.328p P=158.016u
+
+C047_net_fail C0_047_net_fail C1_047_net_fail sky130_fd_pr__model__cap_mim_m4 A=1412.268p P=182.706u
+
+C048_net_fail C0_048_net_fail C1_048_net_fail sky130_fd_pr__model__cap_mim_m4 A=2054.208p P=207.396u
+
+C049_net_fail C0_049_net_fail C1_049_net_fail sky130_fd_pr__model__cap_mim_m4 A=2696.1479999999997p P=232.08599999999998u
+
+C050_net_fail C0_050_net_fail C1_050_net_fail sky130_fd_pr__model__cap_mim_m4 A=3338.0879999999997p P=256.776u
+
+C051_net_fail C0_051_net_fail C1_051_net_fail sky130_fd_pr__model__cap_mim_m4 A=3980.028p P=281.466u
+
+C052_net_fail C0_052_net_fail C1_052_net_fail sky130_fd_pr__model__cap_mim_m4 A=4621.968p P=306.156u
+
+C053_net_fail C0_053_net_fail C1_053_net_fail sky130_fd_pr__model__cap_mim_m4 A=5263.907999999999p P=330.846u
+
+C054_net_fail C0_054_net_fail C1_054_net_fail sky130_fd_pr__model__cap_mim_m4 A=153.078p P=158.016u
+
+C055_net_fail C0_055_net_fail C1_055_net_fail sky130_fd_pr__model__cap_mim_m4 A=918.468p P=182.706u
+
+C056_net_fail C0_056_net_fail C1_056_net_fail sky130_fd_pr__model__cap_mim_m4 A=1683.858p P=207.396u
+
+C057_net_fail C0_057_net_fail C1_057_net_fail sky130_fd_pr__model__cap_mim_m4 A=2449.248p P=232.08599999999998u
+
+C058_net_fail C0_058_net_fail C1_058_net_fail sky130_fd_pr__model__cap_mim_m4 A=3214.638p P=256.776u
+
+C059_net_fail C0_059_net_fail C1_059_net_fail sky130_fd_pr__model__cap_mim_m4 A=3980.028p P=281.466u
+
+C060_net_fail C0_060_net_fail C1_060_net_fail sky130_fd_pr__model__cap_mim_m4 A=4745.418p P=306.156u
+
+C061_net_fail C0_061_net_fail C1_061_net_fail sky130_fd_pr__model__cap_mim_m4 A=5510.808p P=330.846u
+
+C062_net_fail C0_062_net_fail C1_062_net_fail sky130_fd_pr__model__cap_mim_m4 A=6276.197999999999p P=355.536u
+
+C063_net_fail C0_063_net_fail C1_063_net_fail sky130_fd_pr__model__cap_mim_m4 A=177.768p P=182.706u
+
+C064_net_fail C0_064_net_fail C1_064_net_fail sky130_fd_pr__model__cap_mim_m4 A=1066.608p P=207.396u
+
+C065_net_fail C0_065_net_fail C1_065_net_fail sky130_fd_pr__model__cap_mim_m4 A=1955.4479999999999p P=232.08599999999998u
+
+C066_net_fail C0_066_net_fail C1_066_net_fail sky130_fd_pr__model__cap_mim_m4 A=2844.288p P=256.776u
+
+C067_net_fail C0_067_net_fail C1_067_net_fail sky130_fd_pr__model__cap_mim_m4 A=3733.1279999999997p P=281.466u
+
+C068_net_fail C0_068_net_fail C1_068_net_fail sky130_fd_pr__model__cap_mim_m4 A=4621.968p P=306.156u
+
+C069_net_fail C0_069_net_fail C1_069_net_fail sky130_fd_pr__model__cap_mim_m4 A=5510.808p P=330.846u
+
+C070_net_fail C0_070_net_fail C1_070_net_fail sky130_fd_pr__model__cap_mim_m4 A=6399.647999999999p P=355.536u
+
+C071_net_fail C0_071_net_fail C1_071_net_fail sky130_fd_pr__model__cap_mim_m4 A=7288.487999999999p P=380.226u
+
+C072_net_fail C0_072_net_fail C1_072_net_fail sky130_fd_pr__model__cap_mim_m4 A=202.458p P=207.396u
+
+C073_net_fail C0_073_net_fail C1_073_net_fail sky130_fd_pr__model__cap_mim_m4 A=1214.7479999999998p P=232.08599999999998u
+
+C074_net_fail C0_074_net_fail C1_074_net_fail sky130_fd_pr__model__cap_mim_m4 A=2227.038p P=256.776u
+
+C075_net_fail C0_075_net_fail C1_075_net_fail sky130_fd_pr__model__cap_mim_m4 A=3239.328p P=281.466u
+
+C076_net_fail C0_076_net_fail C1_076_net_fail sky130_fd_pr__model__cap_mim_m4 A=4251.6179999999995p P=306.156u
+
+C077_net_fail C0_077_net_fail C1_077_net_fail sky130_fd_pr__model__cap_mim_m4 A=5263.907999999999p P=330.846u
+
+C078_net_fail C0_078_net_fail C1_078_net_fail sky130_fd_pr__model__cap_mim_m4 A=6276.197999999999p P=355.536u
+
+C079_net_fail C0_079_net_fail C1_079_net_fail sky130_fd_pr__model__cap_mim_m4 A=7288.487999999999p P=380.226u
+
+C080_net_fail C0_080_net_fail C1_080_net_fail sky130_fd_pr__model__cap_mim_m4 A=8300.778p P=404.916u
+
+.ENDS

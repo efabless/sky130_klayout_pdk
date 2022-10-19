@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__diode_pd2nw_11v0 
++ D0_000 D1_000
++ D0_001 D1_001
++ D0_002 D1_002
++ D0_003 D1_003
++ D0_004 D1_004
++ D0_005 D1_005
++ D0_006 D1_006
++ D0_007 D1_007
++ D0_008 D1_008
++ D0_009 D1_009
++ D0_010 D1_010
++ D0_011 D1_011
++ D0_012 D1_012
++ D0_013 D1_013
++ D0_014 D1_014
++ D0_015 D1_015
++ D0_016 D1_016
++ D0_017 D1_017
++ D0_018 D1_018
++ D0_019 D1_019
++ D0_020 D1_020
++ D0_021 D1_021
++ D0_022 D1_022
++ D0_023 D1_023
++ D0_024 D1_024
++ D0_025 D1_025
++ D0_026 D1_026
++ D0_027 D1_027
++ D0_028 D1_028
++ D0_029 D1_029
++ D0_030 D1_030
++ D0_031 D1_031
++ D0_032 D1_032
++ D0_033 D1_033
++ D0_034 D1_034
++ D0_035 D1_035
++ D0_036 D1_036
++ D0_037 D1_037
++ D0_038 D1_038
++ D0_039 D1_039
++ D0_040 D1_040
++ D0_041 D1_041
++ D0_042 D1_042
++ D0_043 D1_043
++ D0_044 D1_044
++ D0_045 D1_045
++ D0_046 D1_046
++ D0_047 D1_047
++ D0_048 D1_048
++ D0_049 D1_049
++ D0_050 D1_050
++ D0_051 D1_051
++ D0_052 D1_052
++ D0_053 D1_053
++ D0_054 D1_054
++ D0_055 D1_055
++ D0_056 D1_056
++ D0_057 D1_057
++ D0_058 D1_058
++ D0_059 D1_059
++ D0_060 D1_060
++ D0_061 D1_061
++ D0_062 D1_062
++ D0_063 D1_063
+
+D000 D0_000 D1_000 sky130_fd_pr__diode_pd2nw_11v0 A=0.2025p P=1.8u
+
+D001 D0_001 D1_001 sky130_fd_pr__diode_pd2nw_11v0 A=0.405p P=2.7u
+
+D002 D0_002 D1_002 sky130_fd_pr__diode_pd2nw_11v0 A=0.6075p P=3.6u
+
+D003 D0_003 D1_003 sky130_fd_pr__diode_pd2nw_11v0 A=0.81p P=4.5u
+
+D004 D0_004 D1_004 sky130_fd_pr__diode_pd2nw_11v0 A=1.0125p P=5.4u
+
+D005 D0_005 D1_005 sky130_fd_pr__diode_pd2nw_11v0 A=1.215p P=6.3u
+
+D006 D0_006 D1_006 sky130_fd_pr__diode_pd2nw_11v0 A=1.4175p P=7.2u
+
+D007 D0_007 D1_007 sky130_fd_pr__diode_pd2nw_11v0 A=1.62p P=8.1u
+
+D008 D0_008 D1_008 sky130_fd_pr__diode_pd2nw_11v0 A=0.405p P=2.7u
+
+D009 D0_009 D1_009 sky130_fd_pr__diode_pd2nw_11v0 A=0.81p P=3.6u
+
+D010 D0_010 D1_010 sky130_fd_pr__diode_pd2nw_11v0 A=1.215p P=4.5u
+
+D011 D0_011 D1_011 sky130_fd_pr__diode_pd2nw_11v0 A=1.62p P=5.4u
+
+D012 D0_012 D1_012 sky130_fd_pr__diode_pd2nw_11v0 A=2.025p P=6.3u
+
+D013 D0_013 D1_013 sky130_fd_pr__diode_pd2nw_11v0 A=2.43p P=7.2u
+
+D014 D0_014 D1_014 sky130_fd_pr__diode_pd2nw_11v0 A=2.835p P=8.1u
+
+D015 D0_015 D1_015 sky130_fd_pr__diode_pd2nw_11v0 A=3.24p P=9.0u
+
+D016 D0_016 D1_016 sky130_fd_pr__diode_pd2nw_11v0 A=0.6075p P=3.6u
+
+D017 D0_017 D1_017 sky130_fd_pr__diode_pd2nw_11v0 A=1.215p P=4.5u
+
+D018 D0_018 D1_018 sky130_fd_pr__diode_pd2nw_11v0 A=1.8225p P=5.4u
+
+D019 D0_019 D1_019 sky130_fd_pr__diode_pd2nw_11v0 A=2.43p P=6.3u
+
+D020 D0_020 D1_020 sky130_fd_pr__diode_pd2nw_11v0 A=3.0375p P=7.2u
+
+D021 D0_021 D1_021 sky130_fd_pr__diode_pd2nw_11v0 A=3.645p P=8.1u
+
+D022 D0_022 D1_022 sky130_fd_pr__diode_pd2nw_11v0 A=4.2525p P=9.0u
+
+D023 D0_023 D1_023 sky130_fd_pr__diode_pd2nw_11v0 A=4.86p P=9.9u
+
+D024 D0_024 D1_024 sky130_fd_pr__diode_pd2nw_11v0 A=0.81p P=4.5u
+
+D025 D0_025 D1_025 sky130_fd_pr__diode_pd2nw_11v0 A=1.62p P=5.4u
+
+D026 D0_026 D1_026 sky130_fd_pr__diode_pd2nw_11v0 A=2.43p P=6.3u
+
+D027 D0_027 D1_027 sky130_fd_pr__diode_pd2nw_11v0 A=3.24p P=7.2u
+
+D028 D0_028 D1_028 sky130_fd_pr__diode_pd2nw_11v0 A=4.05p P=8.1u
+
+D029 D0_029 D1_029 sky130_fd_pr__diode_pd2nw_11v0 A=4.86p P=9.0u
+
+D030 D0_030 D1_030 sky130_fd_pr__diode_pd2nw_11v0 A=5.67p P=9.9u
+
+D031 D0_031 D1_031 sky130_fd_pr__diode_pd2nw_11v0 A=6.48p P=10.8u
+
+D032 D0_032 D1_032 sky130_fd_pr__diode_pd2nw_11v0 A=1.0125p P=5.4u
+
+D033 D0_033 D1_033 sky130_fd_pr__diode_pd2nw_11v0 A=2.025p P=6.3u
+
+D034 D0_034 D1_034 sky130_fd_pr__diode_pd2nw_11v0 A=3.0375p P=7.2u
+
+D035 D0_035 D1_035 sky130_fd_pr__diode_pd2nw_11v0 A=4.05p P=8.1u
+
+D036 D0_036 D1_036 sky130_fd_pr__diode_pd2nw_11v0 A=5.0625p P=9.0u
+
+D037 D0_037 D1_037 sky130_fd_pr__diode_pd2nw_11v0 A=6.075p P=9.9u
+
+D038 D0_038 D1_038 sky130_fd_pr__diode_pd2nw_11v0 A=7.0875p P=10.8u
+
+D039 D0_039 D1_039 sky130_fd_pr__diode_pd2nw_11v0 A=8.1p P=11.7u
+
+D040 D0_040 D1_040 sky130_fd_pr__diode_pd2nw_11v0 A=1.215p P=6.3u
+
+D041 D0_041 D1_041 sky130_fd_pr__diode_pd2nw_11v0 A=2.43p P=7.2u
+
+D042 D0_042 D1_042 sky130_fd_pr__diode_pd2nw_11v0 A=3.645p P=8.1u
+
+D043 D0_043 D1_043 sky130_fd_pr__diode_pd2nw_11v0 A=4.86p P=9.0u
+
+D044 D0_044 D1_044 sky130_fd_pr__diode_pd2nw_11v0 A=6.075p P=9.9u
+
+D045 D0_045 D1_045 sky130_fd_pr__diode_pd2nw_11v0 A=7.29p P=10.8u
+
+D046 D0_046 D1_046 sky130_fd_pr__diode_pd2nw_11v0 A=8.505p P=11.7u
+
+D047 D0_047 D1_047 sky130_fd_pr__diode_pd2nw_11v0 A=9.72p P=12.6u
+
+D048 D0_048 D1_048 sky130_fd_pr__diode_pd2nw_11v0 A=1.4175p P=7.2u
+
+D049 D0_049 D1_049 sky130_fd_pr__diode_pd2nw_11v0 A=2.835p P=8.1u
+
+D050 D0_050 D1_050 sky130_fd_pr__diode_pd2nw_11v0 A=4.2525p P=9.0u
+
+D051 D0_051 D1_051 sky130_fd_pr__diode_pd2nw_11v0 A=5.67p P=9.9u
+
+D052 D0_052 D1_052 sky130_fd_pr__diode_pd2nw_11v0 A=7.0875p P=10.8u
+
+D053 D0_053 D1_053 sky130_fd_pr__diode_pd2nw_11v0 A=8.505p P=11.7u
+
+D054 D0_054 D1_054 sky130_fd_pr__diode_pd2nw_11v0 A=9.9225p P=12.6u
+
+D055 D0_055 D1_055 sky130_fd_pr__diode_pd2nw_11v0 A=11.34p P=13.5u
+
+D056 D0_056 D1_056 sky130_fd_pr__diode_pd2nw_11v0 A=1.62p P=8.1u
+
+D057 D0_057 D1_057 sky130_fd_pr__diode_pd2nw_11v0 A=3.24p P=9.0u
+
+D058 D0_058 D1_058 sky130_fd_pr__diode_pd2nw_11v0 A=4.86p P=9.9u
+
+D059 D0_059 D1_059 sky130_fd_pr__diode_pd2nw_11v0 A=6.48p P=10.8u
+
+D060 D0_060 D1_060 sky130_fd_pr__diode_pd2nw_11v0 A=8.1p P=11.7u
+
+D061 D0_061 D1_061 sky130_fd_pr__diode_pd2nw_11v0 A=9.72p P=12.6u
+
+D062 D0_062 D1_062 sky130_fd_pr__diode_pd2nw_11v0 A=11.34p P=13.5u
+
+D063 D0_063 D1_063 sky130_fd_pr__diode_pd2nw_11v0 A=12.96p P=14.4u
+
+.ENDS

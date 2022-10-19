@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__res_xhigh_po_0p35 SUBSTRATE
++ R0_000 R1_000
++ R0_001 R1_001
++ R0_002 R1_002
++ R0_003 R1_003
++ R0_004 R1_004
++ R0_005 R1_005
++ R0_006 R1_006
++ R0_007 R1_007
++ R0_008 R1_008
++ R0_009 R1_009
++ R0_010 R1_010
++ R0_011 R1_011
++ R0_012 R1_012
++ R0_013 R1_013
++ R0_014 R1_014
++ R0_015 R1_015
++ R0_016 R1_016
++ R0_017 R1_017
++ R0_018 R1_018
++ R0_019 R1_019
++ R0_020 R1_020
++ R0_021 R1_021
++ R0_022 R1_022
++ R0_023 R1_023
++ R0_024 R1_024
++ R0_025 R1_025
++ R0_026 R1_026
++ R0_027 R1_027
++ R0_028 R1_028
++ R0_029 R1_029
++ R0_030 R1_030
++ R0_031 R1_031
++ R0_032 R1_032
++ R0_033 R1_033
++ R0_034 R1_034
++ R0_035 R1_035
++ R0_036 R1_036
++ R0_037 R1_037
++ R0_038 R1_038
++ R0_039 R1_039
++ R0_040 R1_040
++ R0_041 R1_041
++ R0_042 R1_042
++ R0_043 R1_043
++ R0_044 R1_044
++ R0_045 R1_045
++ R0_046 R1_046
++ R0_047 R1_047
++ R0_048 R1_048
++ R0_049 R1_049
++ R0_050 R1_050
++ R0_051 R1_051
++ R0_052 R1_052
++ R0_053 R1_053
++ R0_054 R1_054
++ R0_055 R1_055
++ R0_056 R1_056
++ R0_057 R1_057
++ R0_058 R1_058
++ R0_059 R1_059
++ R0_060 R1_060
++ R0_061 R1_061
++ R0_062 R1_062
++ R0_063 R1_063
+
+R000 R0_000 R1_000 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=0.97u w=0.35u
+
+R001 R0_001 R1_001 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=1.82u w=0.35u
+
+R002 R0_002 R1_002 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=2.67u w=0.35u
+
+R003 R0_003 R1_003 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=3.52u w=0.35u
+
+R004 R0_004 R1_004 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=4.37u w=0.35u
+
+R005 R0_005 R1_005 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=5.22u w=0.35u
+
+R006 R0_006 R1_006 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=6.07u w=0.35u
+
+R007 R0_007 R1_007 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=6.92u w=0.35u
+
+R008 R0_008 R1_008 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=1.82u w=0.35u
+
+R009 R0_009 R1_009 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=3.52u w=0.35u
+
+R010 R0_010 R1_010 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=5.22u w=0.35u
+
+R011 R0_011 R1_011 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=6.92u w=0.35u
+
+R012 R0_012 R1_012 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=8.62u w=0.35u
+
+R013 R0_013 R1_013 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=10.32u w=0.35u
+
+R014 R0_014 R1_014 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=12.02u w=0.35u
+
+R015 R0_015 R1_015 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=13.72u w=0.35u
+
+R016 R0_016 R1_016 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=2.67u w=0.35u
+
+R017 R0_017 R1_017 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=5.22u w=0.35u
+
+R018 R0_018 R1_018 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=7.77u w=0.35u
+
+R019 R0_019 R1_019 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=10.32u w=0.35u
+
+R020 R0_020 R1_020 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=12.87u w=0.35u
+
+R021 R0_021 R1_021 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=15.42u w=0.35u
+
+R022 R0_022 R1_022 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=17.97u w=0.35u
+
+R023 R0_023 R1_023 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=20.52u w=0.35u
+
+R024 R0_024 R1_024 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=3.52u w=0.35u
+
+R025 R0_025 R1_025 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=6.92u w=0.35u
+
+R026 R0_026 R1_026 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=10.32u w=0.35u
+
+R027 R0_027 R1_027 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=13.72u w=0.35u
+
+R028 R0_028 R1_028 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=17.12u w=0.35u
+
+R029 R0_029 R1_029 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=20.52u w=0.35u
+
+R030 R0_030 R1_030 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=23.92u w=0.35u
+
+R031 R0_031 R1_031 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=27.32u w=0.35u
+
+R032 R0_032 R1_032 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=4.37u w=0.35u
+
+R033 R0_033 R1_033 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=8.62u w=0.35u
+
+R034 R0_034 R1_034 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=12.87u w=0.35u
+
+R035 R0_035 R1_035 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=17.12u w=0.35u
+
+R036 R0_036 R1_036 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=21.37u w=0.35u
+
+R037 R0_037 R1_037 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=25.62u w=0.35u
+
+R038 R0_038 R1_038 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=29.87u w=0.35u
+
+R039 R0_039 R1_039 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=34.12u w=0.35u
+
+R040 R0_040 R1_040 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=5.22u w=0.35u
+
+R041 R0_041 R1_041 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=10.32u w=0.35u
+
+R042 R0_042 R1_042 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=15.42u w=0.35u
+
+R043 R0_043 R1_043 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=20.52u w=0.35u
+
+R044 R0_044 R1_044 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=25.62u w=0.35u
+
+R045 R0_045 R1_045 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=30.72u w=0.35u
+
+R046 R0_046 R1_046 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=35.82u w=0.35u
+
+R047 R0_047 R1_047 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=40.92u w=0.35u
+
+R048 R0_048 R1_048 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=6.07u w=0.35u
+
+R049 R0_049 R1_049 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=12.02u w=0.35u
+
+R050 R0_050 R1_050 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=17.97u w=0.35u
+
+R051 R0_051 R1_051 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=23.92u w=0.35u
+
+R052 R0_052 R1_052 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=29.87u w=0.35u
+
+R053 R0_053 R1_053 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=35.82u w=0.35u
+
+R054 R0_054 R1_054 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=41.77u w=0.35u
+
+R055 R0_055 R1_055 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=47.72u w=0.35u
+
+R056 R0_056 R1_056 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=6.92u w=0.35u
+
+R057 R0_057 R1_057 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=13.72u w=0.35u
+
+R058 R0_058 R1_058 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=20.52u w=0.35u
+
+R059 R0_059 R1_059 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=27.32u w=0.35u
+
+R060 R0_060 R1_060 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=34.12u w=0.35u
+
+R061 R0_061 R1_061 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=40.92u w=0.35u
+
+R062 R0_062 R1_062 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=47.72u w=0.35u
+
+R063 R0_063 R1_063 SUBSTRATE sky130_fd_pr__res_xhigh_po_0p35 l=54.52u w=0.35u
+
+.ENDS

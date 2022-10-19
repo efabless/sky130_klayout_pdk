@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__res_generic_po 
++ R0_000 R1_000
++ R0_001 R1_001
++ R0_002 R1_002
++ R0_003 R1_003
++ R0_004 R1_004
++ R0_005 R1_005
++ R0_006 R1_006
++ R0_007 R1_007
++ R0_008 R1_008
++ R0_009 R1_009
++ R0_010 R1_010
++ R0_011 R1_011
++ R0_012 R1_012
++ R0_013 R1_013
++ R0_014 R1_014
++ R0_015 R1_015
++ R0_016 R1_016
++ R0_017 R1_017
++ R0_018 R1_018
++ R0_019 R1_019
++ R0_020 R1_020
++ R0_021 R1_021
++ R0_022 R1_022
++ R0_023 R1_023
++ R0_024 R1_024
++ R0_025 R1_025
++ R0_026 R1_026
++ R0_027 R1_027
++ R0_028 R1_028
++ R0_029 R1_029
++ R0_030 R1_030
++ R0_031 R1_031
++ R0_032 R1_032
++ R0_033 R1_033
++ R0_034 R1_034
++ R0_035 R1_035
++ R0_036 R1_036
++ R0_037 R1_037
++ R0_038 R1_038
++ R0_039 R1_039
++ R0_040 R1_040
++ R0_041 R1_041
++ R0_042 R1_042
++ R0_043 R1_043
++ R0_044 R1_044
++ R0_045 R1_045
++ R0_046 R1_046
++ R0_047 R1_047
++ R0_048 R1_048
++ R0_049 R1_049
++ R0_050 R1_050
++ R0_051 R1_051
++ R0_052 R1_052
++ R0_053 R1_053
++ R0_054 R1_054
++ R0_055 R1_055
++ R0_056 R1_056
++ R0_057 R1_057
++ R0_058 R1_058
++ R0_059 R1_059
++ R0_060 R1_060
++ R0_061 R1_061
++ R0_062 R1_062
++ R0_063 R1_063
+
+R000 R0_000 R1_000 sky130_fd_pr__res_generic_po l=1.65u w=0.33u
+
+R001 R0_001 R1_001 sky130_fd_pr__res_generic_po l=1.65u w=0.66u
+
+R002 R0_002 R1_002 sky130_fd_pr__res_generic_po l=1.65u w=0.99u
+
+R003 R0_003 R1_003 sky130_fd_pr__res_generic_po l=1.65u w=1.32u
+
+R004 R0_004 R1_004 sky130_fd_pr__res_generic_po l=1.65u w=1.65u
+
+R005 R0_005 R1_005 sky130_fd_pr__res_generic_po l=1.65u w=1.98u
+
+R006 R0_006 R1_006 sky130_fd_pr__res_generic_po l=1.65u w=2.31u
+
+R007 R0_007 R1_007 sky130_fd_pr__res_generic_po l=1.65u w=2.64u
+
+R008 R0_008 R1_008 sky130_fd_pr__res_generic_po l=3.3u w=0.33u
+
+R009 R0_009 R1_009 sky130_fd_pr__res_generic_po l=3.3u w=0.66u
+
+R010 R0_010 R1_010 sky130_fd_pr__res_generic_po l=3.3u w=0.99u
+
+R011 R0_011 R1_011 sky130_fd_pr__res_generic_po l=3.3u w=1.32u
+
+R012 R0_012 R1_012 sky130_fd_pr__res_generic_po l=3.3u w=1.65u
+
+R013 R0_013 R1_013 sky130_fd_pr__res_generic_po l=3.3u w=1.98u
+
+R014 R0_014 R1_014 sky130_fd_pr__res_generic_po l=3.3u w=2.31u
+
+R015 R0_015 R1_015 sky130_fd_pr__res_generic_po l=3.3u w=2.64u
+
+R016 R0_016 R1_016 sky130_fd_pr__res_generic_po l=4.95u w=0.33u
+
+R017 R0_017 R1_017 sky130_fd_pr__res_generic_po l=4.95u w=0.66u
+
+R018 R0_018 R1_018 sky130_fd_pr__res_generic_po l=4.95u w=0.99u
+
+R019 R0_019 R1_019 sky130_fd_pr__res_generic_po l=4.95u w=1.32u
+
+R020 R0_020 R1_020 sky130_fd_pr__res_generic_po l=4.95u w=1.65u
+
+R021 R0_021 R1_021 sky130_fd_pr__res_generic_po l=4.95u w=1.98u
+
+R022 R0_022 R1_022 sky130_fd_pr__res_generic_po l=4.95u w=2.31u
+
+R023 R0_023 R1_023 sky130_fd_pr__res_generic_po l=4.95u w=2.64u
+
+R024 R0_024 R1_024 sky130_fd_pr__res_generic_po l=6.6u w=0.33u
+
+R025 R0_025 R1_025 sky130_fd_pr__res_generic_po l=6.6u w=0.66u
+
+R026 R0_026 R1_026 sky130_fd_pr__res_generic_po l=6.6u w=0.99u
+
+R027 R0_027 R1_027 sky130_fd_pr__res_generic_po l=6.6u w=1.32u
+
+R028 R0_028 R1_028 sky130_fd_pr__res_generic_po l=6.6u w=1.65u
+
+R029 R0_029 R1_029 sky130_fd_pr__res_generic_po l=6.6u w=1.98u
+
+R030 R0_030 R1_030 sky130_fd_pr__res_generic_po l=6.6u w=2.31u
+
+R031 R0_031 R1_031 sky130_fd_pr__res_generic_po l=6.6u w=2.64u
+
+R032 R0_032 R1_032 sky130_fd_pr__res_generic_po l=8.25u w=0.33u
+
+R033 R0_033 R1_033 sky130_fd_pr__res_generic_po l=8.25u w=0.66u
+
+R034 R0_034 R1_034 sky130_fd_pr__res_generic_po l=8.25u w=0.99u
+
+R035 R0_035 R1_035 sky130_fd_pr__res_generic_po l=8.25u w=1.32u
+
+R036 R0_036 R1_036 sky130_fd_pr__res_generic_po l=8.25u w=1.65u
+
+R037 R0_037 R1_037 sky130_fd_pr__res_generic_po l=8.25u w=1.98u
+
+R038 R0_038 R1_038 sky130_fd_pr__res_generic_po l=8.25u w=2.31u
+
+R039 R0_039 R1_039 sky130_fd_pr__res_generic_po l=8.25u w=2.64u
+
+R040 R0_040 R1_040 sky130_fd_pr__res_generic_po l=9.9u w=0.33u
+
+R041 R0_041 R1_041 sky130_fd_pr__res_generic_po l=9.9u w=0.66u
+
+R042 R0_042 R1_042 sky130_fd_pr__res_generic_po l=9.9u w=0.99u
+
+R043 R0_043 R1_043 sky130_fd_pr__res_generic_po l=9.9u w=1.32u
+
+R044 R0_044 R1_044 sky130_fd_pr__res_generic_po l=9.9u w=1.65u
+
+R045 R0_045 R1_045 sky130_fd_pr__res_generic_po l=9.9u w=1.98u
+
+R046 R0_046 R1_046 sky130_fd_pr__res_generic_po l=9.9u w=2.31u
+
+R047 R0_047 R1_047 sky130_fd_pr__res_generic_po l=9.9u w=2.64u
+
+R048 R0_048 R1_048 sky130_fd_pr__res_generic_po l=11.55u w=0.33u
+
+R049 R0_049 R1_049 sky130_fd_pr__res_generic_po l=11.55u w=0.66u
+
+R050 R0_050 R1_050 sky130_fd_pr__res_generic_po l=11.55u w=0.99u
+
+R051 R0_051 R1_051 sky130_fd_pr__res_generic_po l=11.55u w=1.32u
+
+R052 R0_052 R1_052 sky130_fd_pr__res_generic_po l=11.55u w=1.65u
+
+R053 R0_053 R1_053 sky130_fd_pr__res_generic_po l=11.55u w=1.98u
+
+R054 R0_054 R1_054 sky130_fd_pr__res_generic_po l=11.55u w=2.31u
+
+R055 R0_055 R1_055 sky130_fd_pr__res_generic_po l=11.55u w=2.64u
+
+R056 R0_056 R1_056 sky130_fd_pr__res_generic_po l=13.2u w=0.33u
+
+R057 R0_057 R1_057 sky130_fd_pr__res_generic_po l=13.2u w=0.66u
+
+R058 R0_058 R1_058 sky130_fd_pr__res_generic_po l=13.2u w=0.99u
+
+R059 R0_059 R1_059 sky130_fd_pr__res_generic_po l=13.2u w=1.32u
+
+R060 R0_060 R1_060 sky130_fd_pr__res_generic_po l=13.2u w=1.65u
+
+R061 R0_061 R1_061 sky130_fd_pr__res_generic_po l=13.2u w=1.98u
+
+R062 R0_062 R1_062 sky130_fd_pr__res_generic_po l=13.2u w=2.31u
+
+R063 R0_063 R1_063 sky130_fd_pr__res_generic_po l=13.2u w=2.64u
+
+.ENDS

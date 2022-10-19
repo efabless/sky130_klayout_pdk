@@ -1,0 +1,211 @@
+ 
+* Copyright 2022 Mabrains
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+* 
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+.SUBCKT sky130_fd_pr__res_high_po_1p41 SUBSTRATE
++ R0_000_dim_fail R1_000_dim_fail
++ R0_001_dim_fail R1_001_dim_fail
++ R0_002_dim_fail R1_002_dim_fail
++ R0_003_dim_fail R1_003_dim_fail
++ R0_004_dim_fail R1_004_dim_fail
++ R0_005_dim_fail R1_005_dim_fail
++ R0_006_dim_fail R1_006_dim_fail
++ R0_007_dim_fail R1_007_dim_fail
++ R0_008_dim_fail R1_008_dim_fail
++ R0_009_dim_fail R1_009_dim_fail
++ R0_010_dim_fail R1_010_dim_fail
++ R0_011_dim_fail R1_011_dim_fail
++ R0_012_dim_fail R1_012_dim_fail
++ R0_013_dim_fail R1_013_dim_fail
++ R0_014_dim_fail R1_014_dim_fail
++ R0_015_dim_fail R1_015_dim_fail
++ R0_016_dim_fail R1_016_dim_fail
++ R0_017_dim_fail R1_017_dim_fail
++ R0_018_dim_fail R1_018_dim_fail
++ R0_019_dim_fail R1_019_dim_fail
++ R0_020_dim_fail R1_020_dim_fail
++ R0_021_dim_fail R1_021_dim_fail
++ R0_022_dim_fail R1_022_dim_fail
++ R0_023_dim_fail R1_023_dim_fail
++ R0_024_dim_fail R1_024_dim_fail
++ R0_025_dim_fail R1_025_dim_fail
++ R0_026_dim_fail R1_026_dim_fail
++ R0_027_dim_fail R1_027_dim_fail
++ R0_028_dim_fail R1_028_dim_fail
++ R0_029_dim_fail R1_029_dim_fail
++ R0_030_dim_fail R1_030_dim_fail
++ R0_031_dim_fail R1_031_dim_fail
++ R0_032_dim_fail R1_032_dim_fail
++ R0_033_dim_fail R1_033_dim_fail
++ R0_034_dim_fail R1_034_dim_fail
++ R0_035_dim_fail R1_035_dim_fail
++ R0_036_dim_fail R1_036_dim_fail
++ R0_037_dim_fail R1_037_dim_fail
++ R0_038_dim_fail R1_038_dim_fail
++ R0_039_dim_fail R1_039_dim_fail
++ R0_040_dim_fail R1_040_dim_fail
++ R0_041_dim_fail R1_041_dim_fail
++ R0_042_dim_fail R1_042_dim_fail
++ R0_043_dim_fail R1_043_dim_fail
++ R0_044_dim_fail R1_044_dim_fail
++ R0_045_dim_fail R1_045_dim_fail
++ R0_046_dim_fail R1_046_dim_fail
++ R0_047_dim_fail R1_047_dim_fail
++ R0_048_dim_fail R1_048_dim_fail
++ R0_049_dim_fail R1_049_dim_fail
++ R0_050_dim_fail R1_050_dim_fail
++ R0_051_dim_fail R1_051_dim_fail
++ R0_052_dim_fail R1_052_dim_fail
++ R0_053_dim_fail R1_053_dim_fail
++ R0_054_dim_fail R1_054_dim_fail
++ R0_055_dim_fail R1_055_dim_fail
++ R0_056_dim_fail R1_056_dim_fail
++ R0_057_dim_fail R1_057_dim_fail
++ R0_058_dim_fail R1_058_dim_fail
++ R0_059_dim_fail R1_059_dim_fail
++ R0_060_dim_fail R1_060_dim_fail
++ R0_061_dim_fail R1_061_dim_fail
++ R0_062_dim_fail R1_062_dim_fail
++ R0_063_dim_fail R1_063_dim_fail
+
+R000_dim_fail R0_000_dim_fail R1_000_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=2.03u w=1.41u
+
+R001_dim_fail R0_001_dim_fail R1_001_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=3.94u w=1.41u
+
+R002_dim_fail R0_002_dim_fail R1_002_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=5.85u w=1.41u
+
+R003_dim_fail R0_003_dim_fail R1_003_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=7.76u w=1.41u
+
+R004_dim_fail R0_004_dim_fail R1_004_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=9.67u w=1.41u
+
+R005_dim_fail R0_005_dim_fail R1_005_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=11.58u w=1.41u
+
+R006_dim_fail R0_006_dim_fail R1_006_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=13.49u w=1.41u
+
+R007_dim_fail R0_007_dim_fail R1_007_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=15.4u w=1.41u
+
+R008_dim_fail R0_008_dim_fail R1_008_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=3.94u w=1.41u
+
+R009_dim_fail R0_009_dim_fail R1_009_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=7.76u w=1.41u
+
+R010_dim_fail R0_010_dim_fail R1_010_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=11.58u w=1.41u
+
+R011_dim_fail R0_011_dim_fail R1_011_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=15.4u w=1.41u
+
+R012_dim_fail R0_012_dim_fail R1_012_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=19.22u w=1.41u
+
+R013_dim_fail R0_013_dim_fail R1_013_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=23.04u w=1.41u
+
+R014_dim_fail R0_014_dim_fail R1_014_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=26.86u w=1.41u
+
+R015_dim_fail R0_015_dim_fail R1_015_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=30.68u w=1.41u
+
+R016_dim_fail R0_016_dim_fail R1_016_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=5.85u w=1.41u
+
+R017_dim_fail R0_017_dim_fail R1_017_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=11.58u w=1.41u
+
+R018_dim_fail R0_018_dim_fail R1_018_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=17.31u w=1.41u
+
+R019_dim_fail R0_019_dim_fail R1_019_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=23.04u w=1.41u
+
+R020_dim_fail R0_020_dim_fail R1_020_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=28.77u w=1.41u
+
+R021_dim_fail R0_021_dim_fail R1_021_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=34.5u w=1.41u
+
+R022_dim_fail R0_022_dim_fail R1_022_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=40.23u w=1.41u
+
+R023_dim_fail R0_023_dim_fail R1_023_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=45.96u w=1.41u
+
+R024_dim_fail R0_024_dim_fail R1_024_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=7.76u w=1.41u
+
+R025_dim_fail R0_025_dim_fail R1_025_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=15.4u w=1.41u
+
+R026_dim_fail R0_026_dim_fail R1_026_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=23.04u w=1.41u
+
+R027_dim_fail R0_027_dim_fail R1_027_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=30.68u w=1.41u
+
+R028_dim_fail R0_028_dim_fail R1_028_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=38.32u w=1.41u
+
+R029_dim_fail R0_029_dim_fail R1_029_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=45.96u w=1.41u
+
+R030_dim_fail R0_030_dim_fail R1_030_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=53.6u w=1.41u
+
+R031_dim_fail R0_031_dim_fail R1_031_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=61.24u w=1.41u
+
+R032_dim_fail R0_032_dim_fail R1_032_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=9.67u w=1.41u
+
+R033_dim_fail R0_033_dim_fail R1_033_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=19.22u w=1.41u
+
+R034_dim_fail R0_034_dim_fail R1_034_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=28.77u w=1.41u
+
+R035_dim_fail R0_035_dim_fail R1_035_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=38.32u w=1.41u
+
+R036_dim_fail R0_036_dim_fail R1_036_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=47.87u w=1.41u
+
+R037_dim_fail R0_037_dim_fail R1_037_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=57.42u w=1.41u
+
+R038_dim_fail R0_038_dim_fail R1_038_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=66.97u w=1.41u
+
+R039_dim_fail R0_039_dim_fail R1_039_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=76.52u w=1.41u
+
+R040_dim_fail R0_040_dim_fail R1_040_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=11.58u w=1.41u
+
+R041_dim_fail R0_041_dim_fail R1_041_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=23.04u w=1.41u
+
+R042_dim_fail R0_042_dim_fail R1_042_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=34.5u w=1.41u
+
+R043_dim_fail R0_043_dim_fail R1_043_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=45.96u w=1.41u
+
+R044_dim_fail R0_044_dim_fail R1_044_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=57.42u w=1.41u
+
+R045_dim_fail R0_045_dim_fail R1_045_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=68.88u w=1.41u
+
+R046_dim_fail R0_046_dim_fail R1_046_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=80.34u w=1.41u
+
+R047_dim_fail R0_047_dim_fail R1_047_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=91.8u w=1.41u
+
+R048_dim_fail R0_048_dim_fail R1_048_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=13.49u w=1.41u
+
+R049_dim_fail R0_049_dim_fail R1_049_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=26.86u w=1.41u
+
+R050_dim_fail R0_050_dim_fail R1_050_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=40.23u w=1.41u
+
+R051_dim_fail R0_051_dim_fail R1_051_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=53.6u w=1.41u
+
+R052_dim_fail R0_052_dim_fail R1_052_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=66.97u w=1.41u
+
+R053_dim_fail R0_053_dim_fail R1_053_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=80.34u w=1.41u
+
+R054_dim_fail R0_054_dim_fail R1_054_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=93.71u w=1.41u
+
+R055_dim_fail R0_055_dim_fail R1_055_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=107.08u w=1.41u
+
+R056_dim_fail R0_056_dim_fail R1_056_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=15.4u w=1.41u
+
+R057_dim_fail R0_057_dim_fail R1_057_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=30.68u w=1.41u
+
+R058_dim_fail R0_058_dim_fail R1_058_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=45.96u w=1.41u
+
+R059_dim_fail R0_059_dim_fail R1_059_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=61.24u w=1.41u
+
+R060_dim_fail R0_060_dim_fail R1_060_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=76.52u w=1.41u
+
+R061_dim_fail R0_061_dim_fail R1_061_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=91.8u w=1.41u
+
+R062_dim_fail R0_062_dim_fail R1_062_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=107.08u w=1.41u
+
+R063_dim_fail R0_063_dim_fail R1_063_dim_fail SUBSTRATE sky130_fd_pr__res_high_po_1p41 l=122.36u w=1.41u
+
+.ENDS

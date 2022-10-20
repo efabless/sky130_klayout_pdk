@@ -1654,7 +1654,8 @@ logger.info("Starting SKY130 LVS connectivity setup (Attaching labels)")
 connect(sub         ,      sub_label)
 connect(nwell       ,    nwell_label)
 connect(tap         ,      tap_label)
-connect(diff        ,     diff_label)
+connect(nsd        ,      diff_label)
+connect(psd        ,      diff_label)
 connect(poly_con    ,     poly_label)
 connect(li_con      ,       li_label)
 connect(met1_con    ,     met1_label)
@@ -2454,7 +2455,7 @@ if TOP_LVL_PINS
 end
 
 if COMBINE
-  netlist.combine_devices
+  netlist.combine_devices()
 end
 
 if PURGE
@@ -2471,7 +2472,7 @@ if SCH_SIMPLE
 end
 
 #=== IGNORE EXTREME VALUES ===
-max_res(1e7)
+max_res(1e9)
 min_caps(1e-16)
 
 #=== COMPARE ===

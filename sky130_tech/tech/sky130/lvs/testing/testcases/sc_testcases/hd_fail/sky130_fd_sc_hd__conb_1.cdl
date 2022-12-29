@@ -16,6 +16,6 @@
 
 .SUBCKT sky130_fd_sc_hd__conb_1 VGND VNB VPB VPWR HI LO
 *.PININFO VGND:I VNB:I VPB:I VPWR:I HI:O LO:O
-rI12 VGND LO short
-rI11 HI VPWR short
+*rI12 VGND LO short
+*rI11 HI VPWR short
 .ENDS sky130_fd_sc_hd__conb_1

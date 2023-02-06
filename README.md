@@ -8,7 +8,7 @@ Efabless is excited to share with you our Skywater 130nm PDK for Klayout.
 
 * sky130.lyt   : technology and connections description
 * sky130.lyp   : layers color and shape description
-* sky130.lmp   : layer mapping of def/lef shapes
+* sky130.map   : layer mapping of def/lef shapes
 * DRC          : please use the following --> <https://github.com/efabless/mpw_precheck/blob/main/checks/tech-files/sky130A_mr.drc>
 * LVS          : LVS script `lvs/lvs_sky130.lylvs` (In development)
 * Pcells       : Devices generators (In development)

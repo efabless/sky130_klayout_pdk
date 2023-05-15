@@ -4,8 +4,8 @@
  <description>SkyWater 130nm technology</description>
  <group/>
  <dbu>0.001</dbu>
- <base-path>$(appdata_path)/tech/sky130</base-path>
- <original-base-path>$(appdata_path)/tech/sky130</original-base-path>
+ <base-path/>
+ <original-base-path>$PDK_ROOT/$PDK/libs.tech/klayout</original-base-path>
  <layer-properties_file>sky130.lyp</layer-properties_file>
  <add-other-layers>true</add-other-layers>
  <reader-options>

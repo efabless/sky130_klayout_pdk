@@ -13,11 +13,17 @@ NAME    nwell/LABEL,nwell/LEFPIN 64  5
 pwell   LEFPIN                   122 16
 NAME    pwell/LABEL,pwell/LEFPIN 122 5
 
-mcon    VIA                      67  44
-via     VIA                      68  44
-via2    VIA                      69  44
-via3    VIA                      70  44
-via4    VIA                      71  44
+mcon    VIA,LEFPIN,PIN           67  44
+via     VIA,LEFPIN,PIN           68  44
+via2    VIA,LEFPIN,PIN           69  44
+via3    VIA,LEFPIN,PIN           70  44
+via4    VIA,LEFPIN,PIN           71  44
+
+mcon    LEFPIN,PIN               67  48
+via     LEFPIN,PIN               68  48
+via2    LEFPIN,PIN               69  48
+via3    LEFPIN,PIN               70  48
+via4    LEFPIN,PIN               71  48
 
 met1    LEFPIN,NET,SPNET,PIN,VIA 68  20
 met1    LEFPIN,PIN               68  16

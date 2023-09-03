@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 # Copyright 2022 Mabrains LLC
 #
@@ -14,7 +15,6 @@
 # limitations under the License.
 -->
 
-<?xml version="1.0" encoding="utf-8"?>
 <layer-properties>
  <properties>
   <frame-color>#ccccd9</frame-color>

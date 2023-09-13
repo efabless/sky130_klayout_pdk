@@ -30,7 +30,7 @@ from .layers_def import (
     m5_layer,
 )
 from .parent_res import draw_res
-from gdsfactory.types import LayerSpec
+from gdsfactory.typings import LayerSpec
 
 # ########constants##########
 # ONLY FOR GENERIC RES

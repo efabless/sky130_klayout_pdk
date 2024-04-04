@@ -19,7 +19,7 @@
  <name>sky130</name>
  <description>SkyWater 130nm technology</description>
  <group/>
- <dbu>0.001</dbu>
+ <dbu>0.005</dbu>
  <base-path/>
  <original-base-path>$PDK_ROOT/$PDK/libs.tech/klayout</original-base-path>
  <layer-properties_file>sky130.lyp</layer-properties_file>
@@ -39,7 +39,7 @@
   <lefdef>
    <read-all-layers>true</read-all-layers>
    <layer-map>layer_map()</layer-map>
-   <dbu>0.001</dbu>
+   <dbu>0.005</dbu>
    <produce-net-names>true</produce-net-names>
    <net-property-name>#1</net-property-name>
    <produce-inst-names>true</produce-inst-names>
@@ -88,7 +88,7 @@
    <create-other-layers>true</create-other-layers>
   </mebes>
   <dxf>
-   <dbu>0.001</dbu>
+   <dbu>0.005</dbu>
    <unit>1</unit>
    <text-scaling>100</text-scaling>
    <circle-points>100</circle-points>
@@ -103,14 +103,14 @@
   </dxf>
   <cif>
    <wire-mode>0</wire-mode>
-   <dbu>0.001</dbu>
+   <dbu>0.005</dbu>
    <layer-map>layer_map()</layer-map>
    <create-other-layers>true</create-other-layers>
    <keep-layer-names>false</keep-layer-names>
   </cif>
   <mag>
    <lambda>1</lambda>
-   <dbu>0.001</dbu>
+   <dbu>0.005</dbu>
    <layer-map>layer_map()</layer-map>
    <create-other-layers>true</create-other-layers>
    <keep-layer-names>false</keep-layer-names>

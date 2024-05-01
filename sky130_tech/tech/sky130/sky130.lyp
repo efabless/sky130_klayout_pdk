@@ -3696,13 +3696,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cfom.waffles - 23/28</name>
+  <name>cfom.fill - 23/28</name>
   <source>23/28@1</source>
  </properties>
  <properties>
@@ -4682,13 +4682,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cp1m.waffles - 28/28</name>
+  <name>cp1m.fill - 28/28</name>
   <source>28/28@1</source>
  </properties>
  <properties>
@@ -4784,13 +4784,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cli1m.waffles - 56/28</name>
+  <name>cli1m.fill - 56/28</name>
   <source>56/28@1</source>
  </properties>
  <properties>
@@ -4937,13 +4937,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cmm1.waffles - 36/28</name>
+  <name>cmm1.fill - 36/28</name>
   <source>36/28@1</source>
  </properties>
  <properties>
@@ -5107,13 +5107,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cmm2.waffles - 41/28</name>
+  <name>cmm2.fill - 41/28</name>
   <source>41/28@1</source>
  </properties>
  <properties>
@@ -5277,13 +5277,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cmm3.waffles - 34/28</name>
+  <name>cmm3.fill - 34/28</name>
   <source>34/28@1</source>
  </properties>
  <properties>
@@ -5617,13 +5617,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cmm4.waffles - 51/28</name>
+  <name>cmm4.fill - 51/28</name>
   <source>51/28@1</source>
  </properties>
  <properties>
@@ -5736,13 +5736,13 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>cmm5.waffles - 59/28</name>
+  <name>cmm5.fill - 59/28</name>
   <source>59/28@1</source>
  </properties>
  <properties>
@@ -7181,7 +7181,7 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C1</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
@@ -7198,7 +7198,7 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C1</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
@@ -7215,7 +7215,7 @@
   <dither-pattern>I1</dither-pattern>
   <line-style>I1</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>2</width>
   <marked>false</marked>
@@ -7232,7 +7232,7 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C1</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
@@ -7249,7 +7249,7 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C1</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
@@ -7266,7 +7266,7 @@
   <dither-pattern>C21</dither-pattern>
   <line-style>C1</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>

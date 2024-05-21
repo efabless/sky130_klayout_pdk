@@ -7275,7 +7275,6 @@
   <name>boundary - 235/250</name>
   <source>235/250@1</source>
  </properties>
-
  <properties>
   <frame-color>#610092</frame-color>
   <fill-color>#610092</fill-color>
@@ -7284,7 +7283,7 @@
   <dither-pattern>C23</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>
@@ -7301,7 +7300,7 @@
   <dither-pattern>C6</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
-  <visible>true</visible>
+  <visible>false</visible>
   <transparent>false</transparent>
   <width>1</width>
   <marked>false</marked>

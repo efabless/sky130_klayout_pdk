@@ -7187,7 +7187,7 @@
   <marked>false</marked>
   <xfill>false</xfill>
   <animation>0</animation>
-  <name>URPM - 79/20</name>
+  <name>urpm - 79/20</name>
   <source>79/20@1</source>
  </properties>
  <properties>
@@ -7274,6 +7274,41 @@
   <animation>0</animation>
   <name>boundary - 235/250</name>
   <source>235/250@1</source>
+ </properties>
+
+ <properties>
+  <frame-color>#610092</frame-color>
+  <fill-color>#610092</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C23</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>true</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>r1c.drawing - 201/20</name>
+  <source>201/20@1</source>
+ </properties>
+ <properties>
+  <frame-color>#4166d2</frame-color>
+  <fill-color>#4166d2</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C6</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>true</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>v20.drawing - 74/22</name>
+  <source>74/22@1</source>
  </properties>
  <name/>
  <custom-dither-pattern>

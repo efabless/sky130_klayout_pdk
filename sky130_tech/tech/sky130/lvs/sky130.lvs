@@ -1232,6 +1232,8 @@ poly_xhigh_5p73  = poly_res_2k.interacting(poly_res_2k.edges.with_length(5.72.um
 # ---- METAL ----
 # ===============
 
+licon_npc     = licon.and(npc)
+
 # Local inter-connect resistor
 li_resistor   = li.and(li_res)
 
@@ -1634,7 +1636,8 @@ connect(ptap_conn   ,         licon)
 connect(ntap_conn   ,         licon)
 connect(psd         ,         licon)
 connect(nsd         ,         licon)
-connect(poly_con    ,         licon)
+connect(poly_con    ,     licon_npc)
+connect(licon_npc   ,         licon)
 connect(licon       ,        li_con)
 connect(li_con      ,          mcon)
 connect(mcon        ,      met1_con)

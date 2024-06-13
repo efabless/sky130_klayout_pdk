@@ -3689,6 +3689,23 @@
   <source>22/22@1</source>
  </properties>
  <properties>
+  <frame-color>#ccccd9</frame-color>
+  <fill-color>#ccccd9</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cfom.fill - 23/28</name>
+  <source>23/28@1</source>
+ </properties>
+ <properties>
   <frame-color>#268c6b</frame-color>
   <fill-color>#268c6b</fill-color>
   <frame-brightness>0</frame-brightness>
@@ -4641,23 +4658,6 @@
   <source>33/43@1</source>
  </properties>
  <properties>
-  <frame-color>#9900e6</frame-color>
-  <fill-color>#9900e6</fill-color>
-  <frame-brightness>0</frame-brightness>
-  <fill-brightness>0</fill-brightness>
-  <dither-pattern>I1</dither-pattern>
-  <line-style>C0</line-style>
-  <valid>true</valid>
-  <visible>true</visible>
-  <transparent>false</transparent>
-  <width>1</width>
-  <marked>false</marked>
-  <xfill>false</xfill>
-  <animation>0</animation>
-  <name>cp1m.waffleDrop - 33/24</name>
-  <source>33/24@1</source>
- </properties>
- <properties>
   <frame-color>#ff8000</frame-color>
   <fill-color>#ff8000</fill-color>
   <frame-brightness>0</frame-brightness>
@@ -4673,6 +4673,40 @@
   <animation>0</animation>
   <name>cp1m.maskDrop - 33/42</name>
   <source>33/42@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ff8000</frame-color>
+  <fill-color>#ff8000</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cp1m.fill - 28/28</name>
+  <source>28/28@1</source>
+ </properties>
+ <properties>
+  <frame-color>#9900e6</frame-color>
+  <fill-color>#9900e6</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>I1</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>true</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cp1m.waffleDrop - 33/24</name>
+  <source>33/24@1</source>
  </properties>
  <properties>
   <frame-color>#ffffff</frame-color>
@@ -4741,6 +4775,23 @@
   <animation>0</animation>
   <name>cli1m.maskDrop - 115/42</name>
   <source>115/42@1</source>
+ </properties>
+ <properties>
+  <frame-color>#00ffff</frame-color>
+  <fill-color>#00ffff</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cli1m.fill - 56/28</name>
+  <source>56/28@1</source>
  </properties>
  <properties>
   <frame-color>#ffffff</frame-color>
@@ -4877,6 +4928,23 @@
   <animation>0</animation>
   <name>cmm1.maskDrop - 62/22</name>
   <source>62/22@1</source>
+ </properties>
+ <properties>
+  <frame-color>#0000ff</frame-color>
+  <fill-color>#0000ff</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cmm1.fill - 36/28</name>
+  <source>36/28@1</source>
  </properties>
  <properties>
   <frame-color>#0000ff</frame-color>
@@ -5036,6 +5104,23 @@
   <fill-color>#ffbff2</fill-color>
   <frame-brightness>0</frame-brightness>
   <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cmm2.fill - 41/28</name>
+  <source>41/28@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ffbff2</frame-color>
+  <fill-color>#ffbff2</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
   <dither-pattern>I1</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
@@ -5183,6 +5268,23 @@
   <animation>0</animation>
   <name>cmm3.maskDrop - 107/22</name>
   <source>107/22@1</source>
+ </properties>
+ <properties>
+  <frame-color>#5e00e6</frame-color>
+  <fill-color>#5e00e6</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cmm3.fill - 34/28</name>
+  <source>34/28@1</source>
  </properties>
  <properties>
   <frame-color>#5e00e6</frame-color>
@@ -5512,6 +5614,23 @@
   <fill-color>#00cc66</fill-color>
   <frame-brightness>0</frame-brightness>
   <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cmm4.fill - 51/28</name>
+  <source>51/28@1</source>
+ </properties>
+ <properties>
+  <frame-color>#00cc66</frame-color>
+  <fill-color>#00cc66</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
   <dither-pattern>I1</dither-pattern>
   <line-style>C0</line-style>
   <valid>true</valid>
@@ -5608,6 +5727,23 @@
   <animation>0</animation>
   <name>cmm5.mask - 59/0</name>
   <source>59/0@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ff8000</frame-color>
+  <fill-color>#ff8000</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>cmm5.fill - 59/28</name>
+  <source>59/28@1</source>
  </properties>
  <properties>
   <frame-color>#ff8000</frame-color>
@@ -7036,6 +7172,142 @@
   <animation>0</animation>
   <name>blanking.drawing - 124/40</name>
   <source>124/40@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ffe6bf</frame-color>
+  <fill-color>#ffe6bf</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C1</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>urpm - 79/20</name>
+  <source>79/20@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ffe6bf</frame-color>
+  <fill-color>#ffe6bf</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C1</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>text.drawing - 83/44</name>
+  <source>83/44@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ff0000</frame-color>
+  <fill-color/>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>I1</dither-pattern>
+  <line-style>I1</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>2</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>boundary - 235/0</name>
+  <source>235/0@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ffe6bf</frame-color>
+  <fill-color>#ffe6bf</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C1</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>boundary - 236/0</name>
+  <source>236/0@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ffe6bf</frame-color>
+  <fill-color>#ffe6bf</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C1</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>boundary - 235/252</name>
+  <source>235/252@1</source>
+ </properties>
+ <properties>
+  <frame-color>#ffe6bf</frame-color>
+  <fill-color>#ffe6bf</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C21</dither-pattern>
+  <line-style>C1</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>boundary - 235/250</name>
+  <source>235/250@1</source>
+ </properties>
+ <properties>
+  <frame-color>#610092</frame-color>
+  <fill-color>#610092</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C23</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>r1c.drawing - 201/20</name>
+  <source>201/20@1</source>
+ </properties>
+ <properties>
+  <frame-color>#4166d2</frame-color>
+  <fill-color>#4166d2</fill-color>
+  <frame-brightness>0</frame-brightness>
+  <fill-brightness>0</fill-brightness>
+  <dither-pattern>C6</dither-pattern>
+  <line-style>C0</line-style>
+  <valid>true</valid>
+  <visible>false</visible>
+  <transparent>false</transparent>
+  <width>1</width>
+  <marked>false</marked>
+  <xfill>false</xfill>
+  <animation>0</animation>
+  <name>v20.drawing - 74/22</name>
+  <source>74/22@1</source>
  </properties>
  <name/>
  <custom-dither-pattern>

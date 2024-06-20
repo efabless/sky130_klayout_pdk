@@ -20,7 +20,7 @@
 from math import ceil, floor
 from tracemalloc import start
 import gdsfactory as gf
-from gdsfactory.types import Float2 , LayerSpec
+from gdsfactory.typings import Float2 , LayerSpec
 from .layers_def import *
 
 @gf.cell

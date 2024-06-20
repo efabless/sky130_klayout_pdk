@@ -21,7 +21,7 @@ from re import L
 import numpy as np
 
 import gdsfactory as gf
-from gdsfactory.types import Float2, LayerSpec
+from gdsfactory.typings import Float2, LayerSpec
 from .via_generator import * 
 from .layers_def import *
 

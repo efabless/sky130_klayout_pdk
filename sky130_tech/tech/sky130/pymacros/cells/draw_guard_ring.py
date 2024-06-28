@@ -21,9 +21,10 @@ from .via_generator import *
 from .globals import *
 from .layers_def import *
 import gdsfactory as gf
+from .pdk import open_component, take_component
 
 def draw_gr (
-    layout ,
+    cell,
     in_l : float = 1,
     in_w : float = 1,
     grw : float = 0.17,
@@ -31,7 +32,7 @@ def draw_gr (
 ) :
 
     '''
-    layout : layout object 
+    cell : kdb.Cell cell to place layout into
     in_l : float of the inner length of the ring
     in_w : float of the inner width of the ring 
     grw : float of the guard ring width 
@@ -43,7 +44,7 @@ def draw_gr (
     con_spacing = (0.19, 0.19)
     con_enc = (0.12, 0.12)
 
-    c = gf.Component("sky_ring_gen")
+    c = open_component("sky_ring_gen")
     c_temp = gf.Component("temp_store")
 
     inner = c_temp.add_ref(gf.components.rectangle(size=(in_w, in_l), layer=tap_layer))
@@ -84,11 +85,4 @@ def draw_gr (
         , via_size=con_size, via_spacing=con_spacing))
 
 
-
-    c.write_gds("ring_temp.gds")
-    layout.read("ring_temp.gds")
-    cell_name = "sky_ring_gen"
-
-   
-
-    return layout.cell(cell_name)
+    take_component(c, cell)

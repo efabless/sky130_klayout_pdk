@@ -40,10 +40,11 @@ class guard_ring_gen(pya.PCellDeclarationHelper):
         self.param("grw", self.TypeDouble, "Guard Ring Width", default=min_w, unit="um")
 
         
-        self.Type_handle  = self.param("con_lev", self.TypeString, "Connection Level", default="None")
+        self.Type_handle  = self.param("con_lev", self.TypeString, "Connection Level")
         self.Type_handle.add_choice("None", "None")
         self.Type_handle.add_choice("li", "li")
         self.Type_handle.add_choice("metal1", "metal1")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
 
     def display_text_impl(self):
         # Provide a descriptive text for the cell
@@ -93,9 +94,5 @@ class guard_ring_gen(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
     
     def produce_impl(self):
-        instance = draw_gr(layout=self.layout, in_l=self.in_l, in_w=self.in_w , grw= self.grw , con_lev=self.con_lev)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
-            
+        draw_gr(cell=self.cell, in_l=self.in_l, in_w=self.in_w , grw= self.grw , con_lev=self.con_lev)
+

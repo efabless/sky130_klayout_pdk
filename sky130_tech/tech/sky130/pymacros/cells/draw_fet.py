@@ -398,7 +398,7 @@ def draw_pfet(
         rect_bulk_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) + 2*grw,(rect_bulk_in.ymax - rect_bulk_in.ymin) + 2*grw )
         , layer= tap_layer))
         rect_bulk_out.move((rect_bulk_in.xmin - grw , rect_bulk_in.ymin -grw ))
-        B = c.add_ref(gf.geometry.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= tap_layer) )
+        B = c.add_ref(gf.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= tap_layer) )
         
         nsdm_in = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) - 2*tap_nsdm_enc, (rect_bulk_in.ymax - rect_bulk_in.ymin) - 2*tap_nsdm_enc )
         , layer= nsdm_layer))
@@ -406,7 +406,7 @@ def draw_pfet(
         nsdm_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_out.xmax - rect_bulk_out.xmin) + 2*tap_nsdm_enc, (rect_bulk_out.ymax - rect_bulk_out.ymin) + 2*tap_nsdm_enc )
         , layer= nsdm_layer))
         nsdm_out.move((rect_bulk_out.xmin - tap_nsdm_enc, rect_bulk_out.ymin - tap_nsdm_enc))
-        nsdm = c.add_ref(gf.geometry.boolean(A= nsdm_out , B = nsdm_in , operation= "A-B", layer= nsdm_layer) )
+        nsdm = c.add_ref(gf.boolean(A= nsdm_out , B = nsdm_in , operation= "A-B", layer= nsdm_layer) )
 
         # adding contacts 
 
@@ -434,7 +434,7 @@ def draw_pfet(
         tap_li_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) + 2*grw,(rect_bulk_in.ymax - rect_bulk_in.ymin) + 2*grw )
         , layer= li_layer))
         tap_li_out.move((rect_bulk_in.xmin - grw , rect_bulk_in.ymin -grw ))
-        li = c.add_ref(gf.geometry.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= li_layer) )
+        li = c.add_ref(gf.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= li_layer) )
 
 
         # generating nwell 
@@ -860,7 +860,7 @@ def draw_nfet(
         rect_bulk_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) + 2*grw,(rect_bulk_in.ymax - rect_bulk_in.ymin) + 2*grw )
         , layer= tap_layer))
         rect_bulk_out.move((rect_bulk_in.xmin - grw , rect_bulk_in.ymin -grw ))
-        B = c.add_ref(gf.geometry.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= tap_layer) )
+        B = c.add_ref(gf.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= tap_layer) )
         
         psdm_in = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) - 2*tap_psdm_enc, (rect_bulk_in.ymax - rect_bulk_in.ymin) - 2*tap_psdm_enc )
         , layer= psdm_layer))
@@ -868,7 +868,7 @@ def draw_nfet(
         psdm_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_out.xmax - rect_bulk_out.xmin) + 2*tap_psdm_enc, (rect_bulk_out.ymax - rect_bulk_out.ymin) + 2*tap_psdm_enc )
         , layer= nsdm_layer))
         psdm_out.move((rect_bulk_out.xmin - tap_psdm_enc, rect_bulk_out.ymin - tap_psdm_enc))
-        psdm = c.add_ref(gf.geometry.boolean(A= psdm_out , B = psdm_in , operation= "A-B", layer= psdm_layer) )
+        psdm = c.add_ref(gf.boolean(A= psdm_out , B = psdm_in , operation= "A-B", layer= psdm_layer) )
 
 
 
@@ -894,7 +894,7 @@ def draw_nfet(
         tap_li_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) + 2*grw,(rect_bulk_in.ymax - rect_bulk_in.ymin) + 2*grw )
         , layer= li_layer))
         tap_li_out.move((rect_bulk_in.xmin - grw , rect_bulk_in.ymin -grw ))
-        li = c.add_ref(gf.geometry.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= li_layer) )
+        li = c.add_ref(gf.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= li_layer) )
 
         
 

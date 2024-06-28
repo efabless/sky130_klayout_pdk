@@ -30,7 +30,7 @@ class cap_vpp(pya.PCellDeclarationHelper):
 
         # Important: initialize the super class
         super(cap_vpp, self).__init__()
-        self.Type_handle = self.param("Type", self.TypeList, "Type")
+        self.Type_handle = self.param("Type", self.TypeString, "Type", default=VPP_CAP_DEV[0])
         
 
         for i in range(len(VPP_CAP_DEV)) :

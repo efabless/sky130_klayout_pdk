@@ -333,6 +333,7 @@ def vias_gen_draw(
     end_layer : string of the last layer to be drawn that takes input of (poly,p_tap,n_tap,p_diff,n_diff,li,metal1:5)
 
     '''
+
     c = gf.Component("via")
 
     base_layers = ["poly","n_diff","p_diff","n_tap","p_tap"]

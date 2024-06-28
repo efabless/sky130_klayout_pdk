@@ -50,10 +50,10 @@ def draw_gr (
     outer = c_temp.add_ref(gf.components.rectangle(size=(inner.xmax - inner.xmin + 2*grw , inner.ymax - inner.ymin + 2*grw), layer=tap_layer))
     outer.move((-grw, -grw))
 
-    gr = c.add_ref(gf.geometry.boolean(A=outer, B=inner , operation="A-B", layer=tap_layer))
+    gr = c.add_ref(gf.boolean(A=outer, B=inner , operation="A-B", layer=tap_layer))
 
     if con_lev == "li" or con_lev == "metal1":
-        li = c.add_ref(gf.geometry.boolean(A=outer, B=inner, operation="A-B", layer=li_layer))
+        li = c.add_ref(gf.boolean(A=outer, B=inner, operation="A-B", layer=li_layer))
 
         if grw < con_size[0] + 2*con_enc[0]:
             con_range = (inner.xmin, inner.xmax)
@@ -72,7 +72,7 @@ def draw_gr (
 
 
     if con_lev == "metal1" :
-        m1 = c.add_ref(gf.geometry.boolean(A=outer, B=inner, operation="A-B", layer=m1_layer))
+        m1 = c.add_ref(gf.boolean(A=outer, B=inner, operation="A-B", layer=m1_layer))
 
         mcon_l = c.add_ref(via_generator(x_range=(outer.xmin, inner.xmin), y_range=(inner.ymin + 0.17 , inner.ymax - 0.17), via_enclosure=con_enc, via_layer=mcon_layer
         , via_size=con_size, via_spacing=con_spacing))

@@ -57,7 +57,7 @@ class vias_gen(pya.PCellDeclarationHelper):
         self.param("l", self.TypeDouble, "length", default=1, unit="um")
         self.param("w", self.TypeDouble, "width", default=1, unit="um")
         
-        self.Type_handle  = self.param("start_layer", self.TypeList, "Start Layer")
+        self.Type_handle  = self.param("start_layer", self.TypeString, "Start Layer", default="metal1")
         self.Type_handle.add_choice("poly","poly")
         self.Type_handle.add_choice("p_tap","p_tap")
         self.Type_handle.add_choice("n_tap","n_tap")
@@ -69,7 +69,7 @@ class vias_gen(pya.PCellDeclarationHelper):
         self.Type_handle.add_choice("metal3","metal3")
         self.Type_handle.add_choice("metal4","metal4")
         
-        self.Type_handle  = self.param("end_layer", self.TypeList, "End Layer")
+        self.Type_handle  = self.param("end_layer", self.TypeString, "End Layer", default="metal2")
         self.Type_handle.add_choice("li","li")
         self.Type_handle.add_choice("metal1","metal1")
         self.Type_handle.add_choice("metal2","metal2")

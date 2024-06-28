@@ -40,7 +40,7 @@ class guard_ring_gen(pya.PCellDeclarationHelper):
         self.param("grw", self.TypeDouble, "Guard Ring Width", default=min_w, unit="um")
 
         
-        self.Type_handle  = self.param("con_lev", self.TypeList, "Connection Level")
+        self.Type_handle  = self.param("con_lev", self.TypeString, "Connection Level", default="None")
         self.Type_handle.add_choice("None", "None")
         self.Type_handle.add_choice("li", "li")
         self.Type_handle.add_choice("metal1", "metal1")

@@ -173,11 +173,11 @@ def draw_cap_var(
         )
         g_r_out.move((g_r_in.xmin - grw, g_r_in.ymin - grw))
         g_r = c.add_ref(
-            gf.geometry.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=tap_layer)
+            gf.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=tap_layer)
         )
 
         g_r_li = c.add_ref(
-            gf.geometry.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=li_layer)
+            gf.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=li_layer)
         )
 
         g_psdm_in = c_temp.add_ref(
@@ -202,7 +202,7 @@ def draw_cap_var(
         g_psdm_out.move((g_r_out.xmin - tap_nsdm_enc, g_r_out.ymin - tap_nsdm_enc))
 
         g_psdm = c.add_ref(
-            gf.geometry.boolean(
+            gf.boolean(
                 A=g_psdm_out, B=g_psdm_in, operation="A-B", layer=psdm_layer
             )
         )

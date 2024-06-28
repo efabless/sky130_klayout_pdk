@@ -24,10 +24,11 @@ import gdsfactory as gf
 from gdsfactory.typings import Float2, LayerSpec
 from .via_generator import * 
 from .layers_def import *
+from .pdk import open_component, take_component
 
 #@gf.cell
 def draw_pfet(
-    layout ,
+    cell ,
     l : float = 0.15,
     w : float = 0.42,
     sd_con_col : int = 1,
@@ -49,7 +50,7 @@ def draw_pfet(
     Retern pfet
 
     Args: 
-        layout : layout object 
+        cell : kdb.Cell cell to place layout into
         l : Float of gate length 
         w : Float of gate width
         sd_con_col : integer of number of contacts columns contained in source and drain area 
@@ -105,7 +106,7 @@ def draw_pfet(
 
 
     # gds components to store a single instance and the generated device 
-    c = gf.Component("sky_pfet_dev")
+    c = open_component("sky_pfet_dev")
 
     c_inst = gf.Component("dev_temp")
 
@@ -372,7 +373,7 @@ def draw_pfet(
 
     elif bulk == "bulk tie":
         rect_bulk = c_inst.add_ref(gf.components.rectangle(size=(1.3*sd_l,w),layer=tap_layer))
-        rect_bulk.connect("e1",destination=sd_diff.ports["e3"])
+        rect_bulk.connect("e1",other=sd_diff.ports["e3"],allow_layer_mismatch=True)
         psdm = c_inst.add_ref(gf.components.rectangle(size=(sd_diff.xmax - sd_diff.xmin + diff_psdm_enc,w + 2*diff_psdm_enc),layer=psdm_layer))
         psdm.move((-diff_psdm_enc,-diff_psdm_enc))
         nsdm = c_inst.add_ref(gf.components.rectangle(size=(rect_bulk.xmax - rect_bulk.xmin +tap_nsdm_enc, w+ 2*tap_nsdm_enc), layer= nsdm_layer))
@@ -471,19 +472,12 @@ def draw_pfet(
         hvi.move((nwell.xmin,nwell.ymin))
 
     
-    # creating layout and cell in klayout 
-    c.write_gds(f"pfet_temp.gds")
-    layout.read(f"pfet_temp.gds")
-    cell_name = "sky_pfet_dev"
-    
-    
-    return layout.cell(cell_name)
-    #return c
-
+    # creating layout and cell in klayout
+    take_component(c, cell)
 
 #@gf.cell
 def draw_nfet(
-    layout ,
+    cell ,
     l : float = 0.15,
     w : float = 0.42,
     sd_con_col : int = 1,
@@ -505,7 +499,7 @@ def draw_nfet(
     Retern nfet
 
     Args: 
-        layout : layout object 
+        cell : kdb.Cell cell to place layout into
         l : Float of gate length 
         w : Float of gate width
         sd_l : Float of source and drain diffusion length
@@ -554,7 +548,7 @@ def draw_nfet(
     sd_l = sd_l_con + 0.05
     
     # gds components to store a single instance and the generated device 
-    c = gf.Component("sky_nfet_dev")
+    c = open_component("sky_nfet_dev")
 
     c_inst = gf.Component("dev_temp")
 
@@ -828,11 +822,11 @@ def draw_nfet(
     
     elif bulk == "bulk tie":
         rect_bulk = c_inst.add_ref(gf.components.rectangle(size=(sd_l*1.5,w),layer=tap_layer))
-        rect_bulk.connect("e1",destination=sd_diff.ports["e3"])
+        rect_bulk.connect("e1",other=sd_diff.ports["e3"],allow_layer_mismatch=True)
         nsdm = c_inst.add_ref(gf.components.rectangle(size=(sd_diff.xmax - sd_diff.xmin +diff_nsdm_enc,w + 2*diff_nsdm_enc),layer=nsdm_layer))
         nsdm.move((-diff_nsdm_enc,-diff_nsdm_enc))
         psdm = c_inst.add_ref(gf.components.rectangle(size=(rect_bulk.xmax - rect_bulk.xmin +tap_psdm_enc, w+ 2*tap_psdm_enc), layer= psdm_layer))
-        psdm.connect("e1",destination = nsdm.ports["e3"])
+        psdm.connect("e1",other = nsdm.ports["e3"],allow_layer_mismatch=True)
 
         bulk_con = via_stack(x_range= (rect_bulk.xmin+0.1,rect_bulk.xmax-0.1),y_range=(rect_bulk.ymin,rect_bulk.ymax),base_layer=tap_layer,metal_level=0)
         c_inst.add_ref(bulk_con)
@@ -940,14 +934,8 @@ def draw_nfet(
             areaid_lvn_arr.move((sd_l-areaid_lvn_enc , sd_diff.ymin - areaid_lvn_enc))
 
  
-    # creating layout and cell in klayout 
-    c.write_gds(f"nfet_temp.gds")
-    layout.read(f"nfet_temp.gds")
-    cell_name = "sky_nfet_dev"
-
-
-    return layout.cell(cell_name)
-    #return c
+    # creating layout and cell in klayout
+    take_component(c, cell)
 
 if __name__ == "__main__":
     c = draw_pfet()

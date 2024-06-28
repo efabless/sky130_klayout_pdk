@@ -49,3 +49,19 @@ def take_component(c : gf.Component, target_cell : kdb.Cell):
   cm = kdb.CellMapping()
   cm.for_single_cell(target_cell, source_cell)
   target_cell.copy_tree_shapes(source_cell, cm)
+
+def read_component(path : str, name : str, target_cell : kdb.Cell):
+
+  """
+  Reads a component from a static GDS file
+  """
+
+  layout = kdb.Layout()
+  layout.read(path)
+
+  # copy into target cell
+  source_cell = layout.cell(name)
+  if source_cell is not None:
+    cm = kdb.CellMapping()
+    cm.for_single_cell(target_cell, source_cell)
+    target_cell.copy_tree_shapes(source_cell, cm)

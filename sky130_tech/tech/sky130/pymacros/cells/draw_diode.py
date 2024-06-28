@@ -23,27 +23,22 @@ from .via_generator import *
 from .globals import *
 from .layers_def import *
 import gdsfactory as gf
-
+from .pdk import open_component, read_component, take_component
  
 gds_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),"fixed_devices/photodiode" )  # parent file path 
 
 
-def draw_photodiode(layout, device_name):
+def draw_photodiode(cell, device_name):
 
     '''
     drawing photo diode device 
     '''
     
     if device_name in PHOTO_D_DEV :
-        layout.read(f"{gds_path}/{device_name}.gds")
-        cell_name = device_name
-    else :
-        cell_name = device_name  
-
-    return layout.cell(cell_name)
+        read_component(f"{gds_path}/{device_name}.gds", device_name, cell)
 
 def draw_diode (
-    layout ,
+    cell ,
     d_type = "n",
     w : float = 0.45,
     l: float = 0.45,
@@ -56,7 +51,7 @@ def draw_diode (
     Retern diode 
 
     Args: 
-        layout : layout object 
+        cell : kdb.Cell cell to place layout into
         d_type : string of the diode type [n,p]
         w : float of the diode width
         l: float of the diode length
@@ -66,7 +61,7 @@ def draw_diode (
 
     '''
 
-    c = gf.Component("sky_diode_dev")
+    c = open_component("sky_diode_dev")
 
     c_inst = gf.Component("dev inst")
     
@@ -229,10 +224,5 @@ def draw_diode (
 
     c.add_ref(c_inst)
 
-    c.write_gds("diode_temp.gds")
-    layout.read("diode_temp.gds")
-    cell_name = "sky_diode_dev"
+    take_component(c, cell)
 
-
-    return layout.cell(cell_name)
-     

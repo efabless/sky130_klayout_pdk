@@ -195,11 +195,7 @@ class vias_gen(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
 
     def produce_impl(self):
-        instance = vias_gen_draw(layout= self.layout , l=self.l, w=self.w, start_layer=self.start_layer, end_layer=self.end_layer)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
+        instance = vias_gen_draw(cell= self.cell , l=self.l, w=self.w, start_layer=self.start_layer, end_layer=self.end_layer)
 
         
 

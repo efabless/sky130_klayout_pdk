@@ -22,6 +22,7 @@ from tracemalloc import start
 import gdsfactory as gf
 from gdsfactory.typings import Float2 , LayerSpec
 from .layers_def import *
+from .pdk import open_component, take_component
 
 @gf.cell
 def via_generator(
@@ -315,16 +316,15 @@ def via_stack (
 
     return c
 
-#@gf.cell
 def vias_gen_draw(
-    layout,
+    cell,
     l : float = 1.0,
     w : float = 1.0,
     start_layer = "poly",
     end_layer = "metal5"
-    
 
-) : #-> gf.Component :
+
+) :
     '''
     draws a vias stack from the start_layer to the end_layer and also draws the start and end layers where :
     l : float of the length that vias will be drawn in 
@@ -334,7 +334,7 @@ def vias_gen_draw(
 
     '''
 
-    c = gf.Component("via")
+    c = open_component("via")
 
     base_layers = ["poly","n_diff","p_diff","n_tap","p_tap"]
     metal_layers = ["li","metal1","metal2","metal3","metal4","metal5"]
@@ -461,16 +461,12 @@ def vias_gen_draw(
         via4 = via_generator(x_range=(0,l),y_range=(0,w),via_size=via4_size,via_layer=via4_layer,via_enclosure=via4_enc,via_spacing=via4_spacing)
         c.add_ref(via4)
     
-    # creating layout and cell in klayout 
-    c.write_gds("vias_temp.gds")
-    layout.read("vias_temp.gds")
-    cell_name = "via"
-    
-    return layout.cell(cell_name)
-    #return c
+    # creating layout and cell in klayout
+    take_component(c, cell)
+    return c
 
 # testing the generated methods 
 if __name__ == "__main__":
-    c = vias_gen_draw(start_layer="li",end_layer="poly")
+    c = vias_gen_draw(cell=None,start_layer="li",end_layer="poly")
     c.show()
     

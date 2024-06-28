@@ -99,8 +99,8 @@ class res_diff_draw(draw_res):
         """draw the res with calling the parent func with right data
 
         Args:
-            layout(layout):  drawing layout
-            type(float):  type of the resistor
+            cell(kdb.Cell):  drawing cell
+            type(str):  type of the resistor
             l(float):  length of the resistor
             w(float):  width of the resistor
             gr(int):  guard ring of the resistor

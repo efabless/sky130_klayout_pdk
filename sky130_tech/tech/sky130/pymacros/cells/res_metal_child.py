@@ -68,7 +68,7 @@ class res_metal_draw(draw_res):
 
     def your_res(
         self,
-        layout,
+        cell,
         type="sky130_fd_pr__res_generic_l1",
         l: float = L_MIN_G,
         w: float = W_MIN_G,
@@ -76,7 +76,7 @@ class res_metal_draw(draw_res):
         """draw the res with calling the parent func with right data
 
         Args:
-            layout(layout):  drawing layout
+            cell(kdb.Cell):  drawing cell
             type(str):  type of the resistor
             l(float):  length of the resistor
             w(float):  width of the resistor
@@ -101,8 +101,6 @@ class res_metal_draw(draw_res):
 
         elif type == "sky130_fd_pr__res_generic_m5":
             self.gen_res(met5_res, m5_layer)
-        c = self.get_c()
-        c.write_gds("res_temp.gds")
-        layout.read("res_temp.gds")
-        cell_name = type
-        return layout.cell(cell_name)
+
+        super().your_res(cell)
+

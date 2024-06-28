@@ -76,10 +76,6 @@ class res_diff(res):
 
     def produce_impl(self):
         """(override func)call the implementation backend code
-        create instance and pass it to the parent func
-
-        instance(layout): the result layout to show
-
         """
         drw = res_diff_draw(self.type)
         drw.your_res(

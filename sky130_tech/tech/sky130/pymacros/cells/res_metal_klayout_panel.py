@@ -109,13 +109,8 @@ class res_metal(res):
 
     def produce_impl(self):
         """(override func)call the implementation backend code
-        create instance and pass it to the parent func
-
-        instance(layout): the result layout to show
-
         """
         drw = res_metal_draw(self.type)
-        instance = drw.your_res(
-            self.layout, l=self.len, w=self.w, type=self.type
+        drw.your_res(
+            self.cell, l=self.len, w=self.w, type=self.type
         )
-        super().produce_impl(instance)

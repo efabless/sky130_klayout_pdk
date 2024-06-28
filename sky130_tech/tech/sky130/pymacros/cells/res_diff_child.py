@@ -90,7 +90,7 @@ class res_diff_draw(draw_res):
 
     def your_res(
         self,
-        layout,
+        cell,
         type="sky130_fd_pr__res_nd_lvt",
         l: float = 2.1,
         w: float = 0.42,
@@ -234,11 +234,8 @@ class res_diff_draw(draw_res):
                     layer_names, l1, sizes_w, sizes_l, space_fit_in, spaces
                 )
 
-            c = self.get_c()
-            c.write_gds("res_temp.gds")
-            layout.read("res_temp.gds")
-            cell_name = type
-            return layout.cell(cell_name)
+            super().your_res(cell)
+
         elif type == "sky130_fd_pr__res_nd_hvt":
             # rects
             layer_names = [
@@ -411,11 +408,8 @@ class res_diff_draw(draw_res):
                     layer_names, l1, sizes_w, sizes_l, space_fit_in, spaces
                 )
 
-            c = self.get_c()
-            c.write_gds("res_temp.gds")
-            layout.read("res_temp.gds")
-            cell_name = type
-            return layout.cell(cell_name)
+            super().your_res(cell)
+
         elif type == "sky130_fd_pr__res_pd_lvt":
 
             # rects
@@ -562,11 +556,8 @@ class res_diff_draw(draw_res):
                     layer_names, l1, sizes_w, sizes_l, space_fit_in, spaces
                 )
 
-            c = self.get_c()
-            c.write_gds("res_temp.gds")
-            layout.read("res_temp.gds")
-            cell_name = type
-            return layout.cell(cell_name)
+            super().your_res(cell)
+
         elif type == "sky130_fd_pr__res_pd_hvt":
 
             # rects
@@ -723,8 +714,4 @@ class res_diff_draw(draw_res):
                     layer_names, l1, sizes_w, sizes_l, space_fit_in, spaces
                 )
 
-            c = self.get_c()
-            c.write_gds("res_temp.gds")
-            layout.read("res_temp.gds")
-            cell_name = type
-            return layout.cell(cell_name)
+            super().your_res(cell)

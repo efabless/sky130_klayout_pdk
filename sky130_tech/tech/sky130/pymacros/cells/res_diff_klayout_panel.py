@@ -53,6 +53,8 @@ class res_diff(res):
             "sky130_fd_pr__res_pd_hvt", "sky130_fd_pr__res_pd_hvt"
         )
 
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
     def coerce_parameters_impl(self):
         """(override func) check the minimum values of l and w
 
@@ -80,7 +82,6 @@ class res_diff(res):
 
         """
         drw = res_diff_draw(self.type)
-        instance = drw.your_res(
-            self.layout, l=self.len, w=self.w, type=self.type, gr=self.gr
+        drw.your_res(
+            self.cell, l=self.len, w=self.w, type=self.type, gr=self.gr
         )
-        super().produce_impl(instance)

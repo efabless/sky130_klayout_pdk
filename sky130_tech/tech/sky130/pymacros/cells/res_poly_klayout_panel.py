@@ -104,6 +104,8 @@ class res_poly(res):
             "sky130_fd_pr__res_xhigh_po_5p73",
         )
 
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
     def coerce_parameters_impl(self):
         """(override func) check the minimum values of l and w
 

@@ -73,6 +73,8 @@ class res_metal(res):
             "sky130_fd_pr__res_generic_m5", "sky130_fd_pr__res_generic_m5"
         )
 
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
     def coerce_parameters_impl(self):
         """(override func) check the minimum values of l and w
 

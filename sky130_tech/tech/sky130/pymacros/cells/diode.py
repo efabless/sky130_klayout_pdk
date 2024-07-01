@@ -32,7 +32,7 @@ class photo_diode(pya.PCellDeclarationHelper):
 
         # Important: initialize the super class
         super(photo_diode, self).__init__()
-        self.Type_handle = self.param("Type", self.TypeList, "Type")
+        self.Type_handle = self.param("Type", self.TypeString, "Type", default=PHOTO_D_DEV[0])
         
         for i in PHOTO_D_DEV :
             self.Type_handle.add_choice(i, i)
@@ -48,15 +48,7 @@ class photo_diode(pya.PCellDeclarationHelper):
 
         # This is the main part of the implementation: create the layout
 
-        self.percision = 1/self.layout.dbu
-        ph_d_instance = draw_photodiode(layout=self.layout,device_name=self.Type)
-
-        write_cells = pya.CellInstArray(ph_d_instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                              pya.Vector(0, 0), pya.Vector(0, 0),1 , 1)
-        self.cell.flatten(1)
-        self.cell.insert(write_cells)
-        
-        self.layout.cleanup()
+        draw_photodiode(cell=self.cell,device_name=self.Type)
 
 d_min = 0.45
 grw_min = 0.17
@@ -72,11 +64,12 @@ class n_diode(pya.PCellDeclarationHelper):
 
         #===================== PARAMETERS DECLARATIONS =====================
 
-        self.Type_handle  = self.param("type", self.TypeList, "Device Type")
+        self.Type_handle  = self.param("type", self.TypeString, "Device Type")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pw2nd_05v5", "sky130_fd_pr__diode_pw2nd_05v5")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pw2nd_05v5_lvt", "sky130_fd_pr__diode_pw2nd_05v5_lvt")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pw2nd_05v5_nvt", "sky130_fd_pr__diode_pw2nd_05v5_nvt")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pw2nd_11v0", "sky130_fd_pr__diode_pw2nd_11v0")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
 
         self.param("w", self.TypeDouble, "width", default=d_min, unit="um")
         self.param("l", self.TypeDouble, "length", default=d_min, unit="um")
@@ -125,11 +118,7 @@ class n_diode(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
     
     def produce_impl(self):
-        instance = draw_diode(layout= self.layout ,d_type="n", l=self.l, w=self.w, type=self.type,cath_w=self.cath_w)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
+        draw_diode(cell= self.cell ,d_type="n", l=self.l, w=self.w, type=self.type,cath_w=self.cath_w)
 
 
 class p_diode(pya.PCellDeclarationHelper):
@@ -143,12 +132,13 @@ class p_diode(pya.PCellDeclarationHelper):
 
         #===================== PARAMETERS DECLARATIONS =====================
 
-        self.Type_handle  = self.param("type", self.TypeList, "Device Type")
+        self.Type_handle  = self.param("type", self.TypeString, "Device Type")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pd2nw_05v5", "sky130_fd_pr__diode_pd2nw_05v5")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pd2nw_05v5_lvt", "sky130_fd_pr__diode_pd2nw_05v5_lvt")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pd2nw_05v5_hvt", "sky130_fd_pr__diode_pd2nw_05v5_hvt")
         self.Type_handle.add_choice("sky130_fd_pr__diode_pd2nw_11v0", "sky130_fd_pr__diode_pd2nw_11v0")
-        
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
         self.param("w", self.TypeDouble, "width", default=d_min, unit="um")
         self.param("l", self.TypeDouble, "length", default=d_min, unit="um")
         self.param("cath_w", self.TypeDouble, "Cathode width", default=grw_min, unit="um")
@@ -200,8 +190,4 @@ class p_diode(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
     
     def produce_impl(self):
-        instance = draw_diode(layout= self.layout ,d_type="p", l=self.l, w=self.w, type=self.type,grw=self.grw, cath_w=self.cath_w)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
+        draw_diode(cell= self.cell ,d_type="p", l=self.l, w=self.w, type=self.type,grw=self.grw, cath_w=self.cath_w)

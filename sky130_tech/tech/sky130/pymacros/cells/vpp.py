@@ -30,7 +30,7 @@ class cap_vpp(pya.PCellDeclarationHelper):
 
         # Important: initialize the super class
         super(cap_vpp, self).__init__()
-        self.Type_handle = self.param("Type", self.TypeList, "Type")
+        self.Type_handle = self.param("Type", self.TypeString, "Type", default=VPP_CAP_DEV[0])
         
 
         for i in range(len(VPP_CAP_DEV)) :
@@ -47,10 +47,4 @@ class cap_vpp(pya.PCellDeclarationHelper):
 
         # This is the main part of the implementation: create the layout
 
-        self.percision = 1/self.layout.dbu
-        vpp_instance = draw_vpp(layout=self.layout,device_name=self.Type)
-        write_cells = pya.CellInstArray(vpp_instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                              pya.Vector(0, 0), pya.Vector(0, 0),1 , 1)
-        self.cell.flatten(1)
-        self.cell.insert(write_cells)        
-        self.layout.cleanup()
+        draw_vpp(cell=self.cell,device_name=self.Type)

@@ -29,7 +29,7 @@ class rf_mosfet(pya.PCellDeclarationHelper):
 
         # Important: initialize the super class
         super(rf_mosfet, self).__init__()
-        self.Type_handle = self.param("Type", self.TypeList, "Type")
+        self.Type_handle = self.param("Type", self.TypeString, "Type", default=RF_MOSFET_DEV[0])
        
         for i in RF_MOSFET_DEV :
             self.Type_handle.add_choice(i, i)
@@ -45,16 +45,8 @@ class rf_mosfet(pya.PCellDeclarationHelper):
 
         # This is the main part of the implementation: create the layout
 
-        self.percision = 1/self.layout.dbu
-        rf_mos_instance = draw_rf_mosfet(layout=self.layout,device_name=self.Type)
-       
-        write_cells = pya.CellInstArray(rf_mos_instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                              pya.Vector(0, 0), pya.Vector(0, 0),1 , 1)
-        self.cell.flatten(1)
-        self.cell.insert(write_cells)
-        
-        self.layout.cleanup()
-    
+        draw_rf_mosfet(cell=self.cell,device_name=self.Type)
+
 class rf_bjt(pya.PCellDeclarationHelper):
     """
     rf bjt Generator for Skywater130
@@ -64,7 +56,7 @@ class rf_bjt(pya.PCellDeclarationHelper):
 
         # Important: initialize the super class
         super(rf_bjt, self).__init__()
-        self.Type_handle = self.param("Type", self.TypeList, "Type")
+        self.Type_handle = self.param("Type", self.TypeString, "Type", default=RF_BJT_DEV[0])
         for i in RF_BJT_DEV :
             self.Type_handle.add_choice(i, i)
         
@@ -80,15 +72,7 @@ class rf_bjt(pya.PCellDeclarationHelper):
 
         # This is the main part of the implementation: create the layout
 
-        self.percision = 1/self.layout.dbu
-        rf_bjt_instance = draw_rf_bjt(layout=self.layout,device_name=self.Type)
-       
-        write_cells = pya.CellInstArray(rf_bjt_instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                              pya.Vector(0, 0), pya.Vector(0, 0),1 , 1)
-        self.cell.flatten(1)
-        self.cell.insert(write_cells)
-        
-        self.layout.cleanup()
+        draw_rf_bjt(cell=self.cell,device_name=self.Type)
 
 
 class rf_coils(pya.PCellDeclarationHelper):
@@ -100,7 +84,7 @@ class rf_coils(pya.PCellDeclarationHelper):
 
         # Important: initialize the super class
         super(rf_coils, self).__init__()
-        self.Type_handle = self.param("Type", self.TypeList, "Type")
+        self.Type_handle = self.param("Type", self.TypeString, "Type", default=RF_COILS_DEV[0])
         for i in RF_COILS_DEV :
             self.Type_handle.add_choice(i, i)
         
@@ -115,13 +99,4 @@ class rf_coils(pya.PCellDeclarationHelper):
 
         # This is the main part of the implementation: create the layout
 
-        self.percision = 1/self.layout.dbu
-        rf_coils_instance = draw_rf_coils(layout=self.layout,device_name=self.Type)
-       
-        write_cells = pya.CellInstArray(rf_coils_instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                              pya.Vector(0, 0), pya.Vector(0, 0),1 , 1)
-        self.cell.flatten(1)
-        self.cell.insert(write_cells)
-        
-        self.layout.cleanup()
-    
+        draw_rf_coils(cell=self.cell,device_name=self.Type)

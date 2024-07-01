@@ -47,19 +47,24 @@ class pfet(pya.PCellDeclarationHelper):
 
         self.param("con_bet_fin", self.TypeBoolean, "Contact Between Fingers", default=1)
         
-        self.Type_handle  = self.param("type", self.TypeList, "Device Type")
+        self.Type_handle  = self.param("type", self.TypeString, "Device Type")
         self.Type_handle.add_choice("sky130_fd_pr__pfet_01v8", "sky130_fd_pr__pfet_01v8")
         self.Type_handle.add_choice("sky130_fd_pr__pfet_01v8_lvt", "sky130_fd_pr__pfet_01v8_lvt")
         self.Type_handle.add_choice("sky130_fd_pr__pfet_01v8_hvt", "sky130_fd_pr__pfet_01v8_hvt")
         self.Type_handle.add_choice("sky130_fd_pr__pfet_g5v0d10v5", "sky130_fd_pr__pfet_g5v0d10v5")
-        self.Type_handle  = self.param("bulk", self.TypeList, "Bulk Type")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
+        self.Type_handle  = self.param("bulk", self.TypeString, "Bulk Type")
         self.Type_handle.add_choice("None", "None")
         self.Type_handle.add_choice("bulk tie", "bulk tie")
         self.Type_handle.add_choice("Gaurd Ring", "Gaurd Ring")
-        self.Type_handle  = self.param("gate_con_pos", self.TypeList, "Gate Contact Position")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
+        self.Type_handle  = self.param("gate_con_pos", self.TypeString, "Gate Contact Position")
         self.Type_handle.add_choice("top", "top")
         self.Type_handle.add_choice("bottom", "bottom")
         self.Type_handle.add_choice("alternating", "alternating")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
 
         
 
@@ -141,13 +146,9 @@ class pfet(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
     
     def produce_impl(self):
-        instance = draw_pfet(layout= self.layout , l=self.l, w=self.w, sd_con_col=self.sd_con_col, inter_sd_l=self.inter_sd_l, nf=self.nf, grw=self.grw
-        , type = self.type, bulk=self.bulk, con_bet_fin=self.con_bet_fin,gate_con_pos= self.gate_con_pos, interdig=self.interdig, patt=self.patt)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
-            
+        draw_pfet(cell= self.cell , l=self.l, w=self.w, sd_con_col=self.sd_con_col, inter_sd_l=self.inter_sd_l, nf=self.nf, grw=self.grw
+                    , type = self.type, bulk=self.bulk, con_bet_fin=self.con_bet_fin,gate_con_pos= self.gate_con_pos, interdig=self.interdig, patt=self.patt)
+
         
 class nfet(pya.PCellDeclarationHelper):
     """
@@ -161,22 +162,26 @@ class nfet(pya.PCellDeclarationHelper):
         #===================== PARAMETERS DECLARATIONS =====================
 
         self.param("con_bet_fin", self.TypeBoolean, "Contact Between Fingers", default=1)
-        self.Type_handle  = self.param("type", self.TypeList, "Device Type")
+
+        self.Type_handle  = self.param("type", self.TypeString, "Device Type")
         self.Type_handle.add_choice("sky130_fd_pr__nfet_01v8", "sky130_fd_pr__nfet_01v8")
         self.Type_handle.add_choice("sky130_fd_pr__nfet_01v8_lvt", "sky130_fd_pr__nfet_01v8_lvt")
         self.Type_handle.add_choice("sky130_fd_pr__nfet_03v3_nvt","sky130_fd_pr__nfet_03v3_nvt")
         self.Type_handle.add_choice("sky130_fd_pr__nfet_05v0_nvt","sky130_fd_pr__nfet_05v0_nvt")
         self.Type_handle.add_choice("sky130_fd_pr__nfet_g5v0d10v5","sky130_fd_pr__nfet_g5v0d10v5")
-        self.Type_handle  = self.param("bulk", self.TypeList, "Bulk Type")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
+        self.Type_handle  = self.param("bulk", self.TypeString, "Bulk Type")
         self.Type_handle.add_choice("None", "None")
         self.Type_handle.add_choice("bulk tie", "bulk tie")
         self.Type_handle.add_choice("Gaurd Ring", "Gaurd Ring")
-        self.Type_handle  = self.param("gate_con_pos", self.TypeList, "Gate Contact Position")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
+        self.Type_handle  = self.param("gate_con_pos", self.TypeString, "Gate Contact Position")
         self.Type_handle.add_choice("top", "top")
         self.Type_handle.add_choice("bottom", "bottom")
         self.Type_handle.add_choice("alternating", "alternating")
         
-
         self.param("l", self.TypeDouble, "length", default=fet_01v8_l, unit="um")
         self.param("w", self.TypeDouble, "Width", default=fet_w, unit="um")
         self.param("sd_con_col", self.TypeDouble, "Diffusion Contacts Columns", default=fet_ld, unit="um")
@@ -253,10 +258,6 @@ class nfet(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
 
     def produce_impl(self):
-        instance = draw_nfet(layout= self.layout , l=self.l, w=self.w, sd_con_col=self.sd_con_col, inter_sd_l=self.inter_sd_l, nf=self.nf, grw=self.grw
-        , type= self.type , bulk=self.bulk, con_bet_fin=self.con_bet_fin,gate_con_pos= self.gate_con_pos, interdig=self.interdig, patt=self.patt)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
+        draw_nfet(cell= self.cell , l=self.l, w=self.w, sd_con_col=self.sd_con_col, inter_sd_l=self.inter_sd_l, nf=self.nf, grw=self.grw
+                    , type= self.type , bulk=self.bulk, con_bet_fin=self.con_bet_fin,gate_con_pos= self.gate_con_pos, interdig=self.interdig, patt=self.patt)
 

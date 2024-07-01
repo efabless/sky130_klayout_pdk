@@ -23,27 +23,22 @@ from .via_generator import *
 from .globals import *
 from .layers_def import *
 import gdsfactory as gf
-
+from .pdk import open_component, read_component, take_component
  
 gds_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),"fixed_devices/photodiode" )  # parent file path 
 
 
-def draw_photodiode(layout, device_name):
+def draw_photodiode(cell, device_name):
 
     '''
     drawing photo diode device 
     '''
     
     if device_name in PHOTO_D_DEV :
-        layout.read(f"{gds_path}/{device_name}.gds")
-        cell_name = device_name
-    else :
-        cell_name = device_name  
-
-    return layout.cell(cell_name)
+        read_component(f"{gds_path}/{device_name}.gds", device_name, cell)
 
 def draw_diode (
-    layout ,
+    cell ,
     d_type = "n",
     w : float = 0.45,
     l: float = 0.45,
@@ -56,7 +51,7 @@ def draw_diode (
     Retern diode 
 
     Args: 
-        layout : layout object 
+        cell : kdb.Cell cell to place layout into
         d_type : string of the diode type [n,p]
         w : float of the diode width
         l: float of the diode length
@@ -66,7 +61,7 @@ def draw_diode (
 
     '''
 
-    c = gf.Component("sky_diode_dev")
+    c = open_component("sky_diode_dev")
 
     c_inst = gf.Component("dev inst")
     
@@ -128,7 +123,7 @@ def draw_diode (
     tap_in.move((-diff_tap_spacing,-diff_tap_spacing))
     tap_out = c_temp.add_ref(gf.components.rectangle(size=(tap_in.xmax - tap_in.xmin + 2*cath_w, tap_in.ymax - tap_in.ymin + 2*cath_w),layer=tap_layer))
     tap_out.move((tap_in.xmin - cath_w, tap_in.ymin-cath_w))
-    tap = c_inst.add_ref(gf.geometry.boolean(A=tap_out, B = tap_in, operation="A-B",layer=tap_layer))
+    tap = c_inst.add_ref(gf.boolean(A=tap_out, B = tap_in, operation="A-B",layer=tap_layer))
 
 
     t_npsd_in = c_temp.add_ref(gf.components.rectangle(size=(tap_in.xmax - tap_in.xmin - 2*npsd_enc, tap_in.ymax - tap_in.ymin - 2*npsd_enc)
@@ -137,7 +132,7 @@ def draw_diode (
     t_npsd_out = c_temp.add_ref(gf.components.rectangle(size=(tap_out.xmax - tap_out.xmin + 2*npsd_enc, tap_out.ymax - tap_out.ymin + 2*npsd_enc)
     ,layer=t_npsd_layer))
     t_npsd_out.move((tap_out.xmin - npsd_enc, tap_out.ymin - npsd_enc))
-    t_npsd = c_inst.add_ref(gf.geometry.boolean(A=t_npsd_out, B=t_npsd_in, operation="A-B",layer=t_npsd_layer))
+    t_npsd = c_inst.add_ref(gf.boolean(A=t_npsd_out, B=t_npsd_in, operation="A-B",layer=t_npsd_layer))
     
     if cath_w < con_size[0] + 2*t_con_enc[0]:
         t_con_range = (tap_in.xmin, tap_in.xmax)
@@ -160,7 +155,7 @@ def draw_diode (
     tap_li_in.move((-diff_tap_spacing,-diff_tap_spacing))
     tap_li_out = c_temp.add_ref(gf.components.rectangle(size=(tap_in.xmax - tap_in.xmin + 2*cath_w, tap_in.ymax - tap_in.ymin + 2*cath_w),layer=li_layer))
     tap_li_out.move((tap_in.xmin - cath_w, tap_in.ymin-cath_w))
-    tap_li = c_inst.add_ref(gf.geometry.boolean(A=tap_li_out, B = tap_li_in, operation="A-B",layer=li_layer))
+    tap_li = c_inst.add_ref(gf.boolean(A=tap_li_out, B = tap_li_in, operation="A-B",layer=li_layer))
 
     if type ==  "sky130_fd_pr__diode_pw2nd_05v5_lvt" or type == "sky130_fd_pr__diode_pw2nd_05v5_nvt" or type == "sky130_fd_pr__diode_pd2nw_05v5_lvt": 
         lvt = c_inst.add_ref(gf.components.rectangle(size=(w+2*lvt_enc,l+2*lvt_enc),layer=lvtn_layer))
@@ -192,9 +187,9 @@ def draw_diode (
         gr_in.move((c_inst.xmin - diff_tap_spacing, c_inst.ymin - diff_tap_spacing))
         gr_out = c_temp.add_ref(gf.components.rectangle(size=(gr_in.xmax - gr_in.xmin + 2*grw, gr_in.ymax - gr_in.ymin + 2*grw),layer=tap_layer))
         gr_out.move((gr_in.xmin - grw, gr_in.ymin - grw))
-        gr = c.add_ref(gf.geometry.boolean(A=gr_out, B=gr_in , operation= "A-B", layer=tap_layer))
+        gr = c.add_ref(gf.boolean(A=gr_out, B=gr_in , operation= "A-B", layer=tap_layer))
 
-        gr_li = c.add_ref(gf.geometry.boolean(A=gr_out, B=gr_in , operation= "A-B", layer=li_layer))
+        gr_li = c.add_ref(gf.boolean(A=gr_out, B=gr_in , operation= "A-B", layer=li_layer))
 
         g_psdm_in = c.add_ref(gf.components.rectangle(size=(gr_in.xmax - gr_in.xmin - 2*npsd_enc, gr_in.ymax - gr_in.ymin - 2*npsd_enc),layer=psdm_layer))
         g_psdm_in.move((gr_in.xmin + npsd_enc, gr_in.ymin + npsd_enc))
@@ -229,10 +224,5 @@ def draw_diode (
 
     c.add_ref(c_inst)
 
-    c.write_gds("diode_temp.gds")
-    layout.read("diode_temp.gds")
-    cell_name = "sky_diode_dev"
+    take_component(c, cell)
 
-
-    return layout.cell(cell_name)
-     

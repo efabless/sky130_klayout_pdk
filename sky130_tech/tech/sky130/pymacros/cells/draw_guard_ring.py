@@ -21,9 +21,10 @@ from .via_generator import *
 from .globals import *
 from .layers_def import *
 import gdsfactory as gf
+from .pdk import open_component, take_component
 
 def draw_gr (
-    layout ,
+    cell,
     in_l : float = 1,
     in_w : float = 1,
     grw : float = 0.17,
@@ -31,7 +32,7 @@ def draw_gr (
 ) :
 
     '''
-    layout : layout object 
+    cell : kdb.Cell cell to place layout into
     in_l : float of the inner length of the ring
     in_w : float of the inner width of the ring 
     grw : float of the guard ring width 
@@ -43,17 +44,17 @@ def draw_gr (
     con_spacing = (0.19, 0.19)
     con_enc = (0.12, 0.12)
 
-    c = gf.Component("sky_ring_gen")
+    c = open_component("sky_ring_gen")
     c_temp = gf.Component("temp_store")
 
     inner = c_temp.add_ref(gf.components.rectangle(size=(in_w, in_l), layer=tap_layer))
     outer = c_temp.add_ref(gf.components.rectangle(size=(inner.xmax - inner.xmin + 2*grw , inner.ymax - inner.ymin + 2*grw), layer=tap_layer))
     outer.move((-grw, -grw))
 
-    gr = c.add_ref(gf.geometry.boolean(A=outer, B=inner , operation="A-B", layer=tap_layer))
+    gr = c.add_ref(gf.boolean(A=outer, B=inner , operation="A-B", layer=tap_layer))
 
     if con_lev == "li" or con_lev == "metal1":
-        li = c.add_ref(gf.geometry.boolean(A=outer, B=inner, operation="A-B", layer=li_layer))
+        li = c.add_ref(gf.boolean(A=outer, B=inner, operation="A-B", layer=li_layer))
 
         if grw < con_size[0] + 2*con_enc[0]:
             con_range = (inner.xmin, inner.xmax)
@@ -72,7 +73,7 @@ def draw_gr (
 
 
     if con_lev == "metal1" :
-        m1 = c.add_ref(gf.geometry.boolean(A=outer, B=inner, operation="A-B", layer=m1_layer))
+        m1 = c.add_ref(gf.boolean(A=outer, B=inner, operation="A-B", layer=m1_layer))
 
         mcon_l = c.add_ref(via_generator(x_range=(outer.xmin, inner.xmin), y_range=(inner.ymin + 0.17 , inner.ymax - 0.17), via_enclosure=con_enc, via_layer=mcon_layer
         , via_size=con_size, via_spacing=con_spacing))
@@ -84,11 +85,4 @@ def draw_gr (
         , via_size=con_size, via_spacing=con_spacing))
 
 
-
-    c.write_gds("ring_temp.gds")
-    layout.read("ring_temp.gds")
-    cell_name = "sky_ring_gen"
-
-   
-
-    return layout.cell(cell_name)
+    take_component(c, cell)

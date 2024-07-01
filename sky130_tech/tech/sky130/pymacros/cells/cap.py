@@ -41,9 +41,10 @@ class cap_var(pya.PCellDeclarationHelper):
 
         #===================== PARAMETERS DECLARATIONS =====================
 
-        self.Type_handle  = self.param("type", self.TypeList, "Device Type")
+        self.Type_handle  = self.param("type", self.TypeString, "Device Type")
         self.Type_handle.add_choice("sky130_fd_pr__cap_var_lvt","sky130_fd_pr__cap_var_lvt")
         self.Type_handle.add_choice("sky130_fd_pr__cap_var_hvt","sky130_fd_pr__cap_var_hvt")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
         
 
         self.param("l", self.TypeDouble, "length", default=l_min, unit="um")
@@ -100,11 +101,7 @@ class cap_var(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
     
     def produce_impl(self):
-        instance = draw_cap_var(layout= self.layout , l=self.l, w=self.w, type=self.type,tap_con_col=self.tap_con_col, gr= self.gr , grw= self.grw, nf=self.nf)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
+        draw_cap_var(cell= self.cell , l=self.l, w=self.w, type=self.type,tap_con_col=self.tap_con_col, gr= self.gr , grw= self.grw, nf=self.nf)
 
 
 class mim_cap(pya.PCellDeclarationHelper):
@@ -118,10 +115,11 @@ class mim_cap(pya.PCellDeclarationHelper):
 
         #===================== PARAMETERS DECLARATIONS =====================
 
-        self.Type_handle  = self.param("type", self.TypeList, "Device Type")
+        self.Type_handle  = self.param("type", self.TypeString, "Device Type")
         self.Type_handle.add_choice("sky130_fd_pr__model__cap_mim","sky130_fd_pr__model__cap_mim")
         self.Type_handle.add_choice("sky130_fd_pr__model__cap_mim_m4","sky130_fd_pr__model__cap_mim_m4")
-        
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
+
 
         self.param("l", self.TypeDouble, "length", default=l_mim, unit="um")
         self.param("w", self.TypeDouble, "width", default=l_mim, unit="um")
@@ -175,8 +173,4 @@ class mim_cap(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
     
     def produce_impl(self):
-        instance = draw_mim_cap(layout= self.layout , l=self.l, w=self.w, type=self.type)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
+        draw_mim_cap(cell= self.cell , l=self.l, w=self.w, type=self.type)

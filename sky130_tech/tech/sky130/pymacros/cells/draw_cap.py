@@ -20,10 +20,10 @@ import gdsfactory as gf
 
 from .via_generator import *
 from .layers_def import *
-
+from .pdk import open_component, take_component
 
 def draw_cap_var(
-    layout,
+    cell,
     type="sky130_fd_pr__cap_var_lvt",
     l: float = 0.18,
     w: float = 1,
@@ -37,7 +37,7 @@ def draw_cap_var(
     Retern varactor
 
     Args:
-        layout : layout object
+        cell : kdb.Cell cell to place layout into
         l : float of gate length
         w : float of gate width
         tap_con_col : int of tap contacts columns
@@ -48,7 +48,7 @@ def draw_cap_var(
 
     """
 
-    c = gf.Component("sky_cap_var_dev")
+    c = open_component("sky_cap_var_dev")
 
     c_inst = gf.Component("dev inst")
 
@@ -173,11 +173,11 @@ def draw_cap_var(
         )
         g_r_out.move((g_r_in.xmin - grw, g_r_in.ymin - grw))
         g_r = c.add_ref(
-            gf.geometry.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=tap_layer)
+            gf.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=tap_layer)
         )
 
         g_r_li = c.add_ref(
-            gf.geometry.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=li_layer)
+            gf.boolean(A=g_r_out, B=g_r_in, operation="A-B", layer=li_layer)
         )
 
         g_psdm_in = c_temp.add_ref(
@@ -202,7 +202,7 @@ def draw_cap_var(
         g_psdm_out.move((g_r_out.xmin - tap_nsdm_enc, g_r_out.ymin - tap_nsdm_enc))
 
         g_psdm = c.add_ref(
-            gf.geometry.boolean(
+            gf.boolean(
                 A=g_psdm_out, B=g_psdm_in, operation="A-B", layer=psdm_layer
             )
         )
@@ -264,15 +264,11 @@ def draw_cap_var(
         )
         hvtp.move((poly.xmin - hv_enc, tap.ymin - hv_enc))
 
-    c.write_gds("cap_var_temp.gds")
-    layout.read("cap_var_temp.gds")
-    cell_name = "sky_cap_var_dev"
-
-    return layout.cell(cell_name)
+    take_component(c, cell)
 
 
 def draw_mim_cap(
-    layout,
+    cell,
     type="sky130_fd_pr__model__cap_mim",
     l: float = 2,
     w: float = 2,
@@ -282,14 +278,14 @@ def draw_mim_cap(
     Retern mim cap
 
     Args:
-        layout : layout object
+        cell : kdb.Cell cell to place layout into
         l : float of capm length
         w : float of capm width
 
 
     """
 
-    c = gf.Component("sky_mim_cap_dev")
+    c = open_component("sky_mim_cap_dev")
 
     # used dimensions and layers
 
@@ -379,8 +375,4 @@ def draw_mim_cap(
     )
     c.add_ref(via_2)
 
-    c.write_gds("mim_cap_temp.gds")
-    layout.read("mim_cap_temp.gds")
-    cell_name = "sky_mim_cap_dev"
-
-    return layout.cell(cell_name)
+    take_component(c, cell)

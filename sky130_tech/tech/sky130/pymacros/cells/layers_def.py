@@ -17,7 +17,7 @@
 ########################################################################################################################
 
 from importlib.util import LazyLoader
-from gdsfactory.types import LayerSpec
+from gdsfactory.typings import LayerSpec
 
 diff_layer : LayerSpec = (65,20)
 diff_lbl : LayerSpec = (65,6)

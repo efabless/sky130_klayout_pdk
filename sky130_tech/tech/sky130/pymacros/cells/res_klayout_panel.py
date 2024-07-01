@@ -30,7 +30,7 @@ class res(pya.PCellDeclarationHelper):
 
         # ===================== PARAMETERS DECLARATIONS =====================
 
-        self.Type_handle = self.param("type", self.TypeList, "Device Type")
+        self.Type_handle = self.param("type", self.TypeString, "Device Type")
 
         self.param("len", self.TypeDouble, "length", default=l_min, unit="um")
         self.param("w", self.TypeDouble, "width", default=w_min, unit="um")
@@ -112,20 +112,3 @@ class res(pya.PCellDeclarationHelper):
         to determine the transformation
         """
         return pya.Trans(self.shape.bbox().center())
-
-    def produce_impl(self, instance):
-        """call the implementation backend code
-        Args:
-            instance(layout): the result layout to show
-
-        """
-        write_cells = pya.CellInstArray(
-            instance.cell_index(),
-            pya.Trans(pya.Point(0, 0)),
-            pya.Vector(0, 0),
-            pya.Vector(0, 0),
-            1,
-            1,
-        )
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)

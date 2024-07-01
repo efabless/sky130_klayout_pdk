@@ -21,31 +21,21 @@ import pya
 import os
 from .globals import *
 import gdsfactory as gf
-
+from .pdk import read_component
 
 gds_p_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),"fixed_devices/bjt" )#  parent file path 
 
 
-def draw_npn(layout, device_name):
+def draw_npn(cell, device_name):
 
     '''
     drawing NPN devices 
     '''
     gds_path = f"{gds_p_path}/npn"
-
     if device_name in BJT_NPN_DEV :
-        layout.read(f"{gds_path}/{device_name}.gds")
-        cell_name = device_name 
-    else :
-        cell_name = device_name
+        read_component(f"{gds_path}/{device_name}.gds", device_name, cell)
 
-    
-    
-    return layout.cell(cell_name)
-    
-
-
-def draw_pnp(layout, device_name):
+def draw_pnp(cell, device_name):
 
     '''
     drawing PNP devices
@@ -53,12 +43,6 @@ def draw_pnp(layout, device_name):
     gds_path = f"{gds_p_path}/pnp"
     
     if device_name in BJT_PNP_DEV :
-        layout.read(f"{gds_path}/{device_name}.gds")
-        cell_name = device_name
-    else :
-        cell_name = device_name
+        read_component(f"{gds_path}/{device_name}.gds", device_name, cell)
 
-    
-    return layout.cell(cell_name)
-    
 

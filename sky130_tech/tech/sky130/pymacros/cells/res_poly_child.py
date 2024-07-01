@@ -224,7 +224,7 @@ class res_poly_draw(draw_res):
 
     def your_res(
         self,
-        layout,
+        cell,
         type="sky130_fd_pr__res_generic_po",
         l: float = L_MIN_G,
         w: float = W_MIN_G,
@@ -233,7 +233,7 @@ class res_poly_draw(draw_res):
         """draw the res with calling the parent func with right data
 
         Args:
-            layout(layout):  drawing layout
+            cell(kdb.Cell):  drawing cell
             type(str):  type of the resistor
             l(float):  length of the resistor
             w(float):  width of the resistor
@@ -370,12 +370,7 @@ class res_poly_draw(draw_res):
             self.draw_2dArr_layer(
                 mcon_layer, MCON_LAYER_G[0], MCON_LAYER_G[1], MCON_LAYER_G[2]
             )  # 0.09,1.9
-            c = self.get_c()
-            c.write_gds("res_temp.gds")
-            layout.read("res_temp.gds")
-            cell_name = type
-            return layout.cell(cell_name)
- 
+
         elif type == "sky130_fd_pr__res_iso_pw":
             # rects
             layer_names = [pwell_res, dnwell_layer]
@@ -520,13 +515,6 @@ class res_poly_draw(draw_res):
                 )
 
 
-            c = self.get_c()
-            c.write_gds("res_temp.gds")
-            layout.read("res_temp.gds")
-            cell_name = type
-            return layout.cell(cell_name)
-
- 
         elif type == "sky130_fd_pr__res_high_po_0p35":
             self.poly_res(l, W_MIN_0P35, gr, 0, RPM_FOR_LAYERS[0])
         elif type == "sky130_fd_pr__res_high_po_0p69":
@@ -550,8 +538,4 @@ class res_poly_draw(draw_res):
         elif type == "sky130_fd_pr__res_xhigh_po_5p73":
             self.poly_res(l, W_MIN_5P73, gr, 1, RPM_FOR_LAYERS[4], 1)
 
-        c = self.get_c()
-        c.write_gds("res_temp.gds")
-        layout.read("res_temp.gds")
-        cell_name = type
-        return layout.cell(cell_name)
+        super().your_res(cell)

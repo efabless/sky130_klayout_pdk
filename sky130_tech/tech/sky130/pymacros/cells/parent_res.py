@@ -19,6 +19,8 @@ import math
 
 from abc import ABC, abstractmethod
 
+from .pdk import open_component, take_component
+
 # ##############CONSTANT############3
 
 
@@ -34,7 +36,7 @@ class draw_res(ABC):
 
     def __init__(self, type):
         self.type_ = type
-        self.c = gf.Component(self.type_)
+        self.c = open_component(self.type_)
 
     def set_l_w(self, len, wid):
         """set the length and width of the res
@@ -267,6 +269,6 @@ class draw_res(ABC):
         return self.c
 
     @abstractmethod
-    def your_res():
-        """must override in the child class"""
-        pass
+    def your_res(self, cell):
+        """must override in the child class and call super().your_res(cell)"""
+        take_component(self.c, cell)

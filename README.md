@@ -1,42 +1,41 @@
-# Skywater 130nm Technology PDK for KLayout [![License](https://img.shields.io/github/license/efabless/sky130_klayout_pdk)](LICENSE)
+# Skywater 130nm Technology PDK for KLayout
 
-<p align="center"><img src="https://avatars.githubusercontent.com/u/3238299?s=200&v=4" width="300" /></p>
+<center>[![License](https://img.shields.io/github/license/efabless/sky130_klayout_pdk)](LICENSE)</center>
 
-Efabless is excited to share with you our Skywater 130nm PDK for Klayout.
+This package contains the Skywater 130nm PDK for KLayout.
 
-## KLayout technology files for Skywater Sky130
+## Contents
 
-* sky130.lyt   : technology and connections description
-* sky130.lyp   : layers color and shape description
-* sky130.map   : layer mapping of def/lef shapes
-* DRC          : please use the following --> <https://github.com/efabless/mpw_precheck/blob/main/checks/tech-files/sky130A_mr.drc>
-* LVS          : LVS script `lvs/lvs_sky130.lylvs` (In development)
-* Pcells       : Devices generators (In development)
+* `sky130.lyt`   : technology and connections description
+* `sky130.lyp`   : layers color and shape description
+* `sky130.map`   : layer mapping of def/lef shapes
+* DRC          : DRC deck, located at [mpw_precheck](https://github.com/efabless/mpw_precheck/blob/main/checks/tech-files/sky130A_mr.drc)
+* LVS          : LVS script, located at `lvs/lvs_sky130.lylvs`
+* PCells       : devices generators
 
-## Installation
+## Usage
 
-To use this repo, you need to do the following:
+### Installation
 
-1. Clone the repo:
+You have two options for using this package:
 
-    ```bash
+1. Clone this repository
+2. Install the complete sky130 PDK from [open_pdks](https://github.com/RTimothyEdwards/open_pdks)  either manually or with [volare](https://github.com/efabless/volare). The PDK also includes this package.
 
-    git clone <https://github.com/mabrains/sky130_klayout_pdk.git>
+When you start KLayout, you must reference this package. This can be done by setting the environment variable `KLAYOUT_HOME`. For example, inside this repository:
 
-    ```
+```console
+KLAYOUT_HOME=./sky130_tech klayout -e
+```
 
-2. Go inside sky130_klayout_pdk:
+### PCells
 
-    ```bash
+If you would like to use the PCells, you need to install `gdsfactory` in your system-wide Python package installation.
+This can be as simple as running the following:
 
-    cd sky130_klayout_pdk
+```console
+pip install --upgrade gdsfactory
+```
 
-    ```
-
-3. Open klayout using the following command:
-
-    ```bash
-
-    KLAYOUT_HOME=./sky130_tech klayout -e
-
-    ```
+> [!IMPORTANT]  
+> If you are using a Linux distribution that discourages the installation of system-wide Python packages through pip, you need to pass --break-system-packages.

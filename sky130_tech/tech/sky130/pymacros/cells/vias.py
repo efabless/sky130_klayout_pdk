@@ -57,7 +57,7 @@ class vias_gen(pya.PCellDeclarationHelper):
         self.param("l", self.TypeDouble, "length", default=1, unit="um")
         self.param("w", self.TypeDouble, "width", default=1, unit="um")
         
-        self.Type_handle  = self.param("start_layer", self.TypeList, "Start Layer")
+        self.Type_handle  = self.param("start_layer", self.TypeString, "Start Layer", default="metal1")
         self.Type_handle.add_choice("poly","poly")
         self.Type_handle.add_choice("p_tap","p_tap")
         self.Type_handle.add_choice("n_tap","n_tap")
@@ -69,7 +69,7 @@ class vias_gen(pya.PCellDeclarationHelper):
         self.Type_handle.add_choice("metal3","metal3")
         self.Type_handle.add_choice("metal4","metal4")
         
-        self.Type_handle  = self.param("end_layer", self.TypeList, "End Layer")
+        self.Type_handle  = self.param("end_layer", self.TypeString, "End Layer", default="metal2")
         self.Type_handle.add_choice("li","li")
         self.Type_handle.add_choice("metal1","metal1")
         self.Type_handle.add_choice("metal2","metal2")
@@ -195,11 +195,7 @@ class vias_gen(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
 
     def produce_impl(self):
-        instance = vias_gen_draw(layout= self.layout , l=self.l, w=self.w, start_layer=self.start_layer, end_layer=self.end_layer)
-        write_cells = pya.CellInstArray(instance.cell_index(), pya.Trans(pya.Point(0, 0)),
-                      pya.Vector(0, 0), pya.Vector(0, 0), 1, 1)
-        self.cell.insert(write_cells)
-        self.cell.flatten(1)
+        instance = vias_gen_draw(cell= self.cell , l=self.l, w=self.w, start_layer=self.start_layer, end_layer=self.end_layer)
 
         
 

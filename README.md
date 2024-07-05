@@ -1,6 +1,8 @@
 # Skywater 130nm Technology PDK for KLayout
 
-<center>[![License](https://img.shields.io/github/license/efabless/sky130_klayout_pdk)](LICENSE)</center>
+<p align="center">
+    <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/github/license/efabless/sky130_klayout_pdk" alt="License: Apache 2.0"/></a>
+</p>
 
 This package contains the Skywater 130nm PDK for KLayout.
 
@@ -38,4 +40,4 @@ pip install --upgrade gdsfactory
 ```
 
 > [!IMPORTANT]  
-> If you are using a Linux distribution that discourages the installation of system-wide Python packages through pip, you need to pass --break-system-packages.
+> If you are using a Linux distribution that discourages the installation of system-wide Python packages through pip, you need to pass `--break-system-packages`.

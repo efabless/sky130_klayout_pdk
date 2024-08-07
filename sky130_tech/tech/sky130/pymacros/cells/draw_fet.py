@@ -47,7 +47,7 @@ def draw_pfet(
 )   -> gf.Component:
 
     '''
-    Retern pfet
+    Return pfet
 
     Args: 
         cell : kdb.Cell cell to place layout into
@@ -57,7 +57,7 @@ def draw_pfet(
         inter_sd_l : Float of source and drain diffusion length between fingers 
         nf : integer of number of fingers 
         M : integer of number of multipliers 
-        grw : gaurd ring width when enabled 
+        grw : guard ring width when enabled 
         type : string of the device type 
         bulk : String of bulk connection type (None, Bulk Tie, Guard Ring)
         con_bet_fin : boolean of having contacts for diffusion between fingers
@@ -384,7 +384,7 @@ def draw_pfet(
 
         
  
-    elif bulk == "Gaurd Ring":
+    elif bulk == "guard ring":
         
         psdm = c_inst.add_ref(gf.components.rectangle(size=(l_d+ 2*diff_psdm_enc, w+ 2*diff_psdm_enc),layer= psdm_layer))
         psdm.move((-diff_psdm_enc,-diff_psdm_enc))
@@ -394,7 +394,6 @@ def draw_pfet(
         rect_bulk_in = c_temp.add_ref(gf.components.rectangle(size=((c_inst.xmax - c_inst.xmin) + 2*diff_tap_spacing,
         (c_inst.ymax - c_inst.ymin)  +  2*poly_tap_spacing )
         , layer= tap_layer))
-        
         rect_bulk_in.move((c_inst.xmin-diff_tap_spacing,c_inst.ymin - poly_tap_spacing))
         rect_bulk_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) + 2*grw,(rect_bulk_in.ymax - rect_bulk_in.ymin) + 2*grw )
         , layer= tap_layer))
@@ -409,7 +408,7 @@ def draw_pfet(
         nsdm_out.move((rect_bulk_out.xmin - tap_nsdm_enc, rect_bulk_out.ymin - tap_nsdm_enc))
         nsdm = c.add_ref(gf.boolean(A= nsdm_out , B = nsdm_in , operation= "A-B", layer= nsdm_layer) )
 
-        # adding contacts 
+        # generating contacts 
 
         if grw < licon_size[0] + 2*licon_t_enc : 
             g_con_range = (B.ymin , B.ymax )
@@ -422,20 +421,20 @@ def draw_pfet(
         ring_con_up = c.add_ref(via_generator(x_range=(rect_bulk_in.xmin+0.17,rect_bulk_in.xmax-0.17),y_range=(rect_bulk_in.ymax,rect_bulk_out.ymax)
             , via_enclosure=licon_dt_enc, via_layer=licon_layer,via_size=licon_size,via_spacing=licon_spacing))
 
-        ring_con_r = c.add_ref(via_generator(x_range=(rect_bulk_out.xmin,rect_bulk_in.xmin),y_range=g_con_range
+        ring_con_r = c.add_ref(via_generator(x_range=(rect_bulk_out.xmin,rect_bulk_in.xmin),y_range=(rect_bulk_in.ymin+0.17,rect_bulk_in.ymax-0.17)
             , via_enclosure=licon_dt_enc, via_layer=licon_layer,via_size=licon_size,via_spacing=licon_spacing))
 
-        ring_con_l = c.add_ref(via_generator(x_range=(rect_bulk_in.xmax,rect_bulk_out.xmax),y_range=g_con_range
+        ring_con_l = c.add_ref(via_generator(x_range=(rect_bulk_in.xmax,rect_bulk_out.xmax),y_range=(rect_bulk_in.ymin+0.17,rect_bulk_in.ymax-0.17)
             , via_enclosure=licon_dt_enc, via_layer=licon_layer,via_size=licon_size,via_spacing=licon_spacing))
 
-        tap_li_in = c_temp.add_ref(gf.components.rectangle(size=((l_d ) + 2*diff_tap_spacing,
+        tap_li_in = c_temp.add_ref(gf.components.rectangle(size=((c_inst.xmax - c_inst.xmin) + 2*diff_tap_spacing,
         (c_inst.ymax - c_inst.ymin)  +  2*poly_tap_spacing )
         , layer= li_layer))
-        tap_li_in.move((-diff_tap_spacing,c_inst.ymin - poly_tap_spacing))
+        tap_li_in.move((c_inst.xmin - diff_tap_spacing, c_inst.ymin - poly_tap_spacing))
         tap_li_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) + 2*grw,(rect_bulk_in.ymax - rect_bulk_in.ymin) + 2*grw )
         , layer= li_layer))
         tap_li_out.move((rect_bulk_in.xmin - grw , rect_bulk_in.ymin -grw ))
-        li = c.add_ref(gf.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= li_layer) )
+        li = c.add_ref(gf.boolean(A= tap_li_out , B = tap_li_in , operation= "A-B", layer= li_layer) )
 
 
         # generating nwell 
@@ -447,7 +446,7 @@ def draw_pfet(
 
 
 
-    if bulk != "Gaurd Ring":
+    if bulk != "guard ring":
         c.add_ref(c_inst)
 
         # nwell generation 
@@ -496,7 +495,7 @@ def draw_nfet(
 )  : #-> gf.Component:
 
     '''
-    Retern nfet
+    Return nfet
 
     Args: 
         cell : kdb.Cell cell to place layout into
@@ -506,7 +505,7 @@ def draw_nfet(
         inter_sd_l : Float of source and drain diffusion length between fingers 
         nf : integer of number of fingers 
         M : integer of number of multipliers 
-        grw : gaurd ring width when enabled 
+        grw : guard ring width when enabled 
         type : string of the device type 
         bulk : String of bulk connection type (None, Bulk Tie, Guard Ring)
         con_bet_fin : boolean of having contacts for diffusion between fingers
@@ -840,7 +839,7 @@ def draw_nfet(
 
 
 
-    elif bulk == "Gaurd Ring":
+    elif bulk == "guard ring":
         
         nsdm = c_inst.add_ref(gf.components.rectangle(size=(l_d+ 2*diff_nsdm_enc, w+ 2*diff_nsdm_enc),layer= nsdm_layer))
         nsdm.move((-diff_nsdm_enc,-diff_nsdm_enc))
@@ -860,7 +859,7 @@ def draw_nfet(
         , layer= psdm_layer))
         psdm_in.move((rect_bulk_in.xmin + tap_psdm_enc, rect_bulk_in.ymin + tap_psdm_enc))
         psdm_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_out.xmax - rect_bulk_out.xmin) + 2*tap_psdm_enc, (rect_bulk_out.ymax - rect_bulk_out.ymin) + 2*tap_psdm_enc )
-        , layer= nsdm_layer))
+        , layer= psdm_layer))
         psdm_out.move((rect_bulk_out.xmin - tap_psdm_enc, rect_bulk_out.ymin - tap_psdm_enc))
         psdm = c.add_ref(gf.boolean(A= psdm_out , B = psdm_in , operation= "A-B", layer= psdm_layer) )
 
@@ -881,14 +880,17 @@ def draw_nfet(
         ring_con_l = c.add_ref(via_generator(x_range=(rect_bulk_in.xmax,rect_bulk_out.xmax),y_range=(rect_bulk_in.ymin+0.17,rect_bulk_in.ymax-0.17)
             , via_enclosure=licon_dt_enc, via_layer=licon_layer,via_size=licon_size,via_spacing=licon_spacing))
 
-        tap_li_in = c_temp.add_ref(gf.components.rectangle(size=((l_d ) + 2*diff_tap_spacing,
-       (c_inst.ymax - c_inst.ymin) +  2*poly_tap_spacing )
-        , layer= li_layer))
-        tap_li_in.move((-diff_tap_spacing,c_inst.ymin - poly_tap_spacing))
+        tap_li_in = c_temp.add_ref(gf.components.rectangle(size=(
+            (c_inst.xmax - c_inst.xmin) + 2*diff_tap_spacing,
+            (c_inst.ymax - c_inst.ymin) +  2*poly_tap_spacing ),
+            layer= li_layer
+            )
+        )
+        tap_li_in.move((c_inst.xmin - diff_tap_spacing, c_inst.ymin - poly_tap_spacing))
         tap_li_out = c_temp.add_ref(gf.components.rectangle(size=((rect_bulk_in.xmax - rect_bulk_in.xmin) + 2*grw,(rect_bulk_in.ymax - rect_bulk_in.ymin) + 2*grw )
         , layer= li_layer))
         tap_li_out.move((rect_bulk_in.xmin - grw , rect_bulk_in.ymin -grw ))
-        li = c.add_ref(gf.boolean(A= rect_bulk_out , B = rect_bulk_in , operation= "A-B", layer= li_layer) )
+        li = c.add_ref(gf.boolean(A= tap_li_out , B = tap_li_in , operation= "A-B", layer= li_layer) )
 
         
 
@@ -904,7 +906,7 @@ def draw_nfet(
 
 
 
-    if bulk != "Gaurd Ring":
+    if bulk != "guard ring":
         c.add_ref(c_inst)
 
 

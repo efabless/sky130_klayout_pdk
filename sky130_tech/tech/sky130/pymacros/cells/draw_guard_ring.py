@@ -28,7 +28,8 @@ def draw_gr (
     in_l : float = 1,
     in_w : float = 1,
     grw : float = 0.17,
-    con_lev = "li"
+    con_lev = "li",
+    implant_type = "None"
 ) :
 
     '''
@@ -44,8 +45,25 @@ def draw_gr (
     con_spacing = (0.19, 0.19)
     con_enc = (0.12, 0.12)
 
+    tap_nsdm_enc : float = 0.125
+    tap_psdm_enc : float = 0.125
+
     c = open_component("sky_ring_gen")
     c_temp = gf.Component("temp_store")
+
+    # Choose the implant
+    if implant_type == 'nsdm':
+        implant_layer = nsdm_layer
+    if implant_type == 'psdm':
+        implant_layer = psdm_layer
+    
+    # Add the implant layer
+    if implant_type != 'None':
+        implant_in = c_temp.add_ref(gf.components.rectangle(size=(in_w - 2*tap_nsdm_enc, in_l - 2*tap_nsdm_enc), layer=implant_layer))
+        implant_in.move((tap_nsdm_enc, tap_nsdm_enc))
+        implant_out = c_temp.add_ref(gf.components.rectangle(size=(in_w + 2*grw + 2*tap_nsdm_enc, in_l + 2*grw + 2*tap_nsdm_enc), layer=implant_layer))
+        implant_out.move((-grw - tap_nsdm_enc, -grw - tap_nsdm_enc))
+        implant = c.add_ref(gf.boolean(A=implant_out, B=implant_in, operation="A-B", layer=implant_layer))
 
     inner = c_temp.add_ref(gf.components.rectangle(size=(in_w, in_l), layer=tap_layer))
     outer = c_temp.add_ref(gf.components.rectangle(size=(inner.xmax - inner.xmin + 2*grw , inner.ymax - inner.ymin + 2*grw), layer=tap_layer))
@@ -54,6 +72,10 @@ def draw_gr (
     gr = c.add_ref(gf.boolean(A=outer, B=inner , operation="A-B", layer=tap_layer))
 
     if con_lev == "li" or con_lev == "metal1":
+        inner = c_temp.add_ref(gf.components.rectangle(size=(in_w, in_l), layer=li_layer))
+        outer = c_temp.add_ref(gf.components.rectangle(size=(inner.xmax - inner.xmin + 2*grw , inner.ymax - inner.ymin + 2*grw), layer=li_layer))
+        outer.move((-grw, -grw))
+    
         li = c.add_ref(gf.boolean(A=outer, B=inner, operation="A-B", layer=li_layer))
 
         if grw < con_size[0] + 2*con_enc[0]:
@@ -73,6 +95,10 @@ def draw_gr (
 
 
     if con_lev == "metal1" :
+        inner = c_temp.add_ref(gf.components.rectangle(size=(in_w, in_l), layer=m1_layer))
+        outer = c_temp.add_ref(gf.components.rectangle(size=(inner.xmax - inner.xmin + 2*grw , inner.ymax - inner.ymin + 2*grw), layer=m1_layer))
+        outer.move((-grw, -grw))
+    
         m1 = c.add_ref(gf.boolean(A=outer, B=inner, operation="A-B", layer=m1_layer))
 
         mcon_l = c.add_ref(via_generator(x_range=(outer.xmin, inner.xmin), y_range=(inner.ymin + 0.17 , inner.ymax - 0.17), via_enclosure=con_enc, via_layer=mcon_layer

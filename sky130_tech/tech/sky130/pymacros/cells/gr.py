@@ -45,6 +45,12 @@ class guard_ring_gen(pya.PCellDeclarationHelper):
         self.Type_handle.add_choice("li", "li")
         self.Type_handle.add_choice("metal1", "metal1")
         self.Type_handle.default = self.Type_handle.choice_values()[0]
+        
+        self.Type_handle  = self.param("implant_type", self.TypeString, "Implant Type")
+        self.Type_handle.add_choice("None", "None")
+        self.Type_handle.add_choice("psdm", "psdm")
+        self.Type_handle.add_choice("nsdm", "nsdm")
+        self.Type_handle.default = self.Type_handle.choice_values()[0]
 
     def display_text_impl(self):
         # Provide a descriptive text for the cell
@@ -94,5 +100,5 @@ class guard_ring_gen(pya.PCellDeclarationHelper):
         return pya.Trans(self.shape.bbox().center())
     
     def produce_impl(self):
-        draw_gr(cell=self.cell, in_l=self.in_l, in_w=self.in_w , grw= self.grw , con_lev=self.con_lev)
+        draw_gr(cell=self.cell, in_l=self.in_l, in_w=self.in_w , grw= self.grw , con_lev=self.con_lev, implant_type=self.implant_type)
 

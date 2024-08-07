@@ -45,6 +45,10 @@ def take_component(c : gf.Component, target_cell : kdb.Cell):
 
   # TODO: have an API for this
   source_cell = c._kdb_cell
+  
+  # Since dbu for sky130 is 0.001nm, but the manufacturing grid is 0.005nm
+  # snap to 0.005nm grid to prevent offgrid DRC errors
+  source_cell.layout().scale_and_snap(source_cell, 5, mult=1, div=1)
 
   cm = kdb.CellMapping()
   cm.for_single_cell(target_cell, source_cell)

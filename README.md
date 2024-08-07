@@ -27,7 +27,7 @@ You have two options for using this package:
 When you start KLayout, you must reference this package. This can be done by setting the environment variable `KLAYOUT_HOME`. For example, inside this repository:
 
 ```console
-KLAYOUT_HOME=./sky130_tech klayout -e
+KLAYOUT_PATH=./sky130_tech klayout -e
 ```
 
 ### PCells

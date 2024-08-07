@@ -22,9 +22,9 @@ This package contains the Skywater 130nm PDK for KLayout.
 You have two options for using this package:
 
 1. Clone this repository
-2. Install the complete sky130 PDK from [open_pdks](https://github.com/RTimothyEdwards/open_pdks)  either manually or with [volare](https://github.com/efabless/volare). The PDK also includes this package.
+2. Install the complete sky130 PDK from [open_pdks](https://github.com/RTimothyEdwards/open_pdks) either manually or with [volare](https://github.com/efabless/volare). The PDK also includes this package.
 
-When you start KLayout, you must reference this package. This can be done by setting the environment variable `KLAYOUT_HOME`. For example, inside this repository:
+When you start KLayout, you must load this package. This can be done by setting the environment variable `KLAYOUT_PATH`. For example, inside this repository:
 
 ```console
 KLAYOUT_PATH=./sky130_tech klayout -e

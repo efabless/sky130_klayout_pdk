@@ -57,7 +57,7 @@ class pfet(pya.PCellDeclarationHelper):
         self.Type_handle  = self.param("bulk", self.TypeString, "Bulk Type")
         self.Type_handle.add_choice("None", "None")
         self.Type_handle.add_choice("bulk tie", "bulk tie")
-        self.Type_handle.add_choice("Gaurd Ring", "Gaurd Ring")
+        self.Type_handle.add_choice("guard ring", "guard ring")
         self.Type_handle.default = self.Type_handle.choice_values()[0]
 
         self.Type_handle  = self.param("gate_con_pos", self.TypeString, "Gate Contact Position")
@@ -68,7 +68,7 @@ class pfet(pya.PCellDeclarationHelper):
 
         
 
-        self.param("l", self.TypeDouble, "length", default=fet_01v8_l, unit="um")
+        self.param("l", self.TypeDouble, "Length", default=fet_01v8_l, unit="um")
         self.param("w", self.TypeDouble, "Width", default=fet_w, unit="um")
         self.param("sd_con_col", self.TypeInt, "Diffusion Contacts Columns", default=1)
         self.param("inter_sd_l", self.TypeDouble, "Between Fingers Diffusion Length", default=fet_inter_ld, unit="um")
@@ -174,7 +174,7 @@ class nfet(pya.PCellDeclarationHelper):
         self.Type_handle  = self.param("bulk", self.TypeString, "Bulk Type")
         self.Type_handle.add_choice("None", "None")
         self.Type_handle.add_choice("bulk tie", "bulk tie")
-        self.Type_handle.add_choice("Gaurd Ring", "Gaurd Ring")
+        self.Type_handle.add_choice("guard ring", "guard ring")
         self.Type_handle.default = self.Type_handle.choice_values()[0]
 
         self.Type_handle  = self.param("gate_con_pos", self.TypeString, "Gate Contact Position")

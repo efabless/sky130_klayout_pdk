@@ -47,12 +47,12 @@ class cap_var(pya.PCellDeclarationHelper):
         self.Type_handle.default = self.Type_handle.choice_values()[0]
         
 
-        self.param("l", self.TypeDouble, "length", default=l_min, unit="um")
-        self.param("w", self.TypeDouble, "width", default=w_min, unit="um")
-        self.param("tap_con_col", self.TypeInt, "tap Contacts Columns", default=1)
+        self.param("l", self.TypeDouble, "Length", default=l_min, unit="um")
+        self.param("w", self.TypeDouble, "Width", default=w_min, unit="um")
+        self.param("tap_con_col", self.TypeInt, "Tap Contacts Columns", default=1)
 
-        self.param("gr", self.TypeBoolean, "Gaurd Ring", default=0)
-        self.param("grw", self.TypeDouble, "Gaurd Ring Width", default=grw_min, unit="um")
+        self.param("gr", self.TypeBoolean, "Guard Ring", default=0)
+        self.param("grw", self.TypeDouble, "Guard Ring Width", default=grw_min, unit="um")
 
         self.param("nf", self.TypeDouble, "Number of Fingers", default=1)
         #self.param("n", self.TypeDouble, "instance number", default=1)

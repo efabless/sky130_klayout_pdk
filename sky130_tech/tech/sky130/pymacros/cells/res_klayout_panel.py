@@ -32,10 +32,10 @@ class res(pya.PCellDeclarationHelper):
 
         self.Type_handle = self.param("type", self.TypeString, "Device Type")
 
-        self.param("len", self.TypeDouble, "length", default=l_min, unit="um")
-        self.param("w", self.TypeDouble, "width", default=w_min, unit="um")
+        self.param("len", self.TypeDouble, "Length", default=l_min, unit="um")
+        self.param("w", self.TypeDouble, "Width", default=w_min, unit="um")
 
-        self.param("gr", self.TypeBoolean, "Gaurd Ring", default=1)
+        self.param("gr", self.TypeBoolean, "Guard Ring", default=1)
         self.param(
             "area", self.TypeDouble, "Area", readonly=True, unit="um^2"
         )

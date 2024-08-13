@@ -139,13 +139,13 @@ class p_diode(pya.PCellDeclarationHelper):
         self.Type_handle.add_choice("sky130_fd_pr__diode_pd2nw_11v0", "sky130_fd_pr__diode_pd2nw_11v0")
         self.Type_handle.default = self.Type_handle.choice_values()[0]
 
-        self.param("w", self.TypeDouble, "width", default=d_min, unit="um")
-        self.param("l", self.TypeDouble, "length", default=d_min, unit="um")
-        self.param("cath_w", self.TypeDouble, "Cathode width", default=grw_min, unit="um")
-        self.param("grw", self.TypeDouble, "Gaurd Ring width", default=grw_min, unit="um")
+        self.param("w", self.TypeDouble, "Width", default=d_min, unit="um")
+        self.param("l", self.TypeDouble, "Length", default=d_min, unit="um")
+        self.param("cath_w", self.TypeDouble, "Cathode Width", default=grw_min, unit="um")
+        self.param("grw", self.TypeDouble, "Guard Ring Width", default=grw_min, unit="um")
 
-        self.param("area", self.TypeDouble,"Area", readonly=True, unit="um^2")
-        self.param("perim", self.TypeDouble,"Perimeter", readonly=True, unit="um")  
+        self.param("area", self.TypeDouble, "Area", readonly=True, unit="um^2")
+        self.param("perim", self.TypeDouble, "Perimeter", readonly=True, unit="um")  
 
         #self.param("n", self.TypeInt, "n", default=1) 
 

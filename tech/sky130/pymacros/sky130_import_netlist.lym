@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-# Copyright 2022 Mabrains LLC
+# Copyright 2024 Efabless Corporation
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,18 +16,18 @@
 -->
 
 <klayout-macro>
- <description/>
+ <description>Import Netlist</description>
  <version/>
  <category>pymacros</category>
  <prolog/>
  <epilog/>
  <doc/>
- <autorun>true</autorun>
+ <autorun>false</autorun>
  <autorun-early>false</autorun-early>
  <shortcut/>
- <show-in-menu>false</show-in-menu>
- <group-name/>
- <menu-path/>
+ <show-in-menu>true</show-in-menu>
+ <group-name>efabless_sky130</group-name>
+ <menu-path>efabless_sky130>end("Efabless sky130").end</menu-path>
  <interpreter>python</interpreter>
  <dsl-interpreter-name/>
  <text>
@@ -35,19 +35,13 @@
 import sys
 import os
 
-technology_macros_path = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, technology_macros_path)
+# install the path to 'python'
+lib_path = os.path.realpath(os.path.join(os.path.dirname(__file__), "..", "python"))
+if not lib_path in sys.path:
+  sys.path.insert(0, lib_path)
 
-from cells import sky130
+import sky130_import_netlist
+sky130_import_netlist.sky130_import_netlist()
 
-# Instantiate and register the library
-sky130()
-
-print("## Skywaters 130nm PDK loaded.")
-print(sys.path)
-
-import sys
-import os
-
-</text>
+ </text>
 </klayout-macro>

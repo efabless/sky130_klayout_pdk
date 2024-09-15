@@ -1672,6 +1672,8 @@ logger.info("Starting SKY130 LVS connectivity setup (Global connections)")
 
 # Global
 connect_global(sub  , substrate_name)
+connect_global(ptap_conn  , substrate_name)
+
 
 logger.info("Starting SKY130 LVS connectivity setup (Multifinger Devices)")
 

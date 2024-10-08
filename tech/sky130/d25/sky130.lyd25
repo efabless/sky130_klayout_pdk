@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<klayout-macro>
+ <description>D25 View</description>
+ <version/>
+ <category>d25</category>
+ <prolog/>
+ <epilog/>
+ <doc/>
+ <autorun>false</autorun>
+ <autorun-early>false</autorun-early>
+ <priority>0</priority>
+ <shortcut/>
+ <show-in-menu>true</show-in-menu>
+ <group-name>efabless_sky130</group-name>
+ <menu-path>efabless_sky130>end("Efabless sky130").end</menu-path>
+ <interpreter>dsl</interpreter>
+ <dsl-interpreter-name>d25-dsl-xml</dsl-interpreter-name>
+ <text>poly = input(66, 20)
+licon = input(66, 44)
+li = input(67, 20)
+mcon = input(67, 44)
+met1 = input(68, 20)
+via1 = input(68, 44)
+met2 = input(69, 20)
+via2 = input(69, 44)
+met3 = input(70, 20)
+via3 = input(70, 44)
+met4 = input(71, 20)
+via4 = input(71, 44)
+met5 = input(72, 20)
+
+
+z(poly, height: 250.nm)
+z(licon, height: 400.nm)
+z(li, height: 200.nm)
+z(mcon, height: 350.nm)
+z(met1, height: 300.nm)
+z(via1, height: 350.nm)
+z(met2, height: 300.nm)
+z(via2, height: 350.nm)
+z(met3, height: 300.nm)
+z(via3, height: 350.nm)
+z(met4, height: 500.nm)
+z(via4, height: 400.nm)
+z(met5, height: 500.nm)
+
+</text>
+</klayout-macro>

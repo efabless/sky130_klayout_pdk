@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+# Copyright 2024 Efabless Corporation
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+-->
+
+<klayout-macro>
+ <description>Run DRC (Custom)</description>
+ <version/>
+ <category>pymacros</category>
+ <prolog/>
+ <epilog/>
+ <doc/>
+ <autorun>false</autorun>
+ <autorun-early>false</autorun-early>
+ <shortcut/>
+ <show-in-menu>true</show-in-menu>
+ <group-name>efabless_sky130</group-name>
+ <menu-path>efabless_sky130>end("Efabless sky130").end</menu-path>
+ <interpreter>python</interpreter>
+ <dsl-interpreter-name/>
+ <text>
+
+import os
+import pya
+from pya import Qt, QGroupBox, QDialogButtonBox, QVBoxLayout, QLabel, QCheckBox, QGridLayout
+
+path = os.path.dirname(os.path.abspath(__file__))
+
+class DRCDialog(pya.QDialog): 
+  """Dialog for DRC settings"""
+
+  def __init__(self, parent = None): 
+      pya.QDialog.__init__(self)
+
+      self.parent = parent
+
+      # Set the window title 
+      self.setWindowTitle("Run DRC (Custom)") 
+
+      # Set the window size
+      self.setGeometry(0, 0, 200, 150)
+
+      # Center the window
+      self.move(
+        self.parent.geometry.center()
+      )
+
+      # Create a group box 
+      self.formGroupBox = QGroupBox() 
+      grid = QGridLayout(self.formGroupBox)
+
+      # Default settings
+      settings = {
+        'feol' : True,
+        'beol' : True,
+        'offgrid' : True,
+        'seal' : False,
+        'floating_met' : False
+      }
+      
+      # Store widgets
+      self.labels = []
+      self.checkboxes = {}
+      
+      # Generate labels and checkboxes
+      row = 0
+      for key, value in settings.items():
+          label = QLabel(key)
+          grid.addWidget(label, row, 0)
+          self.labels.append(label)
+
+          checkbox = QCheckBox(self.formGroupBox)
+          if value:
+              checkbox.setCheckState(Qt.Checked)
+          else:
+              checkbox.setCheckState(Qt.Unchecked)
+
+          grid.addWidget(checkbox, row, 1)
+          self.checkboxes[key] = checkbox
+
+          row += 1
+
+      # Ok and Cancel dialog button
+      self.buttonBox = QDialogButtonBox(self)
+      self.ok = self.buttonBox.addButton(QDialogButtonBox.Ok)
+      self.cancel = self.buttonBox.addButton(QDialogButtonBox.Cancel)
+
+      # Actions when clicked
+      self.cancel.clicked(lambda button: self.reject())
+      self.ok.clicked(lambda button: self.accept())
+
+      # Create a vertical layout 
+      mainLayout = QVBoxLayout() 
+
+      # Add form group box to the layout 
+      mainLayout.addWidget(self.formGroupBox) 
+
+      # Add button box to the layout 
+      mainLayout.addWidget(self.buttonBox) 
+
+      # Set the layout 
+      self.setLayout(mainLayout)
+
+drc_dialog = DRCDialog(pya.Application.instance().main_window())
+run = drc_dialog.exec_()
+
+# Ok was clicked
+if run:
+    # Get the DRC interpreter
+    interpreter = pya.Interpreter().ruby_interpreter()
+
+    # Set the input parameters for the DRC script
+    # For inout params one would need to pass pya.Value()
+    interpreter.define_variable("input", None)   # use active layout
+    interpreter.define_variable("report", None)  # default report name
+    interpreter.define_variable("thr", None)     # use default number of threads
+
+    # Add settings from dialog
+    for key, checkbox in drc_dialog.checkboxes.items():
+        if checkbox.checkState == Qt.Checked:
+            print(f'Setting {key} to true')
+            interpreter.define_variable(key, 'true')
+        else:
+            print(f'Setting {key} to false')
+            interpreter.define_variable(key, 'false')
+
+    # Run the script
+    pya.Macro(os.path.join(path, '../drc/sky130A_mr.drc')).run()
+
+ </text>
+</klayout-macro>

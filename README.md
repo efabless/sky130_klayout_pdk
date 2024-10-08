@@ -19,15 +19,21 @@ This package contains the Skywater 130nm PDK for KLayout.
 
 ### Installation
 
-You have two options for using this package:
+You have two options for installing this package:
 
-1. Clone this repository
-2. Install the complete sky130 PDK from [open_pdks](https://github.com/RTimothyEdwards/open_pdks) either manually or with [volare](https://github.com/efabless/volare). The PDK also includes this package.
+- Clone this repository
+- Install the complete sky130 PDK via [open_pdks](https://github.com/RTimothyEdwards/open_pdks) or [volare](https://github.com/efabless/volare). The PDK also contains this package.
 
-When you start KLayout, you must load this package. This can be done by setting the environment variable `KLAYOUT_PATH`. For example, inside this repository:
+For this package to be available in KLayout, you need to set the environment variable `KLAYOUT_PATH` to point to the root directory of this repository. For example, within this repository:
 
 ```console
-KLAYOUT_PATH=./sky130_tech klayout -e
+KLAYOUT_PATH=. klayout -e
+```
+
+Or at another directory:
+
+```console
+KLAYOUT_PATH=/path/to/sky130_klayout_pdk klayout -e
 ```
 
 ### PCells
@@ -41,3 +47,11 @@ pip install --upgrade gdsfactory
 
 > [!IMPORTANT]  
 > If you are using a Linux distribution that discourages the installation of system-wide Python packages through pip, you need to pass `--break-system-packages`.
+
+## Acknowledgement
+
+The XSection and D25 setup are gratefully borrowed from: [sky130A_el](https://github.com/klayoutmatthias/sky130A_el).
+
+## License
+
+If not otherwise noted [The Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).

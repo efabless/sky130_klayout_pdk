@@ -40,8 +40,8 @@ lib_path = os.path.realpath(os.path.join(os.path.dirname(__file__), "..", "pytho
 if not lib_path in sys.path:
   sys.path.insert(0, lib_path)
 
-import sky130_import_netlist
-sky130_import_netlist.sky130_import_netlist()
+import import_netlist
+import_netlist.sky130_import_netlist()
 
  </text>
 </klayout-macro>

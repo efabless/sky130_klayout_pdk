@@ -38,7 +38,7 @@ import os
 try:
   import gdsfactory
 except:
-  print('Info: To enable the Sky130 PCells you need to install gdsfactory in your system-wide Python installation.')
+  print('Info: To enable the sky130 PCells you need to install gdsfactory in your system-wide Python installation.')
   print(f'Python sys.path: {sys.path}')
   sys.exit(0)
 
@@ -52,7 +52,7 @@ from cells import sky130
 # Instantiate and register the library
 sky130()
 
-print("Loaded Sky130 PCells.")
+print("Loaded sky130 PCells.")
 
 </text>
 </klayout-macro>

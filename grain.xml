@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <salt-grain>
- <name>Efabless sky130</name>
+ <name>Efabless_sky130</name>
  <token/>
  <hidden>false</hidden>
  <version>1.0</version>

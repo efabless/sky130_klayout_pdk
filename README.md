@@ -19,22 +19,26 @@ This package contains the Skywater 130nm PDK for KLayout.
 
 ### Installation
 
-You have two options for installing this package:
+You have three options for installing this package:
 
-- Clone this repository
-- Install the complete sky130 PDK via [open_pdks](https://github.com/RTimothyEdwards/open_pdks) or [volare](https://github.com/efabless/volare). The PDK also contains this package.
+1. Option: Use KLayout's Salt package manager  
+  In Klayout select `Tools` → `Manage Packages`. Inside the Salt package manager under "Install New Packages" search for "Efabless_sky130", click the checkmark and apply.
+2. Option: Clone this repository  
+  From inside the repository run this command to start KLayout in edit mode:
 
-For this package to be available in KLayout, you need to set the environment variable `KLAYOUT_PATH` to point to the root directory of this repository. For example, within this repository:
-
-```console
+  ```console
 KLAYOUT_PATH=. klayout -e
-```
+  ```
 
-Or at another directory:
+3. Option: Install the complete sky130 PDK via [open_pdks](https://github.com/RTimothyEdwards/open_pdks) or [volare](https://github.com/efabless/volare)  
+  Set the `$PDK_ROOT` and `$PDK` environment variables to point to your PDK installation. Run this command to start KLayout in edit mode:
 
-```console
-KLAYOUT_PATH=/path/to/sky130_klayout_pdk klayout -e
-```
+  ```console
+KLAYOUT_PATH=$PDK_ROOT/$PDK/libs.tech/klayout klayout -e
+  ```
+
+> [!NOTE]  
+> If the package was not installed via Salt, `KLAYOUT_PATH` must point to the location of the package.
 
 ### PCells
 

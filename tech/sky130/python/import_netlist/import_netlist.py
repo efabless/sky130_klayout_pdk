@@ -13,6 +13,7 @@
 # limitations under the License.
 
 import os
+import re
 import sys
 import pya
 
@@ -76,8 +77,6 @@ def create_subckt_instance(name, subckt_definitions):
     global current_x
     global spacing
 
-    print(name)
-
     for pcell_inst in subckt_definitions[name]['pcells']:
         (width, height) = create_pcell_instance(
             pcell_inst['pcell_name'],
@@ -106,6 +105,8 @@ def sky130_import_netlist():
         print(f'Error: {netlist_path} is not a file!')
         sys.exit(0)
 
+    print(f'Reading Spice netlist: {netlist_path}')
+
     # Parse the spice netlist
     with open(netlist_path, 'r') as netlist_file:
         netlist_content = netlist_file.read()
@@ -114,13 +115,77 @@ def sky130_import_netlist():
     netlist_content = netlist_content.replace('\n+', '')
     
     # Split lines
-    lines = netlist_content.split('\n')
+    netlist_lines = netlist_content.split('\n')
 
+    # Subckt data
     subckt_definitions = {'root': {'subckts': [], 'pcells': [], 'references': 0}}
     active_subckt = None
 
+    # Parameter data
+    global_parameters = {}
+
+    # Handle ".include" statements
+    found = True
+    while found:
+        found = False
+        for i, line in enumerate(netlist_lines):
+            # Ignore comments
+            if line.startswith('*'):
+                continue
+
+            # Find start of include statement
+            if line.startswith('.include') or line.startswith('.INCLUDE'):
+                found = True
+                include_path = line.split(' ')[1]
+                
+                # Relative path
+                if not os.path.isabs(include_path):
+                    include_path = os.path.join(os.path.dirname(netlist_path), include_path)
+
+                # Get the content
+                with open(include_path, 'r') as include_file:
+                    include_content = include_file.read()
+                
+                # Continue lines starting with '+'
+                include_content = include_content.replace('\n+', '')
+                
+                # Split lines
+                include_lines = include_content.split('\n')
+
+                # Replace ".include" with the lines
+                netlist_lines[i:i+1] = include_lines
+                
+                break
+
+    # Scan for parameters
+    for line in netlist_lines:
+        # Ignore comments
+        if line.startswith('*'):
+            continue
+
+        # Find start of subckt definitions
+        if line.startswith('.param') or line.startswith('.PARAM'):
+            parameter = line.split(' ')[1]
+            name, value = parameter.split('=')
+            global_parameters[name] = value
+    
+    # Apply parameters
+    for i, line in enumerate(netlist_lines):
+        # Ignore comments
+        if line.startswith('*'):
+            continue
+
+        # Find start of subckt definitions
+        def replace_parameters(matchobj):
+            if matchobj.group(1) in global_parameters:
+                return global_parameters[matchobj.group(1)]
+            print(f'Error: Unknown parameter "{matchobj.group(1)}"')
+            return matchobj.group(1)
+
+        netlist_lines[i] = re.sub(r'{(.*?)}', replace_parameters, line)
+
     # Scan for subckts
-    for line in lines:
+    for line in netlist_lines:
         # Ignore comments
         if line.startswith('*'):
             continue
@@ -130,9 +195,7 @@ def sky130_import_netlist():
             active_subckt = line.split(' ')[1]
             subckt_definitions[active_subckt] = {'subckts': [], 'pcells': [], 'references': 0}
 
-    print(subckt_definitions)
-
-    for line in lines:
+    for line in netlist_lines:
         # Ignore comments
         if line.startswith('*'):
             continue
@@ -142,27 +205,19 @@ def sky130_import_netlist():
             active_subckt = line.split(' ')[1]
             
             if not active_subckt in subckt_definitions:
-                print(f'Error: Unknown subckt {active_subckt}')
+                print(f'Error: Unknown subckt "{active_subckt}"')
 
         # Find end of subckt definitions
         if line.startswith('.ends') or line.startswith('.ENDS'):
             active_subckt = None
 
-        # Subckt instantiation
-        if line.startswith('x') or line.startswith('X'):
-            subckt = line.split(' ')[-1]
-            subckt_definitions[active_subckt]['subckts'].append(subckt)
-            
-            if not subckt in subckt_definitions:
-                print(f'Error: Unknown subckt {active_subckt}')
-            else:
-                subckt_definitions[subckt]['references'] += 1
-
         #print(f"Searching for match with '{line}'!")
+        any_match = False
         for template in templates:
       
             match = template['regex'].match(line)
             if match:
+                any_match = True
                 params = template['default_params']
               
                 # Parse parameters
@@ -194,7 +249,21 @@ def sky130_import_netlist():
                         'params':           params.copy(),
                     })
 
-    print(subckt_definitions)
+        # Line was handled by template
+        # no need to parse subcircuit
+        if any_match:
+            continue
+
+        # Subckt instantiation
+        # TODO: handle parameters
+        if line.startswith('x') or line.startswith('X'):
+            subckt = line.split(' ')[-1]
+            subckt_definitions[active_subckt]['subckts'].append(subckt)
+            
+            if not subckt in subckt_definitions:
+                print(f'Error: Unknown subckt "{active_subckt}"')
+            else:
+                subckt_definitions[subckt]['references'] += 1
 
     # Instanciate all top-level subckts
     for name in subckt_definitions.keys():

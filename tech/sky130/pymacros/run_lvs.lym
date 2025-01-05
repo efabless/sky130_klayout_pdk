@@ -73,7 +73,8 @@ class LVSDialog(pya.QDialog):
         'combine' : True,
         'purge' : True,
         'purge_nets' : True,
-        'lvs_sub' : "sky130_gnd"
+        'lvs_sub' : "sky130_gnd",
+        'convert_subckts' : True
       }
       
       # Store widgets

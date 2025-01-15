@@ -40,9 +40,17 @@ z(sub, zstart: -10.nm, height: 10.nm, name: "sub")
 z(dnw, zstart: -400.nm, height: 400.nm, name: "dnw")
 z(nw, zstart: -200.nm, height: 200.nm, name: "nw")
 z(diff, zstart: -100.nm, height: 100.nm, name: "diff")
-z(tap, zstart: 0.nm, height: 400.nm, name: "tap")
+z(tap, zstart: -100.nm, height: 100.nm, name: "tap")
 z(poly, zstart: 0.nm, height: 250.nm, name: "poly")
-z(licon, height: 400.nm, name: "licon")
+
+zz(name: "licon", like: "66/44") do
+  licon_over_poly = licon &amp; poly
+  licon_not_over_poly = licon - licon_over_poly
+
+  z(licon_over_poly, zstart: 250.nm, height: 400.nm)
+  z(licon_not_over_poly, zstart: 0.nm, height: 650.nm)
+end
+
 z(li, height: 200.nm, name: "li")
 z(mcon, height: 350.nm, name: "mcon")
 z(met1, height: 300.nm, name: "met1")

@@ -3,7 +3,7 @@
  <name>Efabless_sky130</name>
  <token/>
  <hidden>false</hidden>
- <version>1.0.5</version>
+ <version>1.0.6</version>
  <api-version/>
  <title>Efabless sky130</title>
  <doc>The official sky130 KLayout PDK from Efabless.</doc>

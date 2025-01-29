@@ -208,6 +208,9 @@ DEVICE_LIST = [
     "sky130_fd_pr__nfet_03v3_nvt".upcase,
     "sky130_fd_pr__nfet_05v0_nvt".upcase,
     "sky130_fd_pr__nfet_g5v0d10v5".upcase,
+    
+    "sky130_fd_pr__special_nfet_01v8".upcase,
+    "sky130_fd_pr__special_pfet_01v8_hvt".upcase,
 
     "sky130_fd_pr__npn_05v5_W1p00L1p00".upcase,
     "sky130_fd_pr__npn_05v5_W1p00L2p00".upcase,
@@ -414,6 +417,10 @@ class SubcircuitModelsReader < RBA::NetlistSpiceReaderDelegate
       end
       
       name = name[1..-1] # Set name to remaining string e.g. M1 -> 1
+      
+      if model == "sky130_fd_pr__special_nfet_01v8".upcase
+        model = "sky130_fd_pr__nfet_01v8".upcase
+      end
       
       # Hande through the standard implementation
       return super(circuit, el, name, model, value, nets, params)
@@ -1852,6 +1859,7 @@ logger.info("Starting SKY130 LVS connectivity setup (Global connections)")
 
 # Global
 connect_global(sub  , substrate_name)
+connect_global(ptap_conn  , substrate_name)
 
 logger.info("Starting SKY130 LVS connectivity setup (Multifinger Devices)")
 
